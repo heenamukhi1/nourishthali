@@ -16,7 +16,7 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 const INSPIRING_THALIS_SYNC_DATE = "2099-12-29";
-const INSPIRING_THALIS_MARKER = "__NOURISHTHALI_INSPIRING_THALIS_V2__";
+const INSPIRING_THALIS_MARKER = "__NOURISHTHALI_INSPIRING_THALIS_V3__";
 
 export interface InspiringThaliRecord {
   id: string;
@@ -36,14 +36,14 @@ const SUPABASE_STORAGE_BASE =
 const DEFAULT_INSPIRING_THALIS: InspiringThaliRecord[] = [
   {
     id: "inspiring-thali-1",
-    title: "Palak Tofu & Garlic-Lemon Broccoli Healing Thali",
+    title: "Palak Tofu & Garlic-Lemon Broccoli Thali",
     plate: {
       protein: "Palak Tofu",
       fiber: "Steamed Garlic-Lemon Broccoli",
       carb: "Almond-Isabgol Roti",
       chutney: "Raw Haldi-Adrak-Lehsun Paste",
     },
-    imageUrl: `${SUPABASE_STORAGE_BASE}/recipes/palak-tofu-paneer-keto.png`,
+    imageUrl: `${SUPABASE_STORAGE_BASE}/recipes/palak-tofu-spinach-curry.png`,
     healingLine:
       "Sulforaphane in steamed broccoli, curcumin in raw turmeric, and prebiotic psyllium fiber calm inflammation and strengthen gut immunity.",
     netCarbsG: 9,
@@ -53,16 +53,16 @@ const DEFAULT_INSPIRING_THALIS: InspiringThaliRecord[] = [
   },
   {
     id: "inspiring-thali-2",
-    title: "Methi Mushroom & Lauki Shorba Nourish Thali",
+    title: "Creamy Mushroom Broccoli & Lauki Shorba Thali",
     plate: {
-      protein: "Methi Malai Mushroom & Broccoli Stir-Fry",
-      fiber: "Lauki Pudina Shorba",
-      carb: "Crispy Almond Flour & Methi Paratha",
-      chutney: "Walnut-Pudina-Anardana Chutney",
+      protein: "Lemon Creamy Mushrooms",
+      fiber: "Drumstick & Lauki Shorba",
+      carb: "Garlic Almond Bread",
+      chutney: "Mint Coriander Chutney",
     },
-    imageUrl: `${SUPABASE_STORAGE_BASE}/recipes/methi-malai-mushroom-broccoli.png`,
+    imageUrl: `${SUPABASE_STORAGE_BASE}/recipes/lemon-creamy-mushrooms-broccoli-capsicum.png`,
     healingLine:
-      "Mushroom beta-glucans, fenugreek greens, and omega-3 walnuts support immune defense while keeping blood sugar steady.",
+      "Mushroom beta-glucans, hydrating bottle gourd, and fresh herbs support immune defense while keeping blood sugar steady.",
     netCarbsG: 10,
     fiberG: 15,
     proteinG: 22,
@@ -70,16 +70,16 @@ const DEFAULT_INSPIRING_THALIS: InspiringThaliRecord[] = [
   },
   {
     id: "inspiring-thali-3",
-    title: "Tofu Methi Bhurji & Flaxseed Roti Thali",
+    title: "Tofu Methi Bhurji & Almond Chilla Thali",
     plate: {
       protein: "Tofu Methi Bhurji",
-      fiber: "Baingan Bharta",
-      carb: "Flaxseed (Alsi) & Herb Mukhwas Roti",
-      chutney: "Fresh Amla-Hara Dhaniya Chutney",
+      fiber: "Air-Fryer Bharwa Bhindi",
+      carb: "Almond-Isabgol Roti",
+      chutney: "Avocado Hung-Curd Guacamole Dip",
     },
-    imageUrl: `${SUPABASE_STORAGE_BASE}/recipes/tofu-methi-bhurji.png`,
+    imageUrl: `${SUPABASE_STORAGE_BASE}/recipes/almond-besan-chilla-tofu-methi-bhurji.png`,
     healingLine:
-      "Flaxseed lignans, roasted eggplant antioxidants, and vitamin-C rich amla protect cellular DNA and nourish the microbiome.",
+      "Fenugreek greens, probiotic hung-curd avocado fats, and soluble okra fiber nourish the microbiome and protect cellular health.",
     netCarbsG: 8,
     fiberG: 18,
     proteinG: 25,
@@ -290,7 +290,7 @@ export async function POST(request: NextRequest) {
     ]);
 
     const supabase = getSupabaseAdmin();
-    let finalImageUrl = `${SUPABASE_STORAGE_BASE}/recipes/palak-tofu-paneer-keto.png`;
+    let finalImageUrl = `${SUPABASE_STORAGE_BASE}/recipes/palak-tofu-spinach-curry.png`;
 
     if (generatedImg?.base64Data) {
       if (supabase) {
