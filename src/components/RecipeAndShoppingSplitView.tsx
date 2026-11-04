@@ -164,9 +164,6 @@ export function RecipeAndShoppingSplitView({
     const uncheckedNuts = dynamicShopping.nutsSeeds
       .filter((i) => !checkedShoppingIds[i.id])
       .map((i) => `• ${i.label}`);
-    const uncheckedMasala = dynamicShopping.masalaStaples
-      .filter((i) => !checkedShoppingIds[i.id])
-      .map((i) => `• ${i.label}`);
 
     const scopeLabel =
       shoppingScope === "week"
@@ -184,9 +181,6 @@ export function RecipeAndShoppingSplitView({
       "",
       "*Nuts & Seeds:*",
       ...(uncheckedNuts.length ? uncheckedNuts : ["• All stocked"]),
-      "",
-      "*Masala, Oils & Keto Flours:*",
-      ...(uncheckedMasala.length ? uncheckedMasala : ["• All stocked"]),
     ];
 
     const url = `https://wa.me/?text=${encodeURIComponent(lines.join("\n"))}`;
@@ -195,7 +189,10 @@ export function RecipeAndShoppingSplitView({
     }
   }
 
-  const recipeTitle = activeRecipe?.title || "Keto Cauliflower Poha";
+  const recipeTitle =
+    activeDishEntry?.dishLabel ||
+    activeRecipe?.title ||
+    "Keto Cauliflower Poha";
   const prepMins = activeRecipe?.prep_time_mins ?? 10;
   const cookMins = activeRecipe?.cook_time_mins ?? 10;
   const ingredientsList = activeRecipe?.ingredients?.length
@@ -416,15 +413,13 @@ export function RecipeAndShoppingSplitView({
         </div>
 
         {/* ===================================================================
-            RIGHT PANE: DYNAMIC SHOPPING LIST & BIKANER KITCHEN STAPLES
+            RIGHT PANE: DYNAMIC SHOPPING LIST
            =================================================================== */}
         <div className="space-y-5 p-7 sm:p-9">
           <div className="space-y-3.5">
             <div className="flex flex-wrap items-start justify-between gap-2">
               <h2 className="text-[25px] font-bold leading-[1.18] tracking-tight text-[#141A16] sm:text-[28px]">
-                Weekly Shopping List &amp; Bikaner
-                <br />
-                Kitchen Staples
+                Weekly Shopping List
               </h2>
 
               {/* Scope Switcher: Active Day vs Full Week */}
@@ -475,7 +470,7 @@ export function RecipeAndShoppingSplitView({
             </div>
           </div>
 
-          {/* 2x2 Categorized Dynamic Shopping Grid */}
+          {/* Categorized Dynamic Shopping Grid (Fresh Produce, Proteins, Nuts & Seeds) */}
           <div className="grid grid-cols-1 gap-6 pt-1 sm:grid-cols-2">
             {/* Top-Left: Fresh Produce */}
             <div className="space-y-2.5">
@@ -539,52 +534,18 @@ export function RecipeAndShoppingSplitView({
               </div>
             </div>
 
-            {/* Bottom-Left: Nuts & Seeds */}
-            <div className="space-y-2.5">
+            {/* Bottom: Nuts & Seeds */}
+            <div className="space-y-2.5 sm:col-span-2">
               <h3 className="text-[17px] font-bold text-[#1B221D]">
                 Nuts &amp; Seeds
               </h3>
-              <div className="space-y-2">
+              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
                 {dynamicShopping.nutsSeeds.map((item) => {
                   const isChecked = Boolean(checkedShoppingIds[item.id]);
                   return (
                     <label
                       key={item.id}
                       className="flex cursor-pointer select-none items-start gap-2.5 text-[14px] text-[#222924]"
-                    >
-                      <input
-                        type="checkbox"
-                        checked={isChecked}
-                        onChange={() => toggleShoppingCheck(item.id)}
-                        className="mt-0.5 h-[17px] w-[17px] shrink-0 rounded border-[#7C776E] text-[#1E472D] focus:ring-[#1E472D]"
-                      />
-                      <span
-                        className={
-                          isChecked ? "line-through text-[#7A756C]" : ""
-                        }
-                      >
-                        {item.label}
-                      </span>
-                    </label>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Bottom-Right: Bordered Card for Masala & Kitchen Staples */}
-            <div className="overflow-hidden rounded-xl border border-[#DFD8CA] bg-[#FCF9F3] shadow-sm">
-              <div className="border-b border-[#EAE3D5] bg-[#F2ECE0] px-4 py-2.5">
-                <h3 className="text-[15px] font-bold text-[#1B221D]">
-                  Masala &amp; Kitchen Staples
-                </h3>
-              </div>
-              <div className="space-y-2 p-4">
-                {dynamicShopping.masalaStaples.map((item) => {
-                  const isChecked = Boolean(checkedShoppingIds[item.id]);
-                  return (
-                    <label
-                      key={item.id}
-                      className="flex cursor-pointer select-none items-start gap-2.5 text-[13.5px] text-[#222924]"
                     >
                       <input
                         type="checkbox"

@@ -119,6 +119,8 @@ export const CHUTNEY_OPTIONS = FULL_COLUMN_POOLS.chutney;
 
 /**
  * Resolves the best matching recipe from the Supabase recipes for a given dish label.
+ * Always aligns the returned recipe's display title with `dishLabel` so the selected
+ * button and the recipe viewer heading match 100%.
  */
 export function findRecipeForDishLabel(
   dishLabel: string,
@@ -126,6 +128,16 @@ export function findRecipeForDishLabel(
 ): SupabaseRecipeRecord {
   const recipesPool = allRecipes.length > 0 ? allRecipes : rawRecipes;
   const normalized = dishLabel.toLowerCase().trim();
+
+  const direct = recipesPool.find(
+    (r) =>
+      r.title.toLowerCase() === normalized ||
+      r.title.toLowerCase().includes(normalized) ||
+      normalized.includes(r.title.toLowerCase().split("(")[0].trim())
+  );
+  if (direct) {
+    return { ...direct, title: dishLabel };
+  }
 
   for (const colKey of Object.keys(
     FULL_COLUMN_POOLS
@@ -140,16 +152,11 @@ export function findRecipeForDishLabel(
       const bySlug = recipesPool.find(
         (r) => r.slug === matchOption.recipeSlug
       );
-      if (bySlug) return bySlug;
+      if (bySlug) {
+        return { ...bySlug, title: dishLabel };
+      }
     }
   }
-
-  const direct = recipesPool.find(
-    (r) =>
-      r.title.toLowerCase().includes(normalized) ||
-      normalized.includes(r.title.toLowerCase().split("(")[0].trim())
-  );
-  if (direct) return direct;
 
   const tokens = normalized
     .split(/[^a-z0-9]+/)
@@ -169,7 +176,8 @@ export function findRecipeForDishLabel(
     }
   }
 
-  return bestRecipe || recipesPool[0];
+  const fallback = bestRecipe || recipesPool[0];
+  return { ...fallback, title: dishLabel };
 }
 
 export const DEFAULT_WEEKLY_PLAN: DayPlanRecord[] = [

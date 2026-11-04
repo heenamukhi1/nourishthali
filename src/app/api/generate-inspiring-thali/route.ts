@@ -16,7 +16,7 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 const INSPIRING_THALIS_SYNC_DATE = "2099-12-29";
-const INSPIRING_THALIS_MARKER = "__NOURISHTHALI_INSPIRING_THALIS_V3__";
+const INSPIRING_THALIS_MARKER = "__NOURISHTHALI_INSPIRING_THALIS_V4_PLATTERS__";
 
 export interface InspiringThaliRecord {
   id: string;
@@ -30,22 +30,19 @@ export interface InspiringThaliRecord {
   createdAt: string;
 }
 
-const SUPABASE_STORAGE_BASE =
-  "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images";
-
 const DEFAULT_INSPIRING_THALIS: InspiringThaliRecord[] = [
   {
     id: "inspiring-thali-1",
     title: "Palak Tofu & Garlic-Lemon Broccoli Thali",
     plate: {
-      protein: "Palak Tofu",
-      fiber: "Steamed Garlic-Lemon Broccoli",
-      carb: "Almond-Isabgol Roti",
-      chutney: "Raw Haldi-Adrak-Lehsun Paste",
+      protein: "Palak Tofu in Creamy Spinach Gravy",
+      fiber: "Air-Fryer Malai Broccoli & Tandoori Gobi",
+      carb: "Garlic Almond Bread & Keto Roti",
+      chutney: "Mint Coriander Green Chilli Chutney",
     },
-    imageUrl: `${SUPABASE_STORAGE_BASE}/recipes/palak-tofu-spinach-curry.png`,
+    imageUrl: "/images/mockup-meals.jpg",
     healingLine:
-      "Sulforaphane in steamed broccoli, curcumin in raw turmeric, and prebiotic psyllium fiber calm inflammation and strengthen gut immunity.",
+      "Sulforaphane in broccoli, iron-rich spinach, and prebiotic almond-psyllium fiber calm inflammation and strengthen gut immunity.",
     netCarbsG: 9,
     fiberG: 16,
     proteinG: 26,
@@ -55,14 +52,14 @@ const DEFAULT_INSPIRING_THALIS: InspiringThaliRecord[] = [
     id: "inspiring-thali-2",
     title: "Creamy Mushroom Broccoli & Lauki Shorba Thali",
     plate: {
-      protein: "Lemon Creamy Mushrooms",
-      fiber: "Drumstick & Lauki Shorba",
-      carb: "Garlic Almond Bread",
-      chutney: "Mint Coriander Chutney",
+      protein: "Lemon Creamy Mushrooms, Capsicum & Broccoli",
+      fiber: "Drumstick & Lauki Healing Shorba",
+      carb: "Zucchini Cheese Tortilla Wrap",
+      chutney: "Avocado Hung-Curd Guacamole Dip",
     },
-    imageUrl: `${SUPABASE_STORAGE_BASE}/recipes/lemon-creamy-mushrooms-broccoli-capsicum.png`,
+    imageUrl: "/images/mockup-meals.jpg",
     healingLine:
-      "Mushroom beta-glucans, hydrating bottle gourd, and fresh herbs support immune defense while keeping blood sugar steady.",
+      "Mushroom beta-glucans, hydrating bottle gourd soup, and healthy avocado fats support immune defense and steady blood sugar.",
     netCarbsG: 10,
     fiberG: 15,
     proteinG: 22,
@@ -70,16 +67,16 @@ const DEFAULT_INSPIRING_THALIS: InspiringThaliRecord[] = [
   },
   {
     id: "inspiring-thali-3",
-    title: "Tofu Methi Bhurji & Almond Chilla Thali",
+    title: "Golden Coconut Tofu & Almond Chilla Thali",
     plate: {
-      protein: "Tofu Methi Bhurji",
+      protein: "Golden Coconut Curry Tofu & Bell Peppers",
       fiber: "Air-Fryer Bharwa Bhindi",
-      carb: "Almond-Isabgol Roti",
-      chutney: "Avocado Hung-Curd Guacamole Dip",
+      carb: "Almond-Besan Chilla with Tofu Methi Bhurji",
+      chutney: "Tomato Pudina Tadka Chutney",
     },
-    imageUrl: `${SUPABASE_STORAGE_BASE}/recipes/almond-besan-chilla-tofu-methi-bhurji.png`,
+    imageUrl: "/images/mockup-meals.jpg",
     healingLine:
-      "Fenugreek greens, probiotic hung-curd avocado fats, and soluble okra fiber nourish the microbiome and protect cellular health.",
+      "Turmeric coconut curry, fenugreek greens, and soluble okra fiber nourish the gut microbiome and protect cellular health.",
     netCarbsG: 8,
     fiberG: 18,
     proteinG: 25,
@@ -104,6 +101,10 @@ function pickRandomFromPool<T>(pool: T[]): T {
   return pool[Math.floor(Math.random() * pool.length)];
 }
 
+function buildFullThaliPlatterPrompt(plate: PlateFormulaSelection): string {
+  return `Top-down overhead food photography of a complete round Indian brass and matte ceramic Thali platter on a warm linen table containing 4 distinct compartments on one large round Thali plate: (1) a small brass katori bowl of ${plate.protein}, (2) a small brass katori bowl of ${plate.fiber}, (3) folded ${plate.carb} resting directly on the Thali platter rim, and (4) a small chutney bowl of ${plate.chutney}. Must show the entire multi-compartment round Indian Thali platter from directly above, natural morning window light, 8k photorealistic, no text or watermarks.`;
+}
+
 async function generateOneLineHealingWithGemini({
   plate,
   apiKey,
@@ -125,13 +126,12 @@ async function generateOneLineHealingWithGemini({
 3. Low-Carb Roti/Rice: ${plate.carb}
 4. Chutney: ${plate.chutney}
 
-Draw upon integrative nutrition principles (such as anti-angiogenic phytonutrients, gut microbiome fiber, cellular DNA protection, and metabolic blood sugar balance), but DO NOT mention any book titles or author names.
-Write ONE simple, warm, easy-to-read sentence (maximum 22 words) explaining how these specific ingredients help in healing.
+Write ONE simple, warm, easy-to-read sentence (maximum 20 words) explaining how these specific ingredients help in healing. Do NOT mention any book titles or author names.
 
 Return ONLY valid JSON (no markdown fences):
 {
   "title": "Short appetizing name for this Thali (max 6 words)",
-  "healingLine": "One simple sentence (max 22 words) on how these ingredients support cellular healing and gut health.",
+  "healingLine": "One simple sentence (max 20 words) on how these ingredients support cellular healing and gut health.",
   "netCarbsG": 9,
   "fiberG": 16,
   "proteinG": 24
@@ -200,6 +200,56 @@ Return ONLY valid JSON (no markdown fences):
   return null;
 }
 
+async function ensurePlatterImagesGenerated(
+  thalis: InspiringThaliRecord[]
+): Promise<InspiringThaliRecord[]> {
+  const supabase = getSupabaseAdmin();
+  const apiKey = (
+    process.env.GEMINI_API_KEY ||
+    process.env.GOOGLE_API_KEY ||
+    ""
+  ).trim();
+
+  if (!supabase || !apiKey) return thalis;
+
+  let changed = false;
+  const updated = await Promise.all(
+    thalis.map(async (thali, idx) => {
+      // If this thali doesn't yet have a multi-compartment thali platter image in inspiring-thalis/, generate one!
+      if (thali.imageUrl.includes("/inspiring-thalis/")) {
+        return thali;
+      }
+
+      const generated = await generateImageWithGemini({
+        prompt: buildFullThaliPlatterPrompt(thali.plate),
+        apiKey,
+        model: "gemini-nano-banana-2.1",
+      });
+
+      if (generated?.base64Data) {
+        const storagePath = `inspiring-thalis/thali-platter-${idx + 1}-${Date.now()}.png`;
+        const publicUrl = await uploadGeneratedImageToSupabase({
+          supabase,
+          bucket: "ai-plate-images",
+          storagePath,
+          base64Data: generated.base64Data,
+          mimeType: generated.mimeType,
+        });
+        if (publicUrl) {
+          changed = true;
+          return { ...thali, imageUrl: publicUrl };
+        }
+      }
+      return thali;
+    })
+  );
+
+  if (changed) {
+    await saveInspiringThalis(updated);
+  }
+  return updated;
+}
+
 async function loadInspiringThalis(): Promise<InspiringThaliRecord[]> {
   const supabase = getSupabaseAdmin();
   if (!supabase) return DEFAULT_INSPIRING_THALIS;
@@ -220,20 +270,18 @@ async function loadInspiringThalis(): Promise<InspiringThaliRecord[]> {
         data.ayurvedic_or_metabolic_tip
       ) as InspiringThaliRecord[];
       if (Array.isArray(parsed) && parsed.length > 0) {
-        return parsed.map((item, idx) => ({
-          ...item,
-          imageUrl: item.imageUrl.includes("pkvkjdhpqnhOxpznrleb")
-            ? DEFAULT_INSPIRING_THALIS[idx % DEFAULT_INSPIRING_THALIS.length]
-                .imageUrl
-            : item.imageUrl,
-        }));
+        return await ensurePlatterImagesGenerated(parsed);
       }
     }
   } catch {
     // Ignore parse error
   }
 
-  return DEFAULT_INSPIRING_THALIS;
+  const seededWithPlatters = await ensurePlatterImagesGenerated(
+    DEFAULT_INSPIRING_THALIS
+  );
+  await saveInspiringThalis(seededWithPlatters);
+  return seededWithPlatters;
 }
 
 async function saveInspiringThalis(list: InspiringThaliRecord[]): Promise<void> {
@@ -278,7 +326,7 @@ export async function POST(request: NextRequest) {
       ""
     ).trim();
 
-    const imagePrompt = `Overhead studio food photography of an appetizing Indian Ketogenic Thali on a matte ceramic and brass plate over a warm linen table: (1) ${selectedPlate.protein} in a brass katori, (2) ${selectedPlate.fiber} garnished with fresh herbs, (3) ${selectedPlate.carb}, and (4) vibrant ${selectedPlate.chutney} in a small bowl. Natural morning window light, 8k photorealistic, no text or watermarks.`;
+    const imagePrompt = buildFullThaliPlatterPrompt(selectedPlate);
 
     const [insights, generatedImg] = await Promise.all([
       generateOneLineHealingWithGemini({ plate: selectedPlate, apiKey }),
@@ -290,11 +338,11 @@ export async function POST(request: NextRequest) {
     ]);
 
     const supabase = getSupabaseAdmin();
-    let finalImageUrl = `${SUPABASE_STORAGE_BASE}/recipes/palak-tofu-spinach-curry.png`;
+    let finalImageUrl = "/images/mockup-meals.jpg";
 
     if (generatedImg?.base64Data) {
       if (supabase) {
-        const storagePath = `inspiring-thalis/thali-${Date.now()}.png`;
+        const storagePath = `inspiring-thalis/thali-platter-${Date.now()}.png`;
         const uploadedUrl = await uploadGeneratedImageToSupabase({
           supabase,
           bucket: "ai-plate-images",
