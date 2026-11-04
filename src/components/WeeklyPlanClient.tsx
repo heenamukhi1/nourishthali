@@ -114,8 +114,10 @@ export function WeeklyPlanClient({ allRecipes }: WeeklyPlanClientProps) {
               Our Week
             </h1>
             <p className="text-xs font-medium text-[#6E6A62]">
-              {currentWeekRange} &bull; Vijay Mukhi&rsquo;s 7-Day Keto Thali
-              Schedule
+              {currentWeekRange} &bull; 7-Day Family Keto Thali Schedule &bull;{" "}
+              <span className="font-semibold text-[#2E5936]">
+                Stored in Supabase (public.meal_plans &amp; public.plates)
+              </span>
             </p>
           </div>
 

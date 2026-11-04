@@ -1191,3 +1191,4 @@ export function DailyTrackerAndInspiration({
     </section>
   );
 }
+

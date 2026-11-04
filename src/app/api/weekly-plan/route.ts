@@ -19,6 +19,13 @@ const WEEK_DATES = [
   "2026-11-08", // Sun
 ];
 
+// Deterministic UUIDs for the 7 Brunch plates and 7 Dinner plates in public.plates
+function getDeterministicPlateUuid(dayIndex: number, slot: "brunch" | "dinner"): string {
+  const slotNum = slot === "brunch" ? "1" : "2";
+  const dayNum = String(dayIndex + 1).padStart(2, "0");
+  return `00000000-0000-4000-8000-00000000${slotNum}${dayNum}0`;
+}
+
 function getSupabaseAdmin() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key =
@@ -37,7 +44,7 @@ async function persistWeeklyPlanToSupabase(plan: DayPlanRecord[]) {
   const supabase = getSupabaseAdmin();
   if (!supabase) return;
 
-  // 1. Save full 7-day plan JSON to daily_quotes sync row
+  // 1. Save full 7-day plan JSON to daily_quotes sync row for fast hydration
   await supabase.from("daily_quotes").upsert(
     {
       quote_date: WEEKLY_PLAN_SYNC_DATE,
@@ -47,7 +54,7 @@ async function persistWeeklyPlanToSupabase(plan: DayPlanRecord[]) {
     { onConflict: "quote_date" }
   );
 
-  // 2. Also sync all 7 days into public.homes, public.plates, and public.meal_plans tables
+  // 2. Sync all 7 days into public.homes, public.plates, and public.meal_plans tables
   try {
     const { data: homeRow } = await supabase
       .from("homes")
@@ -66,12 +73,40 @@ async function persistWeeklyPlanToSupabase(plan: DayPlanRecord[]) {
 
     for (let i = 0; i < plan.length; i++) {
       const day = plan[i];
-      const planDate = WEEK_DATES[day.dayIndex] || WEEK_DATES[i] || "2026-11-03";
+      const dayIdx = typeof day.dayIndex === "number" ? day.dayIndex : i;
+      const planDate = WEEK_DATES[dayIdx] || WEEK_DATES[i] || "2026-11-03";
 
+      const brunchPlateId = getDeterministicPlateUuid(dayIdx, "brunch");
+      const dinnerPlateId = getDeterministicPlateUuid(dayIdx, "dinner");
+
+      // Upsert Brunch & Dinner plates into public.plates
+      await supabase.from("plates").upsert(
+        [
+          {
+            id: brunchPlateId,
+            home_id: homeId,
+            title: `${day.dayName} Brunch: ${day.brunch.title} (${day.brunch.plate.protein}, ${day.brunch.plate.fiber}, ${day.brunch.plate.carb}, ${day.brunch.plate.chutney})`,
+            ai_image_url: day.brunch.aiImageUrl || null,
+            is_favorite: Boolean(day.brunch.isFavorite),
+          },
+          {
+            id: dinnerPlateId,
+            home_id: homeId,
+            title: `${day.dayName} Dinner: ${day.dinner.title} (${day.dinner.plate.protein}, ${day.dinner.plate.fiber}, ${day.dinner.plate.carb}, ${day.dinner.plate.chutney})`,
+            ai_image_url: day.dinner.aiImageUrl || null,
+            is_favorite: Boolean(day.dinner.isFavorite),
+          },
+        ],
+        { onConflict: "id" }
+      );
+
+      // Upsert the daily row into public.meal_plans with brunch_plate_id & dinner_plate_id
       await supabase.from("meal_plans").upsert(
         {
           home_id: homeId,
           plan_date: planDate,
+          brunch_plate_id: brunchPlateId,
+          dinner_plate_id: dinnerPlateId,
           tea_choice: "Blue Pea Flower Elixir",
           notes: JSON.stringify({
             dayName: day.dayName,
@@ -114,6 +149,8 @@ export async function GET() {
         data.ayurvedic_or_metabolic_tip
       ) as DayPlanRecord[];
       if (Array.isArray(parsed) && parsed.length === 7) {
+        // Ensure relational tables (public.plates & public.meal_plans) are also synced
+        await persistWeeklyPlanToSupabase(parsed);
         return NextResponse.json({
           weeklyPlan: parsed,
           source: "supabase",
@@ -139,7 +176,7 @@ export async function GET() {
 
 /**
  * PUT /api/weekly-plan
- * Saves the updated 7-day meal plan to Supabase (both public.meal_plans and public.daily_quotes)
+ * Saves the updated 7-day meal plan to Supabase (public.plates, public.meal_plans, and public.daily_quotes)
  * so all invited family members immediately see the updated Daily Plan and Weekly Plan.
  */
 export async function PUT(request: Request) {
