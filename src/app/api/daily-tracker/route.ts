@@ -5,7 +5,7 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 const TRACKER_SYNC_DATE = "2099-12-28";
-const TRACKER_SYNC_MARKER = "__NOURISHTHALI_DAILY_TRACKER_V1__";
+const TRACKER_SYNC_MARKER = "__NOURISHTHALI_DAILY_TRACKER_V2__";
 
 const DAY_NAME_TO_DATE: Record<string, string> = {
   monday: "2026-11-02",
@@ -46,11 +46,14 @@ export async function GET(request: NextRequest) {
     // 1. Check public.daily_quotes multi-day tracker map
     const { data } = await supabase
       .from("daily_quotes")
-      .select("ayurvedic_or_metabolic_tip")
+      .select("quote_text, ayurvedic_or_metabolic_tip")
       .eq("quote_date", TRACKER_SYNC_DATE)
       .maybeSingle();
 
-    if (data?.ayurvedic_or_metabolic_tip) {
+    if (
+      data?.quote_text === TRACKER_SYNC_MARKER &&
+      data?.ayurvedic_or_metabolic_tip
+    ) {
       const allDays = JSON.parse(data.ayurvedic_or_metabolic_tip) as Record<
         string,
         unknown
@@ -148,3 +151,4 @@ export async function PUT(request: NextRequest) {
     );
   }
 }
+
