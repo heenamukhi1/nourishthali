@@ -1,0 +1,4758 @@
+{
+  "metadata": {
+    "app_name": "NourishThali",
+    "family_name": "Vijay / Deepak Mukhi",
+    "location": "Bikaner, Rajasthan",
+    "protocols": [
+      "Everhope Oncology Customized Meal Plan",
+      "Dr. Nasha Winters Metabolic Terrain Keto",
+      "Pick Up Limes 4-Part Nourish Plate Formula"
+    ],
+    "counts": {
+      "recipes": 46,
+      "primary_recipes": 22,
+      "therapeutic_chutneys": 12,
+      "chakna_snacks": 12,
+      "plate_formula_items": 100,
+      "kitchen_staples": 30,
+      "daily_quotes": 5
+    }
+  },
+  "daily_rituals_template": [
+    {
+      "id": "morning_hydration",
+      "time": "07:30 AM",
+      "title": "Morning Lemon-Ginger-Chia Water & Wellness Balls",
+      "details": "1 Glass warm lemon-ginger water with 2 tsp soaked chia seeds + 2 Moringa balls OR 2 Wheatgrass balls (alternate days) + 15-20 mins sunrise sunlight."
+    },
+    {
+      "id": "brunch_nut_ritual",
+      "time": "10:00 AM",
+      "title": "Daily Core Nut & Seed Ritual",
+      "details": "1 Brazil nut, 2 Macadamia nuts, 2 Walnut halves, 5 Pistachios, 1 Tbsp Pumpkin seeds (Magaz), 1 Tbsp Watermelon seeds."
+    },
+    {
+      "id": "mid_meal_chakna",
+      "time": "02:00 PM",
+      "title": "Mid-Meal Chakna & Herbal Tea",
+      "details": "1 Savory Chakna Snack + 1 Cup Blue Pea Tea, Hibiscus Tea, or Turmeric-Ginger-Pepper Tea."
+    },
+    {
+      "id": "evening_protein",
+      "time": "04:00 PM",
+      "title": "Evening Clean Protein Shake",
+      "details": "1 scoop clean plant/keto protein powder with water, unsweetened almond milk, or diluted coconut milk."
+    }
+  ],
+  "recipes": [
+    {
+      "id": "62c08df9-bc34-5eb6-be97-31aae9abf367",
+      "slug": "keto-cauliflower-poha",
+      "title": "Keto Cauliflower Poha (Gobi Poha)",
+      "category": "breakfast_chilla",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 10,
+      "visual_plating_cue": "Bright golden turmeric-infused bowl crowned with emerald cilantro, crunchy roasted peanuts, and a fresh lemon wedge.",
+      "image_url": "/images/recipes/keto-cauliflower-poha.jpg",
+      "ingredients": [
+        {
+          "item": "Cauliflower florets (riced)",
+          "hindi_transliteration": "Phool Gobhi",
+          "qty": "300",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Cold-pressed Mustard Oil or A2 Ghee",
+          "hindi_transliteration": "Kachi Ghani Sarson ka Tel",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Mustard seeds (Rai)",
+          "hindi_transliteration": "Kali Rai / Sarson",
+          "qty": "0.5",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Fresh curry leaves",
+          "hindi_transliteration": "Meetha Neem / Kadi Patta",
+          "qty": "10",
+          "unit": "leaves",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Green chili (slit)",
+          "hindi_transliteration": "Hari Mirch",
+          "qty": "1",
+          "unit": "pc",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Onion (finely diced)",
+          "hindi_transliteration": "Pyaz",
+          "qty": "1",
+          "unit": "small",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Turmeric powder (Haldi)",
+          "hindi_transliteration": "Haldi / Kachi Haldi",
+          "qty": "0.25",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Roasted peanuts",
+          "hindi_transliteration": "Bhuni Moongphali",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh coriander & lemon juice",
+          "hindi_transliteration": "Hara Dhania",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Pulse cauliflower florets in a food processor or grate with a box grater into rice-sized granules.",
+        "Heat mustard oil or A2 ghee in a heavy skillet. Crackle mustard seeds and curry leaves.",
+        "Add slit green chili and diced onions; sauté for 2 minutes until translucent.",
+        "Stir in turmeric powder and sendha namak (pink salt).",
+        "Add riced cauliflower and toss over medium heat for 4–5 minutes until tender-crisp (do not overcook).",
+        "Garnish with crunchy roasted peanuts, fresh coriander, and a squeeze of lemon juice."
+      ],
+      "source_name": "Indian Veggie Delight",
+      "source_url": "https://www.indianveggiedelight.com/keto-poha-cauliflower-poha/",
+      "tags": [
+        "keto",
+        "chatpata",
+        "quick-15-min",
+        "bikaner-local",
+        "grain-free"
+      ]
+    },
+    {
+      "id": "be3c73fc-d6e8-52aa-9c42-d9b57a75948e",
+      "slug": "almond-besan-chilla-tofu-methi-bhurji",
+      "title": "Crispy Almond Flour & Besan Savoury Chilla + Tofu Methi Bhurji",
+      "category": "breakfast_chilla",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 15,
+      "visual_plating_cue": "Folded golden-brown lace chilla served alongside steaming spiced crumbled tofu speckled with fresh dark fenugreek leaves.",
+      "image_url": "/images/recipes/almond-besan-chilla-tofu-methi-bhurji.jpg",
+      "ingredients": [
+        {
+          "item": "Blanched Almond Flour",
+          "hindi_transliteration": "Badam ka Atta",
+          "qty": "0.5",
+          "unit": "cup",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "Besan (Chickpea flour)",
+          "hindi_transliteration": "Chana Besan",
+          "qty": "1.5",
+          "unit": "Tbsp",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "Psyllium husk (Isabgol)",
+          "hindi_transliteration": "Isabgol Bhusi",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "Firm Organic Tofu (crumbled)",
+          "hindi_transliteration": "Organic Soya Paneer (Tofu)",
+          "qty": "200",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh Methi (Fenugreek leaves)",
+          "hindi_transliteration": "Taazi Hari Methi",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Ajwain & Cumin seeds",
+          "hindi_transliteration": "Sabut Jeera",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Ginger-garlic paste",
+          "hindi_transliteration": "Adrak",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "A2 Desi Ghee",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Whisk almond flour, besan, psyllium husk, ajwain, turmeric, salt, and warm water into a smooth pouring batter; rest 5 minutes.",
+        "Pour two ladles onto a hot greased cast-iron tawa, drizzle A2 ghee around edges, and cook until golden and crisp on both sides.",
+        "For the Tofu Methi Bhurji, heat mustard oil or ghee in a pan, crackle cumin seeds, and sauté ginger-garlic paste and chopped fresh methi leaves for 3 minutes.",
+        "Add turmeric, coriander powder, and crumbled tofu; toss well and cook for 4 minutes until aromatic. Serve hot with the chillas."
+      ],
+      "source_name": "Everhope Oncology Plan & Eating With Ankita",
+      "source_url": "https://www.instagram.com/eatingwithankita/?hl=en",
+      "tags": [
+        "keto",
+        "high-protein",
+        "everhope-plan",
+        "bikaner-local"
+      ]
+    },
+    {
+      "id": "e3ef7703-0f68-56bd-9427-516362806396",
+      "slug": "keto-almond-flour-masala-dosa",
+      "title": "Keto Almond Flour Masala Dosa & Coconut Chutney",
+      "category": "breakfast_chilla",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 15,
+      "visual_plating_cue": "Ultra-crisp golden rolled crepe accompanied by a small bowl of tempered white coconut chutney.",
+      "image_url": "/images/recipes/keto-almond-flour-masala-dosa.jpg",
+      "ingredients": [
+        {
+          "item": "Blanched Almond Flour",
+          "hindi_transliteration": "Badam ka Atta",
+          "qty": "0.5",
+          "unit": "cup",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "Shredded Mozzarella or Vegan Cultured Cheese",
+          "hindi_transliteration": "Cultured Cheese / Paneer",
+          "qty": "0.5",
+          "unit": "cup",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Coconut Flour",
+          "hindi_transliteration": "Nariyal ka Atta",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "Cumin seeds",
+          "hindi_transliteration": "Sabut Jeera",
+          "qty": "0.25",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "A2 Desi Ghee",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Gently melt cheese and whisk together with almond flour, coconut flour, cumin, salt, and warm water into a smooth crepe batter.",
+        "Spread thinly onto a medium-hot nonstick or seasoned cast-iron tawa.",
+        "Drizzle A2 ghee around the edges and cook until deep golden-brown and lacy crisp.",
+        "Fold and serve hot alongside tempered South Indian coconut chutney."
+      ],
+      "source_name": "Indian Veggie Delight",
+      "source_url": "https://www.indianveggiedelight.com/keto-indian-food-recipes/",
+      "tags": [
+        "keto",
+        "crispy",
+        "south-indian",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "7896b60a-d78f-5c54-a3bf-ad55bde22774",
+      "slug": "keto-cauliflower-upma",
+      "title": "Cauliflower Upma (South Indian Keto Upma)",
+      "category": "breakfast_chilla",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 10,
+      "visual_plating_cue": "Steaming fluffy bowl garnished with golden roasted peanuts, fresh grated coconut, and curry leaves.",
+      "image_url": "/images/recipes/keto-cauliflower-upma.jpg",
+      "ingredients": [
+        {
+          "item": "Cauliflower florets (pulsed into granules)",
+          "hindi_transliteration": "Phool Gobhi",
+          "qty": "300",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "A2 Desi Ghee",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Mustard seeds & Cumin seeds",
+          "hindi_transliteration": "Kali Rai / Sarson",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Fresh ginger (minced)",
+          "hindi_transliteration": "Adrak",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Curry leaves & Green chili",
+          "hindi_transliteration": "Meetha Neem / Kadi Patta",
+          "qty": "1",
+          "unit": "set",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Roasted peanuts",
+          "hindi_transliteration": "Bhuni Moongphali",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Pulse cauliflower florets into coarse semolina-like granules.",
+        "Heat ghee in a pan and temper mustard seeds, cumin seeds, minced ginger, green chili, and curry leaves.",
+        "Add cauliflower granules and pink salt; cover and steam on low heat for 4–5 minutes without adding water.",
+        "Fluff with a fork and garnish with fresh coriander and roasted peanuts."
+      ],
+      "source_name": "Indian Veggie Delight",
+      "source_url": "https://www.indianveggiedelight.com/keto-indian-food-recipes/",
+      "tags": [
+        "keto",
+        "soothing",
+        "quick-15-min",
+        "south-indian"
+      ]
+    },
+    {
+      "id": "d7f65cb4-c6ed-5eb3-a484-01ced1e74557",
+      "slug": "chia-seeds-tadka-curd-rice",
+      "title": "High-Protein Chia Seeds Tadka Curd Rice",
+      "category": "nourish_bowl",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 5,
+      "visual_plating_cue": "Cooling ivory bowl dotted with black chia and golden mustard tadka, pomegranate arils, and crisp ginger matchsticks.",
+      "image_url": "/images/recipes/chia-seeds-tadka-curd-rice.jpg",
+      "ingredients": [
+        {
+          "item": "Chia seeds",
+          "hindi_transliteration": "Chia Beej",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "Thick Hung Curd or Probiotic Cashew Curd",
+          "hindi_transliteration": "probiotic Dahi / Kaju Dahi",
+          "qty": "200",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Cucumber (finely grated)",
+          "hindi_transliteration": "Desi Kakdi / Kheera",
+          "qty": "0.5",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "A2 Desi Ghee or Coconut Oil",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Mustard seeds, Curry leaves & Ginger",
+          "hindi_transliteration": "Kali Rai / Sarson",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Soak 2 Tbsp chia seeds in 1/2 cup warm water for 15 minutes until plumped and gelled.",
+        "Whisk the gelled chia seeds with thick hung curd or cashew curd, grated cucumber, and pink salt.",
+        "Heat ghee in a small tadka pan; crackle mustard seeds, curry leaves, minced ginger, and slit green chili.",
+        "Pour the hot tempering over the chia curd bowl, stir gently, and serve chilled."
+      ],
+      "source_name": "Indian Veggie Delight",
+      "source_url": "https://www.indianveggiedelight.com/keto-indian-food-recipes/",
+      "tags": [
+        "keto",
+        "soothing",
+        "gut-healing",
+        "probiotic",
+        "no-cook"
+      ]
+    },
+    {
+      "id": "a0550140-938f-5983-bde7-bb20e5048f16",
+      "slug": "keto-cauliflower-curd-rice",
+      "title": "Keto Cauliflower Curd Rice (Thayir Sadam)",
+      "category": "nourish_bowl",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 8,
+      "visual_plating_cue": "Creamy comfort bowl finished with crackled mustard seeds, fresh curry leaves, and a few ruby pomegranate seeds.",
+      "image_url": "/images/recipes/keto-cauliflower-curd-rice.jpg",
+      "ingredients": [
+        {
+          "item": "Cauliflower rice (steamed & cooled)",
+          "hindi_transliteration": "Phool Gobhi",
+          "qty": "2",
+          "unit": "cups",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Probiotic Cashew Curd or Hung Curd",
+          "hindi_transliteration": "probiotic Dahi / Kaju Dahi",
+          "qty": "0.75",
+          "unit": "cup",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Cold-pressed Coconut Oil",
+          "hindi_transliteration": "Nariyal ka Tel",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Mustard seeds, Ginger & Curry leaves",
+          "hindi_transliteration": "Kali Rai / Sarson",
+          "qty": "1",
+          "unit": "set",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Steam riced cauliflower for 4 minutes until tender, then allow it to cool completely.",
+        "Fold the cooled cauliflower rice into thick probiotic cashew curd or hung curd with sendha namak.",
+        "Temper mustard seeds, grated ginger, green chili, and curry leaves in hot coconut oil and pour over the bowl."
+      ],
+      "source_name": "Indian Veggie Delight",
+      "source_url": "https://www.indianveggiedelight.com/keto-indian-food-recipes/",
+      "tags": [
+        "keto",
+        "soothing",
+        "cooling",
+        "gut-healing"
+      ]
+    },
+    {
+      "id": "6be406b4-c725-52c2-84b6-087d2764a2ac",
+      "slug": "pesto-zucchini-noodles-tofu-salad",
+      "title": "Pesto Zucchini Noodles (Zoodles) with Grilled Tofu Salad",
+      "category": "nourish_bowl",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 10,
+      "visual_plating_cue": "High-piled tangle of basil-coated green ribbons crowned with charred golden tofu cubes and halved cherry tomatoes.",
+      "image_url": "/images/recipes/pesto-zucchini-noodles-tofu-salad.jpg",
+      "ingredients": [
+        {
+          "item": "Medium Zucchinis (spiralized)",
+          "hindi_transliteration": "Turai / Hari Zucchini",
+          "qty": "350",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Firm Organic Tofu (cubed)",
+          "hindi_transliteration": "Organic Soya Paneer (Tofu)",
+          "qty": "200",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh Basil, Coriander & Walnuts (for Pesto)",
+          "hindi_transliteration": "Hara Dhania",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Extra Virgin Olive Oil",
+          "hindi_transliteration": "Jaitoon ka Tel",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Cherry tomatoes (halved)",
+          "hindi_transliteration": "Desi Tamatar",
+          "qty": "6",
+          "unit": "pcs",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Blend fresh basil, coriander, toasted walnuts, garlic, lemon juice, and olive oil into a vibrant green pesto.",
+        "Pan-sear cubed tofu in 1 tsp olive oil with salt and cracked pepper until golden-brown.",
+        "Toss spiralized zucchini noodles in a warm skillet for just 60–90 seconds so they stay crisp, coat with pesto, and top with warm grilled tofu and cherry tomatoes."
+      ],
+      "source_name": "Everhope Oncology Plan (Brunch Option 5)",
+      "source_url": "https://www.pickuplimes.com/recipe/?sb=&public=on",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "fresh",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "3a45e395-487d-54ab-8494-5be9c57f970b",
+      "slug": "palak-tofu-spinach-curry",
+      "title": "Instant Pot / Stovetop Palak Tofu (Spinach Tofu Curry)",
+      "category": "curry_sabzi",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 15,
+      "visual_plating_cue": "Vibrant dark green velvety gravy with pan-browned tofu cubes drizzled with coconut cream.",
+      "image_url": "/images/recipes/palak-tofu-spinach-curry.jpg",
+      "ingredients": [
+        {
+          "item": "Fresh Palak (Spinach leaves)",
+          "hindi_transliteration": "Taaza Palak",
+          "qty": "300",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Firm Organic Tofu (cubed)",
+          "hindi_transliteration": "Organic Soya Paneer (Tofu)",
+          "qty": "200",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "A2 Desi Ghee",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Onion, Ginger & Garlic",
+          "hindi_transliteration": "Pyaz",
+          "qty": "1",
+          "unit": "set",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Cumin seeds & Garam Masala",
+          "hindi_transliteration": "Sabut Jeera",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Thick Coconut Cream",
+          "hindi_transliteration": "Nariyal Malai / Doodh",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Blanch fresh spinach leaves in boiling water for 60 seconds, plunge into ice water to lock in emerald color, and puree with 1 green chili.",
+        "Heat A2 ghee in a pan, crackle cumin seeds, and sauté chopped onion and ginger-garlic paste until golden.",
+        "Stir in turmeric, coriander powder, and garam masala, then pour in the spinach puree and simmer for 4 minutes.",
+        "Fold in pan-seared golden tofu cubes and finish with a swirl of thick coconut cream."
+      ],
+      "source_name": "Everhope Oncology Plan (Brunch Option 6) & Indian Veggie Delight",
+      "source_url": "https://www.indianveggiedelight.com/keto-indian-food-recipes/",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "iron-rich",
+        "bikaner-local",
+        "family-favorite"
+      ]
+    },
+    {
+      "id": "3764cfb8-5c08-5a1f-b45e-11826c4cb5d8",
+      "slug": "dahi-tadka-spiced-yogurt-curry",
+      "title": "Dahi Tadka (10-Minute Spiced Hung/Cashew Curd Curry)",
+      "category": "curry_sabzi",
+      "diet_type": "keto",
+      "prep_time_mins": 5,
+      "cook_time_mins": 5,
+      "visual_plating_cue": "Creamy yellow spiced yogurt crowned with whole red chilies, crackled cumin, and fragrant curry leaves.",
+      "image_url": "/images/recipes/dahi-tadka-spiced-yogurt-curry.jpg",
+      "ingredients": [
+        {
+          "item": "Thick Hung Curd or Cashew Curd (whisked)",
+          "hindi_transliteration": "probiotic Dahi / Kaju Dahi",
+          "qty": "1.5",
+          "unit": "cups",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "A2 Desi Ghee or Mustard Oil",
+          "hindi_transliteration": "Kachi Ghani Sarson ka Tel",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Cumin & Mustard seeds",
+          "hindi_transliteration": "Kali Rai / Sarson",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Curry leaves & Dried red chili",
+          "hindi_transliteration": "Meetha Neem / Kadi Patta",
+          "qty": "1",
+          "unit": "set",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Turmeric & Kashmiri red chili powder",
+          "hindi_transliteration": "Haldi / Kachi Haldi",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Whisk hung curd or cashew curd with pink salt until silky smooth.",
+        "Heat ghee or mustard oil in a pan; crackle cumin, mustard seeds, dried red chili, and curry leaves.",
+        "Add finely sliced onion and garlic; sauté until golden-brown.",
+        "Turn off the flame, stir in turmeric and Kashmiri chili powder, let cool for 30 seconds, and pour over the whisked curd. Garnish with fresh coriander."
+      ],
+      "source_name": "Indian Veggie Delight",
+      "source_url": "https://www.indianveggiedelight.com/dahi-tadka-spiced-yogurt-curry/",
+      "tags": [
+        "keto",
+        "quick-15-min",
+        "rajasthani-style",
+        "probiotic"
+      ]
+    },
+    {
+      "id": "3cc643a5-53b5-5351-b2eb-0e1d888c6b9d",
+      "slug": "creamy-indian-zucchini-turai-curry",
+      "title": "Creamy Indian Zucchini / Ridge Gourd (Turai) Masala Sabji",
+      "category": "curry_sabzi",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 15,
+      "visual_plating_cue": "Tender green squash discs resting in an aromatic golden-brown cumin, ginger, and tomato masala.",
+      "image_url": "/images/recipes/creamy-indian-zucchini-turai-curry.jpg",
+      "ingredients": [
+        {
+          "item": "Ridge Gourd (Turai) or Zucchini (diced)",
+          "hindi_transliteration": "Turai / Hari Zucchini",
+          "qty": "250",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Cold-pressed Mustard Oil",
+          "hindi_transliteration": "Kachi Ghani Sarson ka Tel",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Cumin seeds & Hing",
+          "hindi_transliteration": "Sabut Jeera",
+          "qty": "0.5",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Onion, Tomato & Ginger-Garlic",
+          "hindi_transliteration": "Pyaz",
+          "qty": "1",
+          "unit": "set",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Turmeric, Coriander & Garam Masala",
+          "hindi_transliteration": "Haldi / Kachi Haldi",
+          "qty": "1.5",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Heat mustard oil in a kadai, temper cumin seeds and hing, and sauté chopped onion and ginger-garlic paste.",
+        "Add finely chopped tomato and dry spices; cook until oil separates.",
+        "Toss in diced turai or zucchini, cover, and simmer on medium-low for 7–8 minutes until tender. Garnish with fresh dhania."
+      ],
+      "source_name": "Everhope Oncology Plan (Option 7) & Indian Veggie Delight",
+      "source_url": "https://www.indianveggiedelight.com/indian-zucchini-curry/",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "soothing",
+        "bikaner-local"
+      ]
+    },
+    {
+      "id": "0bedad9c-0118-5aa1-b4ac-c06f1bed0659",
+      "slug": "lemon-creamy-mushrooms-broccoli-capsicum",
+      "title": "Lemon Creamy Mushrooms with Capsicum, Broccoli & Cherry Tomatoes",
+      "category": "curry_sabzi",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 12,
+      "visual_plating_cue": "Glistening, colorful pan-roast bursting with rich cream, red cherry tomatoes, and bright green broccoli florets.",
+      "image_url": "/images/recipes/lemon-creamy-mushrooms-broccoli-capsicum.jpg",
+      "ingredients": [
+        {
+          "item": "Button Mushrooms (sliced)",
+          "hindi_transliteration": "Button Khumb (Mushroom)",
+          "qty": "150",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Broccoli florets & Sliced Capsicum",
+          "hindi_transliteration": "Hari Broccoli",
+          "qty": "150",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Cherry tomatoes",
+          "hindi_transliteration": "Desi Tamatar",
+          "qty": "6",
+          "unit": "pcs",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Coconut Cream or Cashew Cream",
+          "hindi_transliteration": "Nariyal Malai / Doodh",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "A2 Desi Ghee & Garlic",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Fresh lemon juice & Cracked black pepper",
+          "hindi_transliteration": "Kagzi Nimbu",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Sauté minced garlic and sliced button mushrooms in hot A2 ghee over high heat until golden.",
+        "Add broccoli florets and sliced bell peppers; stir-fry for 3–4 minutes until crisp-tender.",
+        "Lower heat, stir in coconut/cashew cream, cracked black pepper, salt, and cherry tomatoes; simmer 2 minutes.",
+        "Remove from heat and finish with fresh lemon juice and chopped parsley or coriander."
+      ],
+      "source_name": "Everhope Oncology Plan (Dinner Option 1)",
+      "source_url": "https://www.pickuplimes.com/recipe/?sb=&public=on",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "quick-15-min",
+        "creamy"
+      ]
+    },
+    {
+      "id": "a41005cf-1bbe-5cfa-befb-b53bcb1ad32a",
+      "slug": "air-fryer-bharwa-bhindi",
+      "title": "Air-Fryer Bharwa Bhindi (Spice-Stuffed Okra)",
+      "category": "curry_sabzi",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 12,
+      "visual_plating_cue": "Crisp, deep green whole okra pods packed with roasted almond-fennel masala, free of any stickiness.",
+      "image_url": "/images/recipes/air-fryer-bharwa-bhindi.jpg",
+      "ingredients": [
+        {
+          "item": "Tender Bhindi (Okra, washed & dried)",
+          "hindi_transliteration": "Desi Bhindi",
+          "qty": "250",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Blanched Almond Flour (for masala base)",
+          "hindi_transliteration": "Badam ka Atta",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "Coriander, Cumin, Fennel (Saunf) & Amchoor",
+          "hindi_transliteration": "Sabut Jeera",
+          "qty": "2",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Cold-pressed Mustard Oil",
+          "hindi_transliteration": "Kachi Ghani Sarson ka Tel",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Slit washed and thoroughly dried bhindi lengthwise keeping the base intact.",
+        "Mix almond flour, coriander powder, roasted cumin, crushed fennel (saunf), amchoor, turmeric, salt, and 1 tsp mustard oil.",
+        "Stuff the spice mixture generously into each okra pod.",
+        "Air-fry at 190°C (or pan-roast in cast iron) for 10–12 minutes until blistered and crisp."
+      ],
+      "source_name": "Indian Veggie Delight",
+      "source_url": "https://www.indianveggiedelight.com/keto-indian-food-recipes/",
+      "tags": [
+        "keto",
+        "chatpata",
+        "crispy",
+        "air-fryer",
+        "bikaner-local"
+      ]
+    },
+    {
+      "id": "0d8e7c7c-e5fd-5028-a78f-c369cc7f3f09",
+      "slug": "air-fryer-malai-broccoli-tandoori-gobi",
+      "title": "Air-Fryer Malai Broccoli & Grilled Tandoori Cauliflower Steak",
+      "category": "curry_sabzi",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 12,
+      "visual_plating_cue": "Charred restaurant-style florets and cauliflower steaks dusted with cardamom and chaat masala with lime wedges.",
+      "image_url": "/images/recipes/air-fryer-malai-broccoli-tandoori-gobi.jpg",
+      "ingredients": [
+        {
+          "item": "Broccoli florets & Cauliflower Steak",
+          "hindi_transliteration": "Phool Gobhi",
+          "qty": "300",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Thick Hung Curd or Cashew Cream",
+          "hindi_transliteration": "probiotic Dahi / Kaju Dahi",
+          "qty": "3",
+          "unit": "Tbsp",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Blanched Almond Flour",
+          "hindi_transliteration": "Badam ka Atta",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "Cardamom, White Pepper, Kasuri Methi & Ginger",
+          "hindi_transliteration": "Taazi Hari Methi",
+          "qty": "1.5",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "A2 Desi Ghee",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Whisk hung curd or cashew cream with almond flour, ginger paste, cardamom, white pepper, kasuri methi, and melted ghee.",
+        "Coat broccoli florets and thick-cut cauliflower steaks thoroughly and marinate for 15 minutes.",
+        "Air-fry or roast at 200°C for 10–12 minutes until edges are smokily charred. Finish with lemon juice and chaat masala."
+      ],
+      "source_name": "Everhope Oncology Plan (Option 2) & Indian Veggie Delight",
+      "source_url": "https://www.indianveggiedelight.com/keto-indian-food-recipes/",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "air-fryer",
+        "festive",
+        "cruciferous"
+      ]
+    },
+    {
+      "id": "01976545-23e2-5aec-8730-f6e1bf8a5657",
+      "slug": "keto-stuffed-cabbage-rolls",
+      "title": "Keto Vegetarian Stuffed Cabbage Rolls in Creamy Gravy",
+      "category": "curry_sabzi",
+      "diet_type": "keto",
+      "prep_time_mins": 20,
+      "cook_time_mins": 20,
+      "visual_plating_cue": "Plump steamed green cabbage rolls stuffed with spiced tofu, nestled in a rich tomato-coconut cream gravy.",
+      "image_url": "/images/recipes/keto-stuffed-cabbage-rolls.jpg",
+      "ingredients": [
+        {
+          "item": "Large whole Cabbage leaves (blanched)",
+          "hindi_transliteration": "Patta Gobhi",
+          "qty": "6",
+          "unit": "leaves",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Spiced Crumbled Tofu",
+          "hindi_transliteration": "Organic Soya Paneer (Tofu)",
+          "qty": "150",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Tomato puree & Coconut Milk",
+          "hindi_transliteration": "Desi Tamatar",
+          "qty": "0.75",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Garam Masala, Cumin & A2 Ghee",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Blanch 6 whole outer cabbage leaves in salted boiling water for 2 minutes until pliable.",
+        "Place 2 Tbsp spiced scrambled tofu and minced bell pepper in the center of each leaf, fold sides in, and roll tightly.",
+        "Simmer tomato puree and coconut milk with cumin, ginger, and garam masala in a pan, nestle the cabbage rolls inside, cover, and braise for 10 minutes."
+      ],
+      "source_name": "Keto For India",
+      "source_url": "https://www.ketoforindia.com/keto-cabbage-vegetarian-rolls/",
+      "tags": [
+        "keto",
+        "festive",
+        "high-protein",
+        "grain-free"
+      ]
+    },
+    {
+      "id": "760f0b91-2e04-576c-a284-c99aadcdc146",
+      "slug": "golden-coconut-curry-tofu",
+      "title": "Golden Coconut Curry Tofu & Bell Peppers",
+      "category": "curry_sabzi",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 20,
+      "visual_plating_cue": "Lush golden yellow turmeric-coconut curry with seared tofu and bell peppers garnished with black sesame seeds.",
+      "image_url": "/images/recipes/golden-coconut-curry-tofu.jpg",
+      "ingredients": [
+        {
+          "item": "Firm Organic Tofu (cubed)",
+          "hindi_transliteration": "Organic Soya Paneer (Tofu)",
+          "qty": "200",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Full-fat Coconut Milk",
+          "hindi_transliteration": "Nariyal Malai / Doodh",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Bell Peppers & Zucchini (cubed)",
+          "hindi_transliteration": "Turai / Hari Zucchini",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Cold-pressed Coconut Oil",
+          "hindi_transliteration": "Nariyal ka Tel",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Turmeric, Ginger, Garlic & Curry leaves",
+          "hindi_transliteration": "Meetha Neem / Kadi Patta",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Pan-sear cubed tofu in coconut oil until golden; set aside.",
+        "Sauté ginger, garlic, and curry leaves in the same pan, then bloom turmeric, coriander, and black pepper.",
+        "Pour in coconut milk, add bell peppers, zucchini, and seared tofu; simmer gently for 8–10 minutes and finish with fresh lime juice."
+      ],
+      "source_name": "KetoConnect & Dr. Davinah's Eats",
+      "source_url": "https://www.ketoconnect.net/recipes/indian/",
+      "tags": [
+        "keto",
+        "anti-inflammatory",
+        "creamy",
+        "dairy-free"
+      ]
+    },
+    {
+      "id": "e19f733f-e6f8-5683-a200-8dfd2fe700d9",
+      "slug": "pumpkin-coconut-milk-soup",
+      "title": "Silky Pumpkin & Coconut Milk Warming Soup",
+      "category": "soup",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 20,
+      "visual_plating_cue": "Rich amber velvety soup in a warm ceramic bowl garnished with toasted pumpkin seeds and a coconut cream swirl.",
+      "image_url": "/images/recipes/pumpkin-coconut-milk-soup.jpg",
+      "ingredients": [
+        {
+          "item": "Yellow Pumpkin / Kaddu (peeled & cubed)",
+          "hindi_transliteration": "Peela Kaddu",
+          "qty": "200",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Thick Coconut Milk",
+          "hindi_transliteration": "Nariyal Malai / Doodh",
+          "qty": "0.5",
+          "unit": "cup",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh Ginger & Garlic",
+          "hindi_transliteration": "Adrak",
+          "qty": "1",
+          "unit": "inch",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Toasted Pumpkin Seeds (Magaz)",
+          "hindi_transliteration": "Peela Kaddu",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "A2 Ghee, Nutmeg & Black Pepper",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Pressure-cook or steam cubed yellow pumpkin with fresh ginger, garlic, and water until soft.",
+        "Blend into a velvety puree and return to the pot.",
+        "Stir in coconut milk, a pinch of nutmeg, black pepper, and pink salt; simmer for 3 minutes and top with crunchy roasted pumpkin seeds."
+      ],
+      "source_name": "Everhope Oncology Plan (Dinner Option 3)",
+      "source_url": "https://www.pickuplimes.com/recipe/?sb=&public=on",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "soothing",
+        "dinner-soup"
+      ]
+    },
+    {
+      "id": "7fdca218-7a5a-530f-aec4-7718037263da",
+      "slug": "drumstick-lauki-healing-shorba",
+      "title": "Healing Drumstick (Moringa Pod) & Lauki Shorba",
+      "category": "soup",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 20,
+      "visual_plating_cue": "Translucent, aromatic pale-green shorba with a fragrant cumin tempering and chopped coriander.",
+      "image_url": "/images/recipes/drumstick-lauki-healing-shorba.jpg",
+      "ingredients": [
+        {
+          "item": "Fresh Drumsticks (Sahjan pods, cut into 3-inch pieces)",
+          "hindi_transliteration": "Sahjan ki Phali (Moringa)",
+          "qty": "2",
+          "unit": "pods",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Lauki / Bottle Gourd (peeled & diced)",
+          "hindi_transliteration": "Lauki / Ghiya",
+          "qty": "200",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "A2 Desi Ghee & Cumin seeds",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Fresh Ginger, Turmeric & Black Pepper",
+          "hindi_transliteration": "Haldi / Kachi Haldi",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Boil drumstick pieces and diced lauki with ginger, turmeric, pink salt, and 2 cups water until tender.",
+        "Scoop the nutrient-dense pulp from the drumstick pods, blend with the cooked lauki, and strain into a clean pot.",
+        "Temper cumin seeds in 1 tsp A2 ghee, pour over the simmering shorba, and finish with freshly cracked black pepper and lemon juice."
+      ],
+      "source_name": "Everhope Oncology Plan (Dinner Option 2)",
+      "source_url": "https://www.indianveggiedelight.com/keto-indian-food-recipes/",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "soothing",
+        "moringa-superfood",
+        "bikaner-local"
+      ]
+    },
+    {
+      "id": "8249dbff-a0cb-510f-9128-5fc558048015",
+      "slug": "broccoli-walnut-egg-tikki",
+      "title": "Broccoli Walnut Egg Tikki (8 Pc) with Tomato Pudina Chutney",
+      "category": "chakna_snack",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 15,
+      "visual_plating_cue": "Crisp golden patties arranged around a bright red charred tomato mint chutney.",
+      "image_url": "/images/recipes/broccoli-walnut-egg-tikki.jpg",
+      "ingredients": [
+        {
+          "item": "Broccoli florets (steamed & finely minced)",
+          "hindi_transliteration": "Hari Broccoli",
+          "qty": "250",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Toasted Walnuts (finely crushed)",
+          "hindi_transliteration": "Kashmiri Akhrot",
+          "qty": "0.25",
+          "unit": "cup",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "Free-range Eggs",
+          "hindi_transliteration": "Desi Anda",
+          "qty": "2",
+          "unit": "pcs",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Blanched Almond Flour",
+          "hindi_transliteration": "Badam ka Atta",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "Roasted Cumin, Chaat Masala & A2 Ghee",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Squeeze excess moisture from steamed minced broccoli and combine with crushed walnuts, 2 beaten eggs, almond flour, cumin, and chaat masala.",
+        "Shape into 8 even bite-sized tikkis.",
+        "Pan-sear in A2 ghee on medium heat for 3–4 minutes per side until crisp and golden-brown. Serve hot with tomato pudina chutney."
+      ],
+      "source_name": "Everhope Oncology Plan (Dinner Option 6)",
+      "source_url": "https://www.ketoforindia.com/category/veg-recipes/",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "chatpata",
+        "high-protein",
+        "crispy"
+      ]
+    },
+    {
+      "id": "e625446d-9cf8-5b93-8367-c870f70d6682",
+      "slug": "spinach-vegan-cheese-balls",
+      "title": "Spinach Vegan Cheese Balls (4 Pc) with Mint Coriander Chutney",
+      "category": "chakna_snack",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 15,
+      "visual_plating_cue": "Four golden-crusted green spheres served on a slate platter with emerald mint coriander chutney.",
+      "image_url": "/images/recipes/spinach-vegan-cheese-balls.jpg",
+      "ingredients": [
+        {
+          "item": "Fresh Palak (steamed, squeezed dry & chopped)",
+          "hindi_transliteration": "Taaza Palak",
+          "qty": "1.5",
+          "unit": "cups",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Vegan Cultured Cheese (grated)",
+          "hindi_transliteration": "Cultured Cheese / Paneer",
+          "qty": "0.5",
+          "unit": "cup",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Blanched Almond Flour",
+          "hindi_transliteration": "Badam ka Atta",
+          "qty": "3",
+          "unit": "Tbsp",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "Minced Garlic, Green Chili & Nutmeg",
+          "hindi_transliteration": "Hari Mirch",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Mix dry-squeezed steamed spinach, grated vegan cultured cheese, almond flour, garlic, and nutmeg into a firm dough.",
+        "Roll into 4 tight balls and brush lightly with olive oil.",
+        "Air-fry or bake at 190°C for 12–14 minutes until golden outside and melty inside. Serve with mint coriander chilli chutney."
+      ],
+      "source_name": "Everhope Oncology Plan (Mid-Meal Option 4)",
+      "source_url": "https://www.indianveggiedelight.com/keto-indian-food-recipes/",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "mid-meal-chakna",
+        "air-fryer"
+      ]
+    },
+    {
+      "id": "aa1f97c1-853c-530c-ac90-4a5c90afbacc",
+      "slug": "garlic-almond-bread-keto-roti",
+      "title": "Garlic Almond Bread & Soft Almond-Isabgol Keto Roti",
+      "category": "bread_wrap",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 15,
+      "visual_plating_cue": "Pliable, blistered soft flatbread brushed generously with fragrant garlic-infused A2 ghee.",
+      "image_url": "/images/recipes/garlic-almond-bread-keto-roti.jpg",
+      "ingredients": [
+        {
+          "item": "Blanched Almond Flour",
+          "hindi_transliteration": "Badam ka Atta",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "Psyllium Husk (Isabgol powder)",
+          "hindi_transliteration": "Isabgol Bhusi",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "A2 Desi Ghee & Minced Garlic",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Whisk almond flour, psyllium husk (isabgol), and pink salt in a bowl, then pour in 1/2 cup boiling water.",
+        "Knead once cool enough to handle into a soft, elastic dough and rest 10 minutes.",
+        "Roll out between two sheets of parchment paper, cook on a hot tawa until puffed with golden spots, and brush with garlic-infused A2 ghee."
+      ],
+      "source_name": "Everhope Oncology Plan (Option 2) & Dr. Davinah's Eats",
+      "source_url": "http://drdavinahseats.com/keto-indian-food-recipes",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "roti-substitute",
+        "staple-bread"
+      ]
+    },
+    {
+      "id": "a753fb87-7c27-527a-a22b-3589c61ab8fa",
+      "slug": "zucchini-cheese-wrap-egg-veg-wrap",
+      "title": "Zucchini Cheese Wrap & Egg Vegetable Tofu Wrap",
+      "category": "bread_wrap",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 12,
+      "visual_plating_cue": "Tightly rolled wrap sliced on a diagonal revealing vivid layers of colorful bell peppers, spinach, and spiced tofu.",
+      "image_url": "/images/recipes/zucchini-cheese-wrap-egg-veg-wrap.jpg",
+      "ingredients": [
+        {
+          "item": "Zucchini (grated & squeezed dry)",
+          "hindi_transliteration": "Turai / Hari Zucchini",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Free-range Eggs",
+          "hindi_transliteration": "Desi Anda",
+          "qty": "2",
+          "unit": "pcs",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Grated Tofu & Sliced Avocado Stuffing",
+          "hindi_transliteration": "Organic Soya Paneer (Tofu)",
+          "qty": "150",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Spinach & Bell Peppers",
+          "hindi_transliteration": "Taaza Palak",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Mix squeezed grated zucchini with beaten egg, vegan/cultured cheese, and herbs; spread into a circle on parchment and bake at 190°C for 12 minutes into a flexible tortilla (or make thin egg crepes).",
+        "Layer spiced grated tofu, avocado slices, and sautéed vegetables down the center, roll tightly, and slice in half."
+      ],
+      "source_name": "Everhope Oncology Plan (Dinner Options 2 & 7)",
+      "source_url": "https://www.ketoconnect.net/recipes/indian/",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "high-protein",
+        "dinner-wrap"
+      ]
+    },
+    {
+      "id": "efea5964-9563-5bce-9200-6e0433986cb8",
+      "slug": "keto-strawberry-almond-cheesecake-badam-halwa",
+      "title": "No-Bake Keto Strawberry Almond Cheesecake & Zero-Sugar Badam Halwa",
+      "category": "festive",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 20,
+      "visual_plating_cue": "Glass dessert cup with walnut-almond crust and ruby strawberry topping alongside warm saffron-cardamom Badam Halwa.",
+      "image_url": "/images/recipes/keto-strawberry-almond-cheesecake-badam-halwa.jpg",
+      "ingredients": [
+        {
+          "item": "Blanched Almond Flour & Crushed Walnuts",
+          "hindi_transliteration": "Badam ka Atta",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "Fresh Strawberries",
+          "hindi_transliteration": "Shuddh Rasoi Samagri",
+          "qty": "6",
+          "unit": "pcs",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Cashew Cream / Cultured Cream Cheese",
+          "hindi_transliteration": "Cultured Cheese / Paneer",
+          "qty": "0.5",
+          "unit": "cup",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "A2 Desi Ghee, Cardamom & Saffron",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "For Cheesecake: Press almond flour, crushed walnuts, and melted ghee into glasses; top with whipped cardamom cashew cream and crushed fresh strawberries.",
+        "For Badam Halwa: Slowly roast almond flour in A2 ghee until golden and fragrant, stir in warm almond milk infused with saffron and cardamom until thick and glossy."
+      ],
+      "source_name": "Keto For India & Indian Veggie Delight",
+      "source_url": "https://www.ketoforindia.com/keto-no-bake-vegetarian-strawberry-cheese-cake/",
+      "tags": [
+        "keto",
+        "diwali-special",
+        "festive",
+        "sugar-free"
+      ]
+    },
+    {
+      "id": "aaa2d6ca-db25-5774-abb5-df341def742e",
+      "slug": "mint-coriander-chilli-chutney",
+      "title": "Everhope Mint Coriander Chilli Chutney",
+      "category": "chutney_dip",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 0,
+      "visual_plating_cue": "Vibrant emerald-green herb chutney in a small brass katori.",
+      "image_url": "/images/recipes/mint-coriander-chilli-chutney.jpg",
+      "ingredients": [
+        {
+          "item": "Fresh Coriander & Mint leaves",
+          "hindi_transliteration": "Hara Dhania",
+          "qty": "2",
+          "unit": "cups",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Green chilies, Ginger & Lemon juice",
+          "hindi_transliteration": "Hari Mirch",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Roasted Cumin & Sendha Namak",
+          "hindi_transliteration": "Sabut Jeera",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Blend washed mint, coriander, green chili, ginger, lemon juice, roasted cumin, and pink salt with 2 Tbsp chilled water until smooth."
+      ],
+      "source_name": "Everhope Oncology Plan",
+      "source_url": "https://www.indianveggiedelight.com/keto-indian-food-recipes/",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "chutney",
+        "no-cook"
+      ]
+    },
+    {
+      "id": "12ccfbd3-16d4-581f-a610-c3b3a5b8b783",
+      "slug": "tomato-pudina-tadka-chutney",
+      "title": "Roasted Tomato Pudina Tadka Chutney",
+      "category": "chutney_dip",
+      "diet_type": "keto",
+      "prep_time_mins": 5,
+      "cook_time_mins": 10,
+      "visual_plating_cue": "Smoky crimson tomato and mint chutney tempered with black mustard seeds.",
+      "image_url": "/images/recipes/tomato-pudina-tadka-chutney.jpg",
+      "ingredients": [
+        {
+          "item": "Ripe Roma Tomatoes",
+          "hindi_transliteration": "Desi Tamatar",
+          "qty": "2",
+          "unit": "pcs",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh Mint (Pudina) & Garlic",
+          "hindi_transliteration": "Lahsun",
+          "qty": "0.5",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Cold-pressed Mustard Oil & Rai",
+          "hindi_transliteration": "Kachi Ghani Sarson ka Tel",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Char tomatoes and garlic in a cast-iron pan, pulse with fresh mint and salt, and finish with a mustard seed tadka."
+      ],
+      "source_name": "Everhope Oncology Plan (Dinner Option 6)",
+      "source_url": "https://www.indianveggiedelight.com/keto-indian-food-recipes/",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "chutney",
+        "chatpata"
+      ]
+    },
+    {
+      "id": "89d9b73a-8779-5070-a243-7f0ed7292813",
+      "slug": "avocado-hung-curd-guacamole-dip",
+      "title": "Avocado Hung Curd Dip & Fresh Guacamole",
+      "category": "chutney_dip",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 0,
+      "visual_plating_cue": "Velvety pastel-green avocado whip garnished with roasted jeera and cilantro.",
+      "image_url": "/images/recipes/avocado-hung-curd-guacamole-dip.jpg",
+      "ingredients": [
+        {
+          "item": "Ripe Hass Avocado",
+          "hindi_transliteration": "Makhanphal (Avocado)",
+          "qty": "1",
+          "unit": "pc",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Thick Hung Curd or Cashew Curd",
+          "hindi_transliteration": "probiotic Dahi / Kaju Dahi",
+          "qty": "3",
+          "unit": "Tbsp",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Lime juice, Coriander & Roasted Jeera",
+          "hindi_transliteration": "Hara Dhania",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Mash ripe avocado and whip with hung/cashew curd, lime juice, roasted cumin, and pink salt."
+      ],
+      "source_name": "Everhope Oncology Plan (Brunch Option 1 & Dinner Option 4)",
+      "source_url": "https://www.pickuplimes.com/recipe/?sb=&public=on",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "healthy-fats",
+        "no-cook"
+      ]
+    },
+    {
+      "id": "1c89719f-a512-539f-856a-b3d84e3feb31",
+      "slug": "sesame-tahini-lemon-dip",
+      "title": "Creamy Homemade Sesame Tahini Dip",
+      "category": "chutney_dip",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 2,
+      "visual_plating_cue": "Silky ivory sesame tahini drizzled with extra virgin olive oil and smoked paprika.",
+      "image_url": "/images/recipes/sesame-tahini-lemon-dip.jpg",
+      "ingredients": [
+        {
+          "item": "Toasted White Sesame Seeds (Til)",
+          "hindi_transliteration": "Safed Til (Tahini)",
+          "qty": "0.5",
+          "unit": "cup",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "Extra Virgin Olive Oil",
+          "hindi_transliteration": "Jaitoon ka Tel",
+          "qty": "3",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Garlic & Lemon juice",
+          "hindi_transliteration": "Kagzi Nimbu",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Blend lightly toasted sesame seeds with olive oil, garlic, lemon juice, salt, and warm water until creamy."
+      ],
+      "source_name": "Everhope Oncology Plan (Mid-Meal Options 1 & 5)",
+      "source_url": "https://www.pickuplimes.com/recipe/?sb=&public=on",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "calcium-rich",
+        "chutney"
+      ]
+    },
+    {
+      "id": "cb0a97f7-3502-5036-ad59-97217cce84a2",
+      "slug": "crispy-baked-tofu-chips",
+      "title": "Crispy Baked Tofu Chips (30g) with Tahini Dip & Blue Pea Tea",
+      "category": "chakna_snack",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 14,
+      "visual_plating_cue": "Shatteringly crisp golden tofu wafers paired with tahini dip and a royal-blue cup of Blue Pea Flower tea.",
+      "image_url": "/images/recipes/crispy-baked-tofu-chips.jpg",
+      "ingredients": [
+        {
+          "item": "Firm Organic Tofu (sliced wafer-thin)",
+          "hindi_transliteration": "Organic Soya Paneer (Tofu)",
+          "qty": "100",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Chaat Masala, Turmeric & Olive Oil",
+          "hindi_transliteration": "Jaitoon ka Tel",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Blue Pea Flowers (Aparajita)",
+          "hindi_transliteration": "Shuddh Rasoi Samagri",
+          "qty": "5",
+          "unit": "flowers",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Press firm tofu, slice paper-thin, toss with olive oil, turmeric, and chaat masala, and air-fry at 180°C for 12–14 minutes until crisp. Serve with 2 Tbsp tahini dip and Blue Pea tea."
+      ],
+      "source_name": "Everhope Oncology Plan (Mid-Meal Option 5)",
+      "source_url": "https://www.ketoforindia.com/category/veg-recipes/",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "mid-meal-chakna",
+        "crispy"
+      ]
+    },
+    {
+      "id": "7429a491-26c5-5969-80a1-8278da43ff24",
+      "slug": "boiled-kala-chana-rainbow-chaat",
+      "title": "Boiled Kala Chana (50g) Rainbow Chaat & Boiled Egg Chaat",
+      "category": "chakna_snack",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 5,
+      "visual_plating_cue": "Colorful street-style chaat bowl with cucumber, tomato, beetroot, fresh coriander, and lemon wedges.",
+      "image_url": "/images/recipes/boiled-kala-chana-rainbow-chaat.jpg",
+      "ingredients": [
+        {
+          "item": "Boiled Kala Chana (strictly 50g cooked) OR 2 Boiled Eggs",
+          "hindi_transliteration": "Desi Anda",
+          "qty": "50",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Cucumber, Tomato, Grated Carrot & Beetroot",
+          "hindi_transliteration": "Desi Kakdi / Kheera",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Coriander, Lemon Juice & Chaat Masala",
+          "hindi_transliteration": "Hara Dhania",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Toss 50g boiled kala chana (or halved boiled eggs) with finely diced cucumber, tomato, a pinch of grated carrot/beetroot, coriander, chaat masala, and fresh lemon juice."
+      ],
+      "source_name": "Everhope Oncology Plan (Mid-Meal Options 3 & 7)",
+      "source_url": "https://www.indianveggiedelight.com/keto-indian-food-recipes/",
+      "tags": [
+        "keto",
+        "everhope-plan",
+        "chatpata",
+        "mid-meal-chakna"
+      ]
+    },
+    {
+      "id": "7fb42aee-6634-5565-920d-5ab9db337217",
+      "slug": "smoky-roasted-baingan-bharta",
+      "title": "Smoky Char-Roasted Baingan Bharta with Garlic & Mustard Oil",
+      "category": "curry_sabzi",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 15,
+      "visual_plating_cue": "Fire-roasted mashed eggplant glistening with golden mustard oil, whole roasted garlic cloves, and emerald coriander leaves.",
+      "image_url": "/images/recipes/smoky-roasted-baingan-bharta.jpg",
+      "ingredients": [
+        {
+          "item": "Large Bharta Baingan (Eggplant)",
+          "hindi_transliteration": "Desi Anda",
+          "qty": "300",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Cold-pressed Mustard Oil",
+          "hindi_transliteration": "Kachi Ghani Sarson ka Tel",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Garlic cloves & Fresh Ginger (minced)",
+          "hindi_transliteration": "Adrak",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Onion & Desi Tomato (finely chopped)",
+          "hindi_transliteration": "Pyaz",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Cumin seeds, Turmeric & Fresh Coriander",
+          "hindi_transliteration": "Sabut Jeera",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Brush the whole eggplant with mustard oil, stud with garlic cloves, and roast over an open flame until the skin chars and flesh is smoky-soft.",
+        "Peel the charred skin and mash the tender pulp with a fork.",
+        "Heat cold-pressed mustard oil in a skillet, crackle cumin seeds, and saute chopped onion, ginger, and green chili until translucent.",
+        "Add chopped tomatoes and turmeric; fold in the smoky mashed eggplant and simmer for 5 minutes. Garnish generously with fresh coriander."
+      ],
+      "source_name": "Everhope Oncology Plan & Bikaner Heritage Kitchen",
+      "source_url": "https://www.indianveggiedelight.com/baingan-bharta/",
+      "tags": [
+        "keto",
+        "smoky",
+        "bikaner-local",
+        "fiber-rich"
+      ]
+    },
+    {
+      "id": "dd134f34-5139-57af-9c13-6bd62a0a0df8",
+      "slug": "tofu-makhani-roasted-red-pepper-gravy",
+      "title": "Royal Tofu Makhani in Roasted Red Pepper & Coconut Cream Gravy",
+      "category": "curry_sabzi",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 15,
+      "visual_plating_cue": "Velvety terracotta-orange makhani gravy studded with golden seared tofu cubes, crushed kasuri methi, and a swirl of coconut cream.",
+      "image_url": "/images/recipes/tofu-makhani-roasted-red-pepper-gravy.jpg",
+      "ingredients": [
+        {
+          "item": "Firm Organic Tofu (cubed)",
+          "hindi_transliteration": "Organic Soya Paneer (Tofu)",
+          "qty": "250",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Red Bell Pepper & Desi Tomatoes (roasted)",
+          "hindi_transliteration": "Desi Tamatar",
+          "qty": "200",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Thick Coconut Cream",
+          "hindi_transliteration": "Nariyal Malai / Doodh",
+          "qty": "3",
+          "unit": "Tbsp",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "A2 Desi Ghee",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Kasuri Methi, Ginger-Garlic & Garam Masala",
+          "hindi_transliteration": "Taazi Hari Methi",
+          "qty": "1.5",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Pan-sear cubed organic tofu in 1 tsp A2 ghee with a pinch of turmeric and salt until golden on the edges.",
+        "Blend char-roasted red bell pepper and tomatoes with ginger and garlic into a silky puree.",
+        "Simmer the puree in A2 ghee with cumin, coriander powder, and garam masala for 8 minutes.",
+        "Fold in the seared tofu cubes, coconut cream, and crushed kasuri methi; simmer 2 minutes and serve hot."
+      ],
+      "source_name": "Everhope Oncology Plan & Pick Up Limes",
+      "source_url": "https://www.pickuplimes.com/recipe/",
+      "tags": [
+        "keto",
+        "high-protein",
+        "everhope-plan",
+        "festive-curry"
+      ]
+    },
+    {
+      "id": "fafff108-9f7e-50ae-93d0-827d46118ed6",
+      "slug": "south-indian-tempered-coconut-chutney",
+      "title": "South Indian Tempered Fresh Coconut & Curry Leaf Chutney",
+      "category": "chutney_dip",
+      "diet_type": "keto",
+      "prep_time_mins": 8,
+      "cook_time_mins": 2,
+      "visual_plating_cue": "Snowy-white grated coconut chutney crowned with crackled black mustard seeds, golden ginger bits, and crisp green curry leaves.",
+      "image_url": "/images/recipes/south-indian-tempered-coconut-chutney.jpg",
+      "ingredients": [
+        {
+          "item": "Fresh grated coconut",
+          "hindi_transliteration": "Shuddh Rasoi Samagri",
+          "qty": "0.75",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Roasted peanuts or blanched almonds",
+          "hindi_transliteration": "Bhuni Moongphali",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh ginger & green chili",
+          "hindi_transliteration": "Hari Mirch",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Cold-pressed Coconut Oil",
+          "hindi_transliteration": "Nariyal ka Tel",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Mustard seeds & Fresh curry leaves",
+          "hindi_transliteration": "Kali Rai / Sarson",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Grind fresh coconut, roasted peanuts, ginger, green chili, pink salt, and warm water into a creamy chutney.",
+        "Heat virgin coconut oil in a small tadka ladle and crackle mustard seeds and fresh curry leaves.",
+        "Pour the sizzling tempering over the coconut chutney and serve alongside keto dosas or chillas."
+      ],
+      "source_name": "Indian Veggie Delight",
+      "source_url": "https://www.indianveggiedelight.com/coconut-chutney/",
+      "tags": [
+        "keto",
+        "therapeutic-chutney",
+        "mct-fats",
+        "gut-soothing"
+      ]
+    },
+    {
+      "id": "42ceffa2-83b2-5d98-977c-052daf6a7b34",
+      "slug": "rajasthani-garlic-coconut-dry-chutney",
+      "title": "Bikaneri Roasted Garlic, Dry Coconut & Sesame Lasun Chutney",
+      "category": "chutney_dip",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 3,
+      "visual_plating_cue": "Fiery brick-red coarse Rajasthani dry chutney speckled with toasted white sesame seeds and desiccated coconut.",
+      "image_url": "/images/recipes/rajasthani-garlic-coconut-dry-chutney.jpg",
+      "ingredients": [
+        {
+          "item": "Garlic cloves (slow-roasted)",
+          "hindi_transliteration": "Lahsun",
+          "qty": "12",
+          "unit": "cloves",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Dry grated coconut & White Sesame seeds",
+          "hindi_transliteration": "Safed Til (Tahini)",
+          "qty": "0.5",
+          "unit": "cup",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "Roasted Cumin & Coriander seeds",
+          "hindi_transliteration": "Sabut Jeera",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Cold-pressed Mustard Oil",
+          "hindi_transliteration": "Kachi Ghani Sarson ka Tel",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Dry-roast garlic cloves, sesame seeds, cumin seeds, and grated coconut on low heat until nutty and fragrant.",
+        "Cool completely and pulse coarsely in a mortar-pestle or grinder with Kashmiri chili, amchoor, and sendha namak.",
+        "Drizzle 1 tsp raw mustard oil to bind the phytonutrients and store in a glass jar."
+      ],
+      "source_name": "Bikaner Royal Kitchen Protocol",
+      "source_url": "https://www.indianveggiedelight.com/",
+      "tags": [
+        "keto",
+        "therapeutic-chutney",
+        "allicin-rich",
+        "bikaner-local"
+      ]
+    },
+    {
+      "id": "72f1e8eb-0a3a-5c3b-95cd-068e37f94110",
+      "slug": "tangy-amla-coriander-chutney",
+      "title": "Vitamin-C Rich Fresh Amla (Indian Gooseberry) & Coriander Chutney",
+      "category": "chutney_dip",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 0,
+      "visual_plating_cue": "Bright lime-green antioxidant chutney served in a brass katori with a fresh gooseberry wedge.",
+      "image_url": "/images/recipes/tangy-amla-coriander-chutney.jpg",
+      "ingredients": [
+        {
+          "item": "Fresh Amla (Indian Gooseberries, deseeded)",
+          "hindi_transliteration": "Desi Amla",
+          "qty": "3",
+          "unit": "pcs",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh Coriander & Mint leaves",
+          "hindi_transliteration": "Hara Dhania",
+          "qty": "1.5",
+          "unit": "cups",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh Ginger & Green Chili",
+          "hindi_transliteration": "Hari Mirch",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Pumpkin seeds (Magaz) & Roasted Jeera",
+          "hindi_transliteration": "Peela Kaddu",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Chop fresh amla into small pieces and discard the inner stone.",
+        "Blend amla, fresh coriander, mint, ginger, pumpkin seeds, roasted cumin, and Himalayan pink salt with 2 Tbsp water until smooth.",
+        "Serve fresh at brunch to boost iron and vitamin-C absorption."
+      ],
+      "source_name": "Dr. Nasha Metabolic Terrain & Everhope Plan",
+      "source_url": "https://www.indianveggiedelight.com/amla-chutney/",
+      "tags": [
+        "keto",
+        "therapeutic-chutney",
+        "vitamin-c",
+        "antioxidant"
+      ]
+    },
+    {
+      "id": "865f6807-8894-5812-9ad7-a2ef2fa5e5d4",
+      "slug": "smoked-brinjal-tahini-baba-ganoush",
+      "title": "Smoked Brinjal & White Sesame Tahini Dip (Indian Baba Ganoush)",
+      "category": "chutney_dip",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 12,
+      "visual_plating_cue": "Creamy taupe roasted eggplant dip swirled with extra-virgin olive oil, toasted sesame seeds, and chopped parsley-coriander.",
+      "image_url": "/images/recipes/smoked-brinjal-tahini-baba-ganoush.jpg",
+      "ingredients": [
+        {
+          "item": "Medium Brinjal / Eggplant (flame-roasted)",
+          "hindi_transliteration": "Desi Anda",
+          "qty": "200",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Homemade White Sesame Tahini",
+          "hindi_transliteration": "Safed Til (Tahini)",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "Extra Virgin Olive Oil",
+          "hindi_transliteration": "Jaitoon ka Tel",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Garlic clove, Lemon juice & Roasted Cumin",
+          "hindi_transliteration": "Sabut Jeera",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Char-roast the brinjal over an open flame until soft, peel off the skin, and drain excess liquid.",
+        "Pulse the smoky brinjal flesh with sesame tahini, crushed garlic, fresh lemon juice, cumin, and olive oil until velvety.",
+        "Garnish with toasted sesame seeds and fresh coriander."
+      ],
+      "source_name": "Pick Up Limes & Everhope Oncology Plan",
+      "source_url": "https://www.pickuplimes.com/recipe/",
+      "tags": [
+        "keto",
+        "therapeutic-chutney",
+        "calcium-rich",
+        "mediterranean-indian"
+      ]
+    },
+    {
+      "id": "fd622d37-0df6-546d-902f-355290b443d5",
+      "slug": "spicy-curry-leaf-coconut-chutney",
+      "title": "Iron-Rich Fresh Curry Leaf (Kadi Patta), Walnut & Ginger Chutney",
+      "category": "chutney_dip",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 3,
+      "visual_plating_cue": "Deep forest-green herbal chutney with a glossy coconut oil tempering and toasted walnut crumbs.",
+      "image_url": "/images/recipes/spicy-curry-leaf-coconut-chutney.jpg",
+      "ingredients": [
+        {
+          "item": "Fresh Curry Leaves (Kadi Patta)",
+          "hindi_transliteration": "Meetha Neem / Kadi Patta",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Walnut halves (Akhrot)",
+          "hindi_transliteration": "Kashmiri Akhrot",
+          "qty": "4",
+          "unit": "pcs",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "Fresh grated coconut",
+          "hindi_transliteration": "Shuddh Rasoi Samagri",
+          "qty": "0.25",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh Ginger, Lemon juice & Cumin",
+          "hindi_transliteration": "Sabut Jeera",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Saute fresh curry leaves and cumin seeds in 1 tsp coconut oil for 90 seconds until crisp and aromatic.",
+        "Cool and grind with walnut halves, grated coconut, ginger, lemon juice, and pink salt into a thick green chutney.",
+        "Serve 2 Tbsp alongside almond rotis or vegetable wraps."
+      ],
+      "source_name": "Everhope Oncology Plan",
+      "source_url": "https://www.indianveggiedelight.com/",
+      "tags": [
+        "keto",
+        "therapeutic-chutney",
+        "blood-sugar-balance",
+        "omega-3"
+      ]
+    },
+    {
+      "id": "0d3eefd5-a26e-55bc-9224-4458f54d3007",
+      "slug": "fresh-kachi-haldi-ginger-lemon-pickle",
+      "title": "Rajasthani Fresh Kachi Haldi (Raw Turmeric), Ginger & Lemon Achaar",
+      "category": "chutney_dip",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 2,
+      "visual_plating_cue": "Golden juliennes of fresh raw turmeric root and pink ginger steeped in lemon juice and crackled mustard seeds.",
+      "image_url": "/images/recipes/fresh-kachi-haldi-ginger-lemon-pickle.jpg",
+      "ingredients": [
+        {
+          "item": "Fresh Kachi Haldi (Raw Turmeric root, julienned)",
+          "hindi_transliteration": "Haldi / Kachi Haldi",
+          "qty": "100",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh Ginger root (julienned)",
+          "hindi_transliteration": "Adrak",
+          "qty": "50",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh Kagzi Lemon juice",
+          "hindi_transliteration": "Kagzi Nimbu",
+          "qty": "3",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Mustard seeds, Fennel, Cracked Black Pepper & Mustard Oil",
+          "hindi_transliteration": "Kachi Ghani Sarson ka Tel",
+          "qty": "1.5",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Peel and cut fresh raw turmeric root and ginger into fine matchstick juliennes.",
+        "Toss with freshly squeezed lemon juice, sendha namak, and freshly cracked black pepper (piperine activates curcumin).",
+        "Lightly warm 1 Tbsp cold-pressed mustard oil with mustard and fennel seeds, cool, and fold into the jar."
+      ],
+      "source_name": "Bikaner Winter Wellness Tradition",
+      "source_url": "https://www.indianveggiedelight.com/",
+      "tags": [
+        "keto",
+        "therapeutic-chutney",
+        "anti-inflammatory",
+        "curcumin-boost"
+      ]
+    },
+    {
+      "id": "2614f67d-46bc-5bd7-9b80-625e99b4a817",
+      "slug": "palak-toasted-walnut-raita",
+      "title": "Blanched Palak (Spinach), Toasted Walnut & Probiotic Curd Raita",
+      "category": "chutney_dip",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 3,
+      "visual_plating_cue": "Pastel jade probiotic raita topped with crunchy toasted walnut pieces and a dusting of roasted cumin.",
+      "image_url": "/images/recipes/palak-toasted-walnut-raita.jpg",
+      "ingredients": [
+        {
+          "item": "Fresh Spinach leaves (blanched & chopped)",
+          "hindi_transliteration": "Taaza Palak",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Thick Probiotic Cashew Curd or Hung Curd",
+          "hindi_transliteration": "probiotic Dahi / Kaju Dahi",
+          "qty": "1",
+          "unit": "cup",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Toasted Walnuts (chopped)",
+          "hindi_transliteration": "Kashmiri Akhrot",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "Roasted Cumin powder & Sendha Namak",
+          "hindi_transliteration": "Sabut Jeera",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Blanch spinach leaves in hot water for 60 seconds, squeeze dry, and finely chop.",
+        "Whisk probiotic curd until smooth and fold in the spinach, roasted cumin powder, and pink salt.",
+        "Top with crunchy toasted walnuts right before serving."
+      ],
+      "source_name": "Everhope Oncology Plan",
+      "source_url": "https://www.indianveggiedelight.com/palak-raita/",
+      "tags": [
+        "keto",
+        "therapeutic-chutney",
+        "probiotic",
+        "omega-3"
+      ]
+    },
+    {
+      "id": "ce64a3f8-0c7b-57d1-9507-4942dc912593",
+      "slug": "cilantro-pistachio-pumpkin-seed-pesto",
+      "title": "Herbaceous Cilantro, Raw Pistachio & Pumpkin Seed (Magaz) Pesto",
+      "category": "chutney_dip",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 0,
+      "visual_plating_cue": "Jewel-toned emerald pesto glistening with extra-virgin olive oil and crushed green pistachios.",
+      "image_url": "/images/recipes/cilantro-pistachio-pumpkin-seed-pesto.jpg",
+      "ingredients": [
+        {
+          "item": "Fresh Coriander & Sweet Basil leaves",
+          "hindi_transliteration": "Hara Dhania",
+          "qty": "2",
+          "unit": "cups",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Raw Pistachios & Pumpkin Seeds (Magaz)",
+          "hindi_transliteration": "Peela Kaddu",
+          "qty": "3",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "Extra Virgin Olive Oil",
+          "hindi_transliteration": "Jaitoon ka Tel",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Garlic clove & Fresh Lemon juice",
+          "hindi_transliteration": "Kagzi Nimbu",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        }
+      ],
+      "instructions": [
+        "Lightly toast pumpkin seeds and pistachios in a dry pan for 2 minutes until fragrant, then cool.",
+        "Pulse in a food processor with fresh coriander, basil, garlic, lemon juice, and pink salt.",
+        "Stream in extra-virgin olive oil until a spoonable emerald pesto forms."
+      ],
+      "source_name": "Pick Up Limes 4-Part Nourish Formula",
+      "source_url": "https://www.pickuplimes.com/recipe/",
+      "tags": [
+        "keto",
+        "therapeutic-chutney",
+        "zinc-magnesium",
+        "raw-enzymes"
+      ]
+    },
+    {
+      "id": "de79e463-dae0-51d7-9855-746aebe6d07d",
+      "slug": "roasted-edamame-hemp-seed-toss",
+      "title": "Warm Sea-Salt Edamame (50g) & Hulled Hemp Seed (15g) Chakna Toss",
+      "category": "chakna_snack",
+      "diet_type": "keto",
+      "prep_time_mins": 5,
+      "cook_time_mins": 5,
+      "visual_plating_cue": "Vibrant green steamed edamame pods and shelled beans dusted with nutty white hemp hearts, lemon zest, and chili flakes.",
+      "image_url": "/images/recipes/roasted-edamame-hemp-seed-toss.jpg",
+      "ingredients": [
+        {
+          "item": "Shelled Green Edamame Soybeans",
+          "hindi_transliteration": "Hari Soya Phali (Edamame)",
+          "qty": "50",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Hulled Hemp Seeds",
+          "hindi_transliteration": "Bhang ke Beej (Hemp Seeds)",
+          "qty": "15",
+          "unit": "g",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "A2 Desi Ghee or Olive Oil",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Sendha Namak, Roasted Jeera & Lemon juice",
+          "hindi_transliteration": "Kagzi Nimbu",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Steam shelled edamame for 4 minutes until tender-crisp, then toss in a warm skillet with 1 tsp ghee.",
+        "Take off the heat and coat with 15g hulled hemp seeds, pink rock salt, roasted cumin, and a squeeze of lemon.",
+        "Enjoy at 2:00 PM with a cup of hot Blue Pea Flower tea."
+      ],
+      "source_name": "Everhope Oncology Plan (Mid-Meal Chakna)",
+      "source_url": "https://www.pickuplimes.com/recipe/",
+      "tags": [
+        "keto",
+        "chakna-snack",
+        "complete-protein",
+        "everhope-plan"
+      ]
+    },
+    {
+      "id": "0a091c71-bf87-5619-950f-9720def9616e",
+      "slug": "masala-roasted-makhana-walnut-trail",
+      "title": "A2 Ghee-Roasted Mint Makhana (30g Cap) & Kashmiri Walnut Chakna",
+      "category": "chakna_snack",
+      "diet_type": "keto",
+      "prep_time_mins": 5,
+      "cook_time_mins": 8,
+      "visual_plating_cue": "Crisp golden turmeric-and-mint dusted foxnuts mixed with toasted walnut halves and curry leaves in a clay bowl.",
+      "image_url": "/images/recipes/masala-roasted-makhana-walnut-trail.jpg",
+      "ingredients": [
+        {
+          "item": "Phool Makhana (Foxnuts - portion capped)",
+          "hindi_transliteration": "Shuddh Rasoi Samagri",
+          "qty": "30",
+          "unit": "g",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": false
+        },
+        {
+          "item": "Walnut Halves (Akhrot)",
+          "hindi_transliteration": "Kashmiri Akhrot",
+          "qty": "25",
+          "unit": "g",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "A2 Desi Ghee",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Dried Pudina powder, Turmeric & Chaat Masala",
+          "hindi_transliteration": "Haldi / Kachi Haldi",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Slow-roast 30g foxnuts and walnut halves in A2 desi ghee over low heat for 6-7 minutes until crunchy.",
+        "Sprinkle turmeric, crushed dried mint leaves, chaat masala, and sendha namak while warm.",
+        "Serve with steaming hibiscus herbal tea."
+      ],
+      "source_name": "Everhope Oncology Plan",
+      "source_url": "https://www.indianveggiedelight.com/roasted-makhana-recipe/",
+      "tags": [
+        "keto",
+        "chakna-snack",
+        "portion-controlled",
+        "crunchy"
+      ]
+    },
+    {
+      "id": "9a84622b-cb88-5368-914b-115905c1427d",
+      "slug": "spiced-pumpkin-watermelon-seed-crunch",
+      "title": "Rajasthani Roasted Magaz (Pumpkin) & Tarbooj Seed Masala Crunch",
+      "category": "chakna_snack",
+      "diet_type": "keto",
+      "prep_time_mins": 5,
+      "cook_time_mins": 5,
+      "visual_plating_cue": "Puffed emerald pumpkin seeds and ivory watermelon seeds glistening with lime-chili masala.",
+      "image_url": "/images/recipes/spiced-pumpkin-watermelon-seed-crunch.jpg",
+      "ingredients": [
+        {
+          "item": "Pumpkin Seeds (Magaz)",
+          "hindi_transliteration": "Peela Kaddu",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "Watermelon Seeds (Tarbooj ke Beej)",
+          "hindi_transliteration": "Tarbooj ke Beej",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "A2 Desi Ghee",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "0.5",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "Amchoor, Black Pepper & Sendha Namak",
+          "hindi_transliteration": "Shuddh Rasoi Samagri",
+          "qty": "0.5",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Toast pumpkin seeds and watermelon seeds in a heavy cast-iron skillet with 1/2 tsp ghee until they pop and turn golden.",
+        "Toss immediately with amchoor (dry mango powder), cracked black pepper, and pink rock salt.",
+        "Serve warm as a zero-glycemic mid-afternoon mineral booster."
+      ],
+      "source_name": "Bikaner Kem Road Seed Ritual",
+      "source_url": "https://www.indianveggiedelight.com/",
+      "tags": [
+        "keto",
+        "chakna-snack",
+        "zinc-magnesium",
+        "bikaner-local"
+      ]
+    },
+    {
+      "id": "7bad6e28-3ca1-51de-95de-8d131cf7e6c4",
+      "slug": "tandoori-tofu-tikka-skewers",
+      "title": "Charred Tandoori Tofu & Bell Pepper Tikka Skewers (4 Pc)",
+      "category": "chakna_snack",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 10,
+      "visual_plating_cue": "Smoky char-marked saffron-red tofu cubes threaded with green capsicum and onion petals, served with mint chutney.",
+      "image_url": "/images/recipes/tandoori-tofu-tikka-skewers.jpg",
+      "ingredients": [
+        {
+          "item": "Extra-Firm Organic Tofu (cubed)",
+          "hindi_transliteration": "Organic Soya Paneer (Tofu)",
+          "qty": "150",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Thick Hung Curd or Cashew Curd",
+          "hindi_transliteration": "probiotic Dahi / Kaju Dahi",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Green Capsicum & Onion petals",
+          "hindi_transliteration": "Pyaz",
+          "qty": "0.5",
+          "unit": "cup",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Cold-pressed Mustard Oil, Kasuri Methi & Tandoori Masala",
+          "hindi_transliteration": "Kachi Ghani Sarson ka Tel",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Whisk hung curd with mustard oil, turmeric, Kashmiri chili, kasuri methi, ajwain, and ginger-garlic paste.",
+        "Coat tofu cubes and capsicum petals in the marinade for 15 minutes.",
+        "Air-fry at 200C for 9 minutes or sear on a cast-iron grill pan until charred on the edges. Serve hot with mint chutney."
+      ],
+      "source_name": "Everhope Oncology Plan",
+      "source_url": "https://www.indianveggiedelight.com/paneer-tikka/",
+      "tags": [
+        "keto",
+        "chakna-snack",
+        "high-protein",
+        "air-fryer"
+      ]
+    },
+    {
+      "id": "219d175d-50dd-5aab-9e73-2537e7f468fa",
+      "slug": "stuffed-mini-peppers-cultured-cheese",
+      "title": "Baked Mini Bell Peppers Stuffed with Spiced Tofu & Cultured Cheese",
+      "category": "chakna_snack",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 12,
+      "visual_plating_cue": "Vibrant halved red and yellow peppers overflowing with golden baked herb-crusted tofu and cheese filling.",
+      "image_url": "/images/recipes/stuffed-mini-peppers-cultured-cheese.jpg",
+      "ingredients": [
+        {
+          "item": "Small Bell Peppers (halved & deseeded)",
+          "hindi_transliteration": "Shimla Mirch",
+          "qty": "150",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Crumbled Organic Tofu & Vegan Cultured Cheese",
+          "hindi_transliteration": "Organic Soya Paneer (Tofu)",
+          "qty": "100",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh Coriander, Green Chili & Roasted Cumin",
+          "hindi_transliteration": "Sabut Jeera",
+          "qty": "1",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Extra Virgin Olive Oil",
+          "hindi_transliteration": "Jaitoon ka Tel",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Mix crumbled tofu, cultured cheese, finely chopped coriander, green chili, roasted cumin, and pink salt.",
+        "Spoon the mixture into halved bell pepper boats and drizzle with olive oil.",
+        "Bake or air-fry at 190C for 10-12 minutes until the peppers are tender and tops are golden-brown."
+      ],
+      "source_name": "Everhope Oncology Plan",
+      "source_url": "https://www.pickuplimes.com/recipe/",
+      "tags": [
+        "keto",
+        "chakna-snack",
+        "vitamin-c",
+        "baked"
+      ]
+    },
+    {
+      "id": "cf382161-4653-56ba-9716-550134bf9b27",
+      "slug": "kala-chana-grated-tofu-tikki",
+      "title": "Tawa-Seared Kala Chana (50g Cap) & Grated Tofu Shammi Tikki",
+      "category": "chakna_snack",
+      "diet_type": "keto",
+      "prep_time_mins": 15,
+      "cook_time_mins": 10,
+      "visual_plating_cue": "Four crisp-crusted brown medallions topped with pickled ginger slivers and a dollop of green mint chutney.",
+      "image_url": "/images/recipes/kala-chana-grated-tofu-tikki.jpg",
+      "ingredients": [
+        {
+          "item": "Boiled Desi Kala Chana (strictly capped at 50g)",
+          "hindi_transliteration": "Desi Kala Chana",
+          "qty": "50",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Grated Firm Organic Tofu",
+          "hindi_transliteration": "Organic Soya Paneer (Tofu)",
+          "qty": "100",
+          "unit": "g",
+          "aisle": "protein_curd",
+          "bikaner_mandi_aisle": "Sadul Ganj Organic Dairy, Tofu & Cultured Curd Corner",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh Mint, Coriander, Ginger & Garam Masala",
+          "hindi_transliteration": "Hara Dhania",
+          "qty": "1.5",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "A2 Desi Ghee (for tawa searing)",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Pulse 50g boiled kala chana with ginger, green chili, garam masala, and amchoor into a coarse mash.",
+        "Bind with 100g finely grated tofu and fresh mint leaves; shape into 4 flat tikki patties.",
+        "Pan-sear on a cast-iron tawa with 1 tsp A2 ghee for 3-4 minutes per side until crisp and golden."
+      ],
+      "source_name": "Everhope Oncology Plan (50g Kala Chana Guideline)",
+      "source_url": "https://www.indianveggiedelight.com/kala-chana-kabab/",
+      "tags": [
+        "keto",
+        "chakna-snack",
+        "50g-kala-chana-cap",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "635e4d3b-110e-594b-9490-a7e99ffe9607",
+      "slug": "cucumber-peanut-kakdi-koshimbir-cups",
+      "title": "Crunchy Kakdi Koshimbir (Cucumber, Roasted Peanut & Tadka Chakna)",
+      "category": "chakna_snack",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 2,
+      "visual_plating_cue": "Refreshing diced green cucumber salad tossed with crushed roasted peanuts, fresh coconut, and crackled mustard-curry leaf tadka.",
+      "image_url": "/images/recipes/cucumber-peanut-kakdi-koshimbir-cups.jpg",
+      "ingredients": [
+        {
+          "item": "Crisp Desi Cucumbers (finely diced)",
+          "hindi_transliteration": "Desi Kakdi / Kheera",
+          "qty": "200",
+          "unit": "g",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "Coarsely crushed Roasted Peanuts",
+          "hindi_transliteration": "Bhuni Moongphali",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": false
+        },
+        {
+          "item": "Fresh Coriander & Lemon juice",
+          "hindi_transliteration": "Hara Dhania",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "produce",
+          "bikaner_mandi_aisle": "Kote Gate Sabzi Mandi - Fresh Produce & Leafy Greens",
+          "is_staple": false
+        },
+        {
+          "item": "A2 Ghee, Mustard seeds & Curry leaves",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Toss diced cucumber with crushed roasted peanuts, chopped coriander, lemon juice, and sendha namak.",
+        "Prepare a quick tadka of mustard seeds, green chili, and curry leaves in 1/2 tsp ghee and pour over the bowl.",
+        "Serve immediately for maximum crunch."
+      ],
+      "source_name": "Indian Veggie Delight",
+      "source_url": "https://www.indianveggiedelight.com/kakdi-koshimbir/",
+      "tags": [
+        "keto",
+        "chakna-snack",
+        "hydrating",
+        "quick-10-min"
+      ]
+    },
+    {
+      "id": "52c95ec4-7c6a-57fb-951f-3c3d632a1ecd",
+      "slug": "crispy-almond-pumpkin-seed-crackers",
+      "title": "Baked Almond Flour, Flax & Pumpkin Seed Masala Lavash Crackers",
+      "category": "chakna_snack",
+      "diet_type": "keto",
+      "prep_time_mins": 10,
+      "cook_time_mins": 12,
+      "visual_plating_cue": "Snap-crisp triangular seed-studded keto lavash crackers arranged around a bowl of creamy green avocado guacamole.",
+      "image_url": "/images/recipes/crispy-almond-pumpkin-seed-crackers.jpg",
+      "ingredients": [
+        {
+          "item": "Blanched Almond Flour",
+          "hindi_transliteration": "Badam ka Atta",
+          "qty": "0.5",
+          "unit": "cup",
+          "aisle": "keto_flours",
+          "bikaner_mandi_aisle": "Station Road Specialty Low-Carb & Keto Chakki Aisle",
+          "is_staple": true
+        },
+        {
+          "item": "Flaxseed Meal & Pumpkin Seeds (Magaz)",
+          "hindi_transliteration": "Peela Kaddu",
+          "qty": "3",
+          "unit": "Tbsp",
+          "aisle": "nuts_seeds",
+          "bikaner_mandi_aisle": "Rani Bazar Dry Fruit, Seed & Superfood Mandi",
+          "is_staple": true
+        },
+        {
+          "item": "Ajwain, Sesame seeds & Sendha Namak",
+          "hindi_transliteration": "Ajwain",
+          "qty": "1",
+          "unit": "tsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        },
+        {
+          "item": "A2 Desi Ghee & Warm Water",
+          "hindi_transliteration": "A2 Desi Cow Ghee",
+          "qty": "2",
+          "unit": "Tbsp",
+          "aisle": "masala_staple",
+          "bikaner_mandi_aisle": "Kem Road Bikaner Kirana & Cold-Pressed Ghani Oils",
+          "is_staple": true
+        }
+      ],
+      "instructions": [
+        "Knead almond flour, flaxseed meal, pumpkin seeds, sesame seeds, ajwain, salt, melted ghee, and warm water into a cohesive dough.",
+        "Roll thinly between two sheets of parchment paper and score into triangles or squares.",
+        "Bake at 175C for 11-12 minutes until crisp and golden. Cool completely and store in an airtight glass jar."
+      ],
+      "source_name": "Pick Up Limes & Dr. Nasha Keto Pantry",
+      "source_url": "https://www.pickuplimes.com/recipe/",
+      "tags": [
+        "keto",
+        "chakna-snack",
+        "grain-free",
+        "tea-time"
+      ]
+    }
+  ],
+  "formula_items": [
+    {
+      "id": "54d9dcc2-1b81-5d83-bf46-9c98e7ea6baf",
+      "row_number": 1,
+      "column_type": "protein",
+      "name": "Palak Tofu (Spinach Tofu Curry)",
+      "portion_note": "300g",
+      "linked_recipe_id": "3a45e395-487d-54ab-8494-5be9c57f970b",
+      "default_ingredients": [
+        {
+          "item": "Palak Tofu",
+          "portion": "300g"
+        }
+      ]
+    },
+    {
+      "id": "4b959b58-cb32-5b19-9d31-05731bb8605e",
+      "row_number": 1,
+      "column_type": "fiber_veg_soup",
+      "name": "Steamed Garlic-Lemon Broccoli Florets",
+      "portion_note": "300g (cruciferous)",
+      "linked_recipe_id": "0bedad9c-0118-5aa1-b4ac-c06f1bed0659",
+      "default_ingredients": [
+        {
+          "item": "Steamed Garlic-Lemon Broccoli Florets",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "ef390ac1-a945-5efe-aef8-9446c6f105c0",
+      "row_number": 1,
+      "column_type": "roti_rice_wrap",
+      "name": "Soft Almond Flour & Isabgol Rotis",
+      "portion_note": "2 Pc",
+      "linked_recipe_id": "aa1f97c1-853c-530c-ac90-4a5c90afbacc",
+      "default_ingredients": [
+        {
+          "item": "Soft Almond Flour & Isabgol Rotis",
+          "portion": "2 Pc"
+        }
+      ]
+    },
+    {
+      "id": "03132fe0-0b41-5102-8a23-e042d741ff0e",
+      "row_number": 1,
+      "column_type": "condiment_chutney",
+      "name": "Mint Coriander Green Chilli Chutney",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "aaa2d6ca-db25-5774-abb5-df341def742e",
+      "default_ingredients": [
+        {
+          "item": "Mint Coriander Green Chilli Chutney",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "846520c2-3faf-5289-8882-7641ec51abb4",
+      "row_number": 2,
+      "column_type": "protein",
+      "name": "Tofu Methi Bhurji",
+      "portion_note": "200g",
+      "linked_recipe_id": "be3c73fc-d6e8-52aa-9c42-d9b57a75948e",
+      "default_ingredients": [
+        {
+          "item": "Tofu Methi Bhurji",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "7fb7b721-fc71-5169-9d96-03b8551e1330",
+      "row_number": 2,
+      "column_type": "fiber_veg_soup",
+      "name": "Ridge Gourd / Turai Masala Sabji",
+      "portion_note": "200g",
+      "linked_recipe_id": "3cc643a5-53b5-5351-b2eb-0e1d888c6b9d",
+      "default_ingredients": [
+        {
+          "item": "Ridge Gourd / Turai Masala Sabji",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "fabb056a-fad4-5623-9f1d-5c1fa33ab5ba",
+      "row_number": 2,
+      "column_type": "roti_rice_wrap",
+      "name": "Almond Flour & Besan Savoury Chillas",
+      "portion_note": "2 Pc",
+      "linked_recipe_id": "be3c73fc-d6e8-52aa-9c42-d9b57a75948e",
+      "default_ingredients": [
+        {
+          "item": "Almond Flour & Besan Savoury Chillas",
+          "portion": "2 Pc"
+        }
+      ]
+    },
+    {
+      "id": "becafcf4-e0b7-564d-b217-66ef448a19c1",
+      "row_number": 2,
+      "column_type": "condiment_chutney",
+      "name": "Fresh Homemade Guacamole Spread",
+      "portion_note": "3 Tbsp",
+      "linked_recipe_id": "89d9b73a-8779-5070-a243-7f0ed7292813",
+      "default_ingredients": [
+        {
+          "item": "Fresh Homemade Guacamole Spread",
+          "portion": "3 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "16dec3ae-7c36-5ba1-a978-bf1778d30364",
+      "row_number": 3,
+      "column_type": "protein",
+      "name": "Masala Mix Veg 3-Egg Omelette",
+      "portion_note": "3 Eggs",
+      "linked_recipe_id": "a753fb87-7c27-527a-a22b-3589c61ab8fa",
+      "default_ingredients": [
+        {
+          "item": "Masala Mix Veg 3-Egg Omelette",
+          "portion": "3 Eggs"
+        }
+      ]
+    },
+    {
+      "id": "e8c80282-ae6a-5be0-9b80-77dc840c9166",
+      "row_number": 3,
+      "column_type": "fiber_veg_soup",
+      "name": "Grilled Tandoori Cauliflower Steak",
+      "portion_note": "300g (cruciferous)",
+      "linked_recipe_id": "0d8e7c7c-e5fd-5028-a78f-c369cc7f3f09",
+      "default_ingredients": [
+        {
+          "item": "Grilled Tandoori Cauliflower Steak",
+          "portion": "300g"
+        }
+      ]
+    },
+    {
+      "id": "2a12968a-1fd8-54d7-a0ea-f0ca2b072500",
+      "row_number": 3,
+      "column_type": "roti_rice_wrap",
+      "name": "Toasted Garlic Almond Bread",
+      "portion_note": "2 Slices",
+      "linked_recipe_id": "aa1f97c1-853c-530c-ac90-4a5c90afbacc",
+      "default_ingredients": [
+        {
+          "item": "Toasted Garlic Almond Bread",
+          "portion": "2 Slices"
+        }
+      ]
+    },
+    {
+      "id": "9e114718-9630-519e-ab18-73d2d0617e42",
+      "row_number": 3,
+      "column_type": "condiment_chutney",
+      "name": "Creamy Sesame Tahini Lemon Dip",
+      "portion_note": "2-3 Tbsp",
+      "linked_recipe_id": "1c89719f-a512-539f-856a-b3d84e3feb31",
+      "default_ingredients": [
+        {
+          "item": "Creamy Sesame Tahini Lemon Dip",
+          "portion": "2-3 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "3ffc84e3-59aa-57f8-9473-7592d62adecb",
+      "row_number": 4,
+      "column_type": "protein",
+      "name": "Tandoori Tofu Tikka Skewers",
+      "portion_note": "200g",
+      "linked_recipe_id": "760f0b91-2e04-576c-a284-c99aadcdc146",
+      "default_ingredients": [
+        {
+          "item": "Tandoori Tofu Tikka Skewers",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "7e0d1093-b4b8-543d-ac90-d0838bb147ef",
+      "row_number": 4,
+      "column_type": "fiber_veg_soup",
+      "name": "Drumstick & Lauki Healing Shorba",
+      "portion_note": "200ml",
+      "linked_recipe_id": "7fdca218-7a5a-530f-aec4-7718037263da",
+      "default_ingredients": [
+        {
+          "item": "Drumstick & Lauki Healing Shorba",
+          "portion": "200ml"
+        }
+      ]
+    },
+    {
+      "id": "c5cdee4d-8aec-50e0-acba-0869a2729309",
+      "row_number": 4,
+      "column_type": "roti_rice_wrap",
+      "name": "Jeera Gobi Chawal",
+      "portion_note": "200g",
+      "linked_recipe_id": "62c08df9-bc34-5eb6-be97-31aae9abf367",
+      "default_ingredients": [
+        {
+          "item": "Jeera Gobi Chawal",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "a471a6d3-74bf-56ba-a128-05778ad01d94",
+      "row_number": 4,
+      "column_type": "condiment_chutney",
+      "name": "Avocado Hung Curd / Cashew Curd Dip",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "89d9b73a-8779-5070-a243-7f0ed7292813",
+      "default_ingredients": [
+        {
+          "item": "Avocado Hung Curd / Cashew Curd Dip",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "78841b3a-3b68-5b9c-8d3a-9df6d2641d2b",
+      "row_number": 5,
+      "column_type": "protein",
+      "name": "Sunny Side Up Eggs in A2 Ghee",
+      "portion_note": "2 Eggs",
+      "linked_recipe_id": "8249dbff-a0cb-510f-9128-5fc558048015",
+      "default_ingredients": [
+        {
+          "item": "Sunny Side Up Eggs in A2 Ghee",
+          "portion": "2 Eggs"
+        }
+      ]
+    },
+    {
+      "id": "c3eca8de-d1a8-5b5b-9e91-bb8011de4297",
+      "row_number": 5,
+      "column_type": "fiber_veg_soup",
+      "name": "Lemon Creamy Mushrooms, Capsicum & Broccoli",
+      "portion_note": "300g (cruciferous)",
+      "linked_recipe_id": "0bedad9c-0118-5aa1-b4ac-c06f1bed0659",
+      "default_ingredients": [
+        {
+          "item": "Lemon Creamy Mushrooms, Capsicum & Broccoli",
+          "portion": "300g"
+        }
+      ]
+    },
+    {
+      "id": "bf0ccb5d-3f06-57b7-8f7b-adb656d949eb",
+      "row_number": 5,
+      "column_type": "roti_rice_wrap",
+      "name": "Zucchini Cheese Tortilla Wrap",
+      "portion_note": "1 Pc",
+      "linked_recipe_id": "a753fb87-7c27-527a-a22b-3589c61ab8fa",
+      "default_ingredients": [
+        {
+          "item": "Zucchini Cheese Tortilla Wrap",
+          "portion": "1 Pc"
+        }
+      ]
+    },
+    {
+      "id": "692bd503-f422-5709-b98e-056905b40614",
+      "row_number": 5,
+      "column_type": "condiment_chutney",
+      "name": "Roasted Tomato Pudina Chutney",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "12ccfbd3-16d4-581f-a610-c3b3a5b8b783",
+      "default_ingredients": [
+        {
+          "item": "Roasted Tomato Pudina Chutney",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "f0e43683-135b-58ce-a22b-c462d7d0a069",
+      "row_number": 6,
+      "column_type": "protein",
+      "name": "Boiled Kala Chana Rainbow Chaat",
+      "portion_note": "50g max (capped)",
+      "linked_recipe_id": "7429a491-26c5-5969-80a1-8278da43ff24",
+      "default_ingredients": [
+        {
+          "item": "Boiled Kala Chana Rainbow Chaat",
+          "portion": "50g max"
+        }
+      ]
+    },
+    {
+      "id": "f4f00d90-76c0-56e2-961b-53100bd0f00f",
+      "row_number": 6,
+      "column_type": "fiber_veg_soup",
+      "name": "Silky Pumpkin & Coconut Milk Ginger Soup",
+      "portion_note": "300g",
+      "linked_recipe_id": "e19f733f-e6f8-5683-a200-8dfd2fe700d9",
+      "default_ingredients": [
+        {
+          "item": "Silky Pumpkin & Coconut Milk Ginger Soup",
+          "portion": "300g"
+        }
+      ]
+    },
+    {
+      "id": "012fc2dc-18e6-5ac2-960c-3c08da13fbf3",
+      "row_number": 6,
+      "column_type": "roti_rice_wrap",
+      "name": "Keto Almond Flour & Cheese Dosa Crepe",
+      "portion_note": "1 Large",
+      "linked_recipe_id": "e3ef7703-0f68-56bd-9427-516362806396",
+      "default_ingredients": [
+        {
+          "item": "Keto Almond Flour & Cheese Dosa Crepe",
+          "portion": "1 Large"
+        }
+      ]
+    },
+    {
+      "id": "794b0559-3983-52f8-9865-5da3f9676340",
+      "row_number": 6,
+      "column_type": "condiment_chutney",
+      "name": "South Indian Tempered Coconut Chutney",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "e3ef7703-0f68-56bd-9427-516362806396",
+      "default_ingredients": [
+        {
+          "item": "South Indian Tempered Coconut Chutney",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "f8adbff9-1271-5bb8-88b4-94400e34223f",
+      "row_number": 7,
+      "column_type": "protein",
+      "name": "Roasted Edamame (50g) & Hemp Seed (15g) Toss",
+      "portion_note": "65g",
+      "linked_recipe_id": "6be406b4-c725-52c2-84b6-087d2764a2ac",
+      "default_ingredients": [
+        {
+          "item": "Roasted Edamame",
+          "portion": "65g"
+        }
+      ]
+    },
+    {
+      "id": "6ec87515-b613-55d4-bea2-2a0041142e95",
+      "row_number": 7,
+      "column_type": "fiber_veg_soup",
+      "name": "Sauteed Tofu & Fresh Methi Greens",
+      "portion_note": "200g",
+      "linked_recipe_id": "be3c73fc-d6e8-52aa-9c42-d9b57a75948e",
+      "default_ingredients": [
+        {
+          "item": "Sauteed Tofu & Fresh Methi Greens",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "26846b7e-4d2f-5d45-98dd-9003eac10341",
+      "row_number": 7,
+      "column_type": "roti_rice_wrap",
+      "name": "Pesto Zucchini Noodles / Zoodles",
+      "portion_note": "350g",
+      "linked_recipe_id": "6be406b4-c725-52c2-84b6-087d2764a2ac",
+      "default_ingredients": [
+        {
+          "item": "Pesto Zucchini Noodles / Zoodles",
+          "portion": "350g"
+        }
+      ]
+    },
+    {
+      "id": "2039e44c-1b9a-5fae-ada8-bb40adbca13c",
+      "row_number": 7,
+      "column_type": "condiment_chutney",
+      "name": "Probiotic Cashew Curd with Roasted Jeera",
+      "portion_note": "200g",
+      "linked_recipe_id": "d7f65cb4-c6ed-5eb3-a484-01ced1e74557",
+      "default_ingredients": [
+        {
+          "item": "Probiotic Cashew Curd with Roasted Jeera",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "4a4bdda9-a6d5-5397-9a4a-9d6d60e5afb6",
+      "row_number": 8,
+      "column_type": "protein",
+      "name": "Broccoli Walnut Egg Tikki",
+      "portion_note": "8 Pc",
+      "linked_recipe_id": "8249dbff-a0cb-510f-9128-5fc558048015",
+      "default_ingredients": [
+        {
+          "item": "Broccoli Walnut Egg Tikki",
+          "portion": "8 Pc"
+        }
+      ]
+    },
+    {
+      "id": "bce9b582-c51a-5810-b3b1-c437b854d9eb",
+      "row_number": 8,
+      "column_type": "fiber_veg_soup",
+      "name": "Air-Fryer Bharwa Bhindi",
+      "portion_note": "200g",
+      "linked_recipe_id": "a41005cf-1bbe-5cfa-befb-b53bcb1ad32a",
+      "default_ingredients": [
+        {
+          "item": "Air-Fryer Bharwa Bhindi",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "77ed354f-0c68-5811-9577-5bc9c8bfa60e",
+      "row_number": 8,
+      "column_type": "roti_rice_wrap",
+      "name": "Keto Cauliflower Poha with Peanuts",
+      "portion_note": "200g",
+      "linked_recipe_id": "62c08df9-bc34-5eb6-be97-31aae9abf367",
+      "default_ingredients": [
+        {
+          "item": "Keto Cauliflower Poha with Peanuts",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "a2bc2f87-4550-5710-bd43-ed6a6ea17879",
+      "row_number": 8,
+      "column_type": "condiment_chutney",
+      "name": "Rajasthani Garlic & Coconut Dry Chutney",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "12ccfbd3-16d4-581f-a610-c3b3a5b8b783",
+      "default_ingredients": [
+        {
+          "item": "Rajasthani Garlic & Coconut Dry Chutney",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "b957c074-b351-5c50-8380-d769c6c09a6f",
+      "row_number": 9,
+      "column_type": "protein",
+      "name": "Stuffed Bell Peppers with Vegan Cultured Cheese",
+      "portion_note": "2 Pc",
+      "linked_recipe_id": "0bedad9c-0118-5aa1-b4ac-c06f1bed0659",
+      "default_ingredients": [
+        {
+          "item": "Stuffed Bell Peppers with Vegan Cultured Cheese",
+          "portion": "2 Pc"
+        }
+      ]
+    },
+    {
+      "id": "ede1e9ec-bf29-587f-88ee-ee7d45fa1edf",
+      "row_number": 9,
+      "column_type": "fiber_veg_soup",
+      "name": "Smoky Roasted Baingan Bharta",
+      "portion_note": "200g",
+      "linked_recipe_id": "3cc643a5-53b5-5351-b2eb-0e1d888c6b9d",
+      "default_ingredients": [
+        {
+          "item": "Smoky Roasted Baingan Bharta",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "13077058-b9da-5dc0-b6c8-6f36e52860ac",
+      "row_number": 9,
+      "column_type": "roti_rice_wrap",
+      "name": "Keto Cauliflower Upma with Ginger & Curry Leaves",
+      "portion_note": "200g",
+      "linked_recipe_id": "7896b60a-d78f-5c54-a3bf-ad55bde22774",
+      "default_ingredients": [
+        {
+          "item": "Keto Cauliflower Upma with Ginger & Curry Leaves",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "962cdffd-19fa-5516-85ce-2a03640e624d",
+      "row_number": 9,
+      "column_type": "condiment_chutney",
+      "name": "Tangy Amla (Gooseberry) & Coriander Chutney",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "aaa2d6ca-db25-5774-abb5-df341def742e",
+      "default_ingredients": [
+        {
+          "item": "Tangy Amla",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "fae02e67-1775-5909-b95b-3833ef3a9920",
+      "row_number": 10,
+      "column_type": "protein",
+      "name": "Egg Vegetable Wrap with Grated Tofu Stuffing",
+      "portion_note": "2 Pc",
+      "linked_recipe_id": "a753fb87-7c27-527a-a22b-3589c61ab8fa",
+      "default_ingredients": [
+        {
+          "item": "Egg Vegetable Wrap with Grated Tofu Stuffing",
+          "portion": "2 Pc"
+        }
+      ]
+    },
+    {
+      "id": "cec56c59-a87c-596d-8c3b-4954a940b216",
+      "row_number": 10,
+      "column_type": "fiber_veg_soup",
+      "name": "Warm Spinach & Roasted Garlic Soup",
+      "portion_note": "200ml",
+      "linked_recipe_id": "3a45e395-487d-54ab-8494-5be9c57f970b",
+      "default_ingredients": [
+        {
+          "item": "Warm Spinach & Roasted Garlic Soup",
+          "portion": "200ml"
+        }
+      ]
+    },
+    {
+      "id": "c764ce5e-22e4-5e58-8dbb-f97b408a45ab",
+      "row_number": 10,
+      "column_type": "roti_rice_wrap",
+      "name": "High-Protein Chia Seeds Tadka Curd Rice",
+      "portion_note": "200g",
+      "linked_recipe_id": "d7f65cb4-c6ed-5eb3-a484-01ced1e74557",
+      "default_ingredients": [
+        {
+          "item": "High-Protein Chia Seeds Tadka Curd Rice",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "db8e9c5d-68de-5ba5-8e2e-ee3bdef1b693",
+      "row_number": 10,
+      "column_type": "condiment_chutney",
+      "name": "Extra Virgin Olive Oil, Lemon & Hemp Seed Drizzle",
+      "portion_note": "1.5 Tbsp",
+      "linked_recipe_id": "6be406b4-c725-52c2-84b6-087d2764a2ac",
+      "default_ingredients": [
+        {
+          "item": "Extra Virgin Olive Oil, Lemon & Hemp Seed Drizzle",
+          "portion": "1.5 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "e11b4fea-f3b8-5100-9571-eaea699b6329",
+      "row_number": 11,
+      "column_type": "protein",
+      "name": "Methi & Green Chilli 2-Egg Omelette",
+      "portion_note": "2 Pc",
+      "linked_recipe_id": "be3c73fc-d6e8-52aa-9c42-d9b57a75948e",
+      "default_ingredients": [
+        {
+          "item": "Methi & Green Chilli 2-Egg Omelette",
+          "portion": "2 Pc"
+        }
+      ]
+    },
+    {
+      "id": "ee9ac94d-46bf-5245-a87f-a36e16b60c7c",
+      "row_number": 11,
+      "column_type": "fiber_veg_soup",
+      "name": "Creamy Indian Zucchini / Courgette Masala Curry",
+      "portion_note": "250g",
+      "linked_recipe_id": "3cc643a5-53b5-5351-b2eb-0e1d888c6b9d",
+      "default_ingredients": [
+        {
+          "item": "Creamy Indian Zucchini / Courgette Masala Curry",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "687d949f-1c38-543e-b1ed-67e50a961308",
+      "row_number": 11,
+      "column_type": "roti_rice_wrap",
+      "name": "Coconut Cauliflower Rice with Curry Leaf Tadka",
+      "portion_note": "200g",
+      "linked_recipe_id": "a0550140-938f-5983-bde7-bb20e5048f16",
+      "default_ingredients": [
+        {
+          "item": "Coconut Cauliflower Rice with Curry Leaf Tadka",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "f6fb8f95-9c2b-539d-88c9-9f17c8848228",
+      "row_number": 11,
+      "column_type": "condiment_chutney",
+      "name": "Roasted Red Bell Pepper & Walnut Dip",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "12ccfbd3-16d4-581f-a610-c3b3a5b8b783",
+      "default_ingredients": [
+        {
+          "item": "Roasted Red Bell Pepper & Walnut Dip",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "dc201186-ae3e-5c7c-8761-9c938920c17c",
+      "row_number": 12,
+      "column_type": "protein",
+      "name": "Spinach & Vegan Cultured Cheese Balls",
+      "portion_note": "4 Pc",
+      "linked_recipe_id": "e625446d-9cf8-5b93-8367-c870f70d6682",
+      "default_ingredients": [
+        {
+          "item": "Spinach & Vegan Cultured Cheese Balls",
+          "portion": "4 Pc"
+        }
+      ]
+    },
+    {
+      "id": "b1da0474-55f7-5e31-ab7d-8262ae628c45",
+      "row_number": 12,
+      "column_type": "fiber_veg_soup",
+      "name": "Crisp Karela (Bitter Gourd) & Fennel Sabzi",
+      "portion_note": "200g",
+      "linked_recipe_id": "a41005cf-1bbe-5cfa-befb-b53bcb1ad32a",
+      "default_ingredients": [
+        {
+          "item": "Crisp Karela",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "a624bf91-3066-5157-9ac7-7c6cb54ffeec",
+      "row_number": 12,
+      "column_type": "roti_rice_wrap",
+      "name": "Keto Vegetarian Stuffed Cabbage Rolls",
+      "portion_note": "3 Rolls",
+      "linked_recipe_id": "01976545-23e2-5aec-8730-f6e1bf8a5657",
+      "default_ingredients": [
+        {
+          "item": "Keto Vegetarian Stuffed Cabbage Rolls",
+          "portion": "3 Rolls"
+        }
+      ]
+    },
+    {
+      "id": "0a8cfda1-2690-55c0-b4e0-4efeefa49c9a",
+      "row_number": 12,
+      "column_type": "condiment_chutney",
+      "name": "Low-Carb Zucchini-Tahini Hummus (- )",
+      "portion_note": "3 Tbsp",
+      "linked_recipe_id": "1c89719f-a512-539f-856a-b3d84e3feb31",
+      "default_ingredients": [
+        {
+          "item": "Low-Carb Zucchini-Tahini Hummus",
+          "portion": "3 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "39e5c277-780b-57e5-b767-88b55d95e497",
+      "row_number": 13,
+      "column_type": "protein",
+      "name": "Street-Style Boiled Egg Chaat",
+      "portion_note": "2 Eggs",
+      "linked_recipe_id": "7429a491-26c5-5969-80a1-8278da43ff24",
+      "default_ingredients": [
+        {
+          "item": "Street-Style Boiled Egg Chaat",
+          "portion": "2 Eggs"
+        }
+      ]
+    },
+    {
+      "id": "5bce4c90-0876-576b-a8fc-9209c5b392d3",
+      "row_number": 13,
+      "column_type": "fiber_veg_soup",
+      "name": "Tomato, Carrot & Beetroot Antioxidant Soup",
+      "portion_note": "200ml",
+      "linked_recipe_id": "e19f733f-e6f8-5683-a200-8dfd2fe700d9",
+      "default_ingredients": [
+        {
+          "item": "Tomato, Carrot & Beetroot Antioxidant Soup",
+          "portion": "200ml"
+        }
+      ]
+    },
+    {
+      "id": "2ec85166-2283-5e77-80fb-31ad71028a61",
+      "row_number": 13,
+      "column_type": "roti_rice_wrap",
+      "name": "Almond Flour Egg Vegetable Pancakes",
+      "portion_note": "2 Pc",
+      "linked_recipe_id": "be3c73fc-d6e8-52aa-9c42-d9b57a75948e",
+      "default_ingredients": [
+        {
+          "item": "Almond Flour Egg Vegetable Pancakes",
+          "portion": "2 Pc"
+        }
+      ]
+    },
+    {
+      "id": "cdb5a951-54c0-5ecd-b5c6-165b970f1463",
+      "row_number": 13,
+      "column_type": "condiment_chutney",
+      "name": "Cucumber, Mint & Roasted Cumin Raita",
+      "portion_note": "100g",
+      "linked_recipe_id": "d7f65cb4-c6ed-5eb3-a484-01ced1e74557",
+      "default_ingredients": [
+        {
+          "item": "Cucumber, Mint & Roasted Cumin Raita",
+          "portion": "100g"
+        }
+      ]
+    },
+    {
+      "id": "e3a942c1-56d1-5268-aa7c-dcf64677c3fe",
+      "row_number": 14,
+      "column_type": "protein",
+      "name": "Kadai Tofu with Crunchy Bell Peppers",
+      "portion_note": "250g",
+      "linked_recipe_id": "760f0b91-2e04-576c-a284-c99aadcdc146",
+      "default_ingredients": [
+        {
+          "item": "Kadai Tofu with Crunchy Bell Peppers",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "e95867a1-40eb-51c9-a2b2-c8fae880fc15",
+      "row_number": 14,
+      "column_type": "fiber_veg_soup",
+      "name": "South Indian Cabbage & Fresh Coconut Poriyal",
+      "portion_note": "300g (cruciferous)",
+      "linked_recipe_id": "01976545-23e2-5aec-8730-f6e1bf8a5657",
+      "default_ingredients": [
+        {
+          "item": "South Indian Cabbage & Fresh Coconut Poriyal",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "66dd51b7-3740-5ec8-8c37-113c26e4d627",
+      "row_number": 14,
+      "column_type": "roti_rice_wrap",
+      "name": "Keto Cauliflower Curd Rice / Thayir Sadam",
+      "portion_note": "200g",
+      "linked_recipe_id": "a0550140-938f-5983-bde7-bb20e5048f16",
+      "default_ingredients": [
+        {
+          "item": "Keto Cauliflower Curd Rice / Thayir Sadam",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "797dd297-37a2-5a30-906b-9f3f17a23ede",
+      "row_number": 14,
+      "column_type": "condiment_chutney",
+      "name": "Vibrant Mint Coriander Green Chutney",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "aaa2d6ca-db25-5774-abb5-df341def742e",
+      "default_ingredients": [
+        {
+          "item": "Vibrant Mint Coriander Green Chutney",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "19c8b4b6-4c35-5415-b192-b206d252a82a",
+      "row_number": 15,
+      "column_type": "protein",
+      "name": "Golden Coconut Milk & Turmeric Tofu Curry",
+      "portion_note": "250g",
+      "linked_recipe_id": "760f0b91-2e04-576c-a284-c99aadcdc146",
+      "default_ingredients": [
+        {
+          "item": "Golden Coconut Milk & Turmeric Tofu Curry",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "22da652f-34da-58fe-a594-d564a5f4d220",
+      "row_number": 15,
+      "column_type": "fiber_veg_soup",
+      "name": "Air-Fryer Malai Broccoli with Cardamom",
+      "portion_note": "300g (cruciferous)",
+      "linked_recipe_id": "0d8e7c7c-e5fd-5028-a78f-c369cc7f3f09",
+      "default_ingredients": [
+        {
+          "item": "Air-Fryer Malai Broccoli with Cardamom",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "df6f54d4-ed5b-5f0c-8e1b-97862aa9c84a",
+      "row_number": 15,
+      "column_type": "roti_rice_wrap",
+      "name": "Flaxseed (Alsi) & Almond Flour Missi Roti",
+      "portion_note": "2 Pc",
+      "linked_recipe_id": "aa1f97c1-853c-530c-ac90-4a5c90afbacc",
+      "default_ingredients": [
+        {
+          "item": "Flaxseed",
+          "portion": "2 Pc"
+        }
+      ]
+    },
+    {
+      "id": "0d4a7a13-9bd4-504b-bb03-4e90e69c7ee5",
+      "row_number": 15,
+      "column_type": "condiment_chutney",
+      "name": "Roasted Peanut, Sesame & Garlic Chutney",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "1c89719f-a512-539f-856a-b3d84e3feb31",
+      "default_ingredients": [
+        {
+          "item": "Roasted Peanut, Sesame & Garlic Chutney",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "0bc73b33-de02-5911-88ad-ee20552c741f",
+      "row_number": 16,
+      "column_type": "protein",
+      "name": "Dahi Tadka (Spiced Hung/Cashew Curd Curry)",
+      "portion_note": "250g",
+      "linked_recipe_id": "3764cfb8-5c08-5a1f-b45e-11826c4cb5d8",
+      "default_ingredients": [
+        {
+          "item": "Dahi Tadka",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "ff9ca68b-b73c-5dc0-abe8-17518b10fe60",
+      "row_number": 16,
+      "column_type": "fiber_veg_soup",
+      "name": "CharredPatta Gobi & Green Peas-Free Pepper Stir-Fry",
+      "portion_note": "300g (cruciferous)",
+      "linked_recipe_id": "01976545-23e2-5aec-8730-f6e1bf8a5657",
+      "default_ingredients": [
+        {
+          "item": "CharredPatta Gobi & Green Peas-Free Pepper Stir-Fry",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "a7ae9892-8a42-55bf-aaf0-bf0f2035ab11",
+      "row_number": 16,
+      "column_type": "roti_rice_wrap",
+      "name": "Keto Almond Flour Masala Uttapam",
+      "portion_note": "2 Pc",
+      "linked_recipe_id": "e3ef7703-0f68-56bd-9427-516362806396",
+      "default_ingredients": [
+        {
+          "item": "Keto Almond Flour Masala Uttapam",
+          "portion": "2 Pc"
+        }
+      ]
+    },
+    {
+      "id": "88e95092-5527-53b3-98a4-d19eba01263b",
+      "row_number": 16,
+      "column_type": "condiment_chutney",
+      "name": "Fresh Coriander, Ginger & Lemon Digestive Dip",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "aaa2d6ca-db25-5774-abb5-df341def742e",
+      "default_ingredients": [
+        {
+          "item": "Fresh Coriander, Ginger & Lemon Digestive Dip",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "7370646d-80d8-57dd-b81d-c6210ba3f6c4",
+      "row_number": 17,
+      "column_type": "protein",
+      "name": "Mushroom & Tofu Black Pepper Fry",
+      "portion_note": "250g",
+      "linked_recipe_id": "0bedad9c-0118-5aa1-b4ac-c06f1bed0659",
+      "default_ingredients": [
+        {
+          "item": "Mushroom & Tofu Black Pepper Fry",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "233016a8-9fc1-5ec8-aa77-947c42ea3e7b",
+      "row_number": 17,
+      "column_type": "fiber_veg_soup",
+      "name": "Clear Mix Veg & Moringa Leaf Healing Soup",
+      "portion_note": "200ml",
+      "linked_recipe_id": "7fdca218-7a5a-530f-aec4-7718037263da",
+      "default_ingredients": [
+        {
+          "item": "Clear Mix Veg & Moringa Leaf Healing Soup",
+          "portion": "200ml"
+        }
+      ]
+    },
+    {
+      "id": "1b154b28-31be-5b8f-80b6-326f41b60de4",
+      "row_number": 17,
+      "column_type": "roti_rice_wrap",
+      "name": "Stir-Fried Cauliflower Rice with Spring Onions",
+      "portion_note": "200g",
+      "linked_recipe_id": "62c08df9-bc34-5eb6-be97-31aae9abf367",
+      "default_ingredients": [
+        {
+          "item": "Stir-Fried Cauliflower Rice with Spring Onions",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "eb7f9bcb-cb81-5f0d-800e-cb28929c3895",
+      "row_number": 17,
+      "column_type": "condiment_chutney",
+      "name": "Smoked Brinjal & Tahini Baba Ganoush",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "1c89719f-a512-539f-856a-b3d84e3feb31",
+      "default_ingredients": [
+        {
+          "item": "Smoked Brinjal & Tahini Baba Ganoush",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "f894a2ee-bac0-5dcd-8966-cdca2910be0e",
+      "row_number": 18,
+      "column_type": "protein",
+      "name": "Tofu Makhani in Roasted Red Pepper Cream Gravy",
+      "portion_note": "250g",
+      "linked_recipe_id": "760f0b91-2e04-576c-a284-c99aadcdc146",
+      "default_ingredients": [
+        {
+          "item": "Tofu Makhani in Roasted Red Pepper Cream Gravy",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "7f354957-e8e0-5c0d-8fb8-98a1c39e1eef",
+      "row_number": 18,
+      "column_type": "fiber_veg_soup",
+      "name": "French Green Beans & Garlic Ghee Stir-Fry",
+      "portion_note": "200g",
+      "linked_recipe_id": "0bedad9c-0118-5aa1-b4ac-c06f1bed0659",
+      "default_ingredients": [
+        {
+          "item": "French Green Beans & Garlic Ghee Stir-Fry",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "11e90897-abb4-5bd0-9d1a-999155569ef4",
+      "row_number": 18,
+      "column_type": "roti_rice_wrap",
+      "name": "Keto Palak (Spinach) Almond Flour Paratha",
+      "portion_note": "2 Pc",
+      "linked_recipe_id": "aa1f97c1-853c-530c-ac90-4a5c90afbacc",
+      "default_ingredients": [
+        {
+          "item": "Keto Palak",
+          "portion": "2 Pc"
+        }
+      ]
+    },
+    {
+      "id": "e458cba1-dba4-5eaa-a4a2-575bce7c9cf5",
+      "row_number": 18,
+      "column_type": "condiment_chutney",
+      "name": "Pickled Onions in Apple Cider Vinegar",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "12ccfbd3-16d4-581f-a610-c3b3a5b8b783",
+      "default_ingredients": [
+        {
+          "item": "Pickled Onions in Apple Cider Vinegar",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "388a0984-a025-536e-b15b-e74605e1f0d2",
+      "row_number": 19,
+      "column_type": "protein",
+      "name": "Grated Egg & Crumbled Tofu Keema Masala",
+      "portion_note": "250g",
+      "linked_recipe_id": "be3c73fc-d6e8-52aa-9c42-d9b57a75948e",
+      "default_ingredients": [
+        {
+          "item": "Grated Egg & Crumbled Tofu Keema Masala",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "81a0f62d-8a07-517d-a4a3-eb277367252d",
+      "row_number": 19,
+      "column_type": "fiber_veg_soup",
+      "name": "Steamed Lauki (Bottle Gourd) & Cumin Sabzi",
+      "portion_note": "200g",
+      "linked_recipe_id": "7fdca218-7a5a-530f-aec4-7718037263da",
+      "default_ingredients": [
+        {
+          "item": "Steamed Lauki",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "828b6728-a90b-588f-9869-0746fabb48f3",
+      "row_number": 19,
+      "column_type": "roti_rice_wrap",
+      "name": "Crispy Almond & Pumpkin Seed Crackers / Lavash",
+      "portion_note": "4 Pc",
+      "linked_recipe_id": "cb0a97f7-3502-5036-ad59-97217cce84a2",
+      "default_ingredients": [
+        {
+          "item": "Crispy Almond & Pumpkin Seed Crackers / Lavash",
+          "portion": "4 Pc"
+        }
+      ]
+    },
+    {
+      "id": "421095b9-4ff0-53ab-81ef-fe2bd84b9801",
+      "row_number": 19,
+      "column_type": "condiment_chutney",
+      "name": "Spicy Curry Leaf & Coconut Chutney",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "e3ef7703-0f68-56bd-9427-516362806396",
+      "default_ingredients": [
+        {
+          "item": "Spicy Curry Leaf & Coconut Chutney",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "be2ff243-a419-5657-823c-67b112b0f94b",
+      "row_number": 20,
+      "column_type": "protein",
+      "name": "Pan-Seared Vegan Cultured Cheese & Tofu Medallions",
+      "portion_note": "200g",
+      "linked_recipe_id": "e625446d-9cf8-5b93-8367-c870f70d6682",
+      "default_ingredients": [
+        {
+          "item": "Pan-Seared Vegan Cultured Cheese & Tofu Medallions",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "72554e48-4623-5399-a46d-da135f202139",
+      "row_number": 20,
+      "column_type": "fiber_veg_soup",
+      "name": "Kakdi Koshimbir (Crunchy Cucumber Peanut Salad)",
+      "portion_note": "200g",
+      "linked_recipe_id": "62c08df9-bc34-5eb6-be97-31aae9abf367",
+      "default_ingredients": [
+        {
+          "item": "Kakdi Koshimbir",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "3d31f30c-38f1-53b9-a0c1-865f7fb99e3c",
+      "row_number": 20,
+      "column_type": "roti_rice_wrap",
+      "name": "Finely Diced Spiced Lauki 'Rice'",
+      "portion_note": "200g",
+      "linked_recipe_id": "7fdca218-7a5a-530f-aec4-7718037263da",
+      "default_ingredients": [
+        {
+          "item": "Finely Diced Spiced Lauki 'Rice'",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "141c8eb5-eb98-5242-a655-05adcf28aff8",
+      "row_number": 20,
+      "column_type": "condiment_chutney",
+      "name": "Avocado Cilantro Lime Creamy Dressing",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "89d9b73a-8779-5070-a243-7f0ed7292813",
+      "default_ingredients": [
+        {
+          "item": "Avocado Cilantro Lime Creamy Dressing",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "78cfbbe8-b4f9-59f2-9d9b-783c398b80fb",
+      "row_number": 21,
+      "column_type": "protein",
+      "name": "Ajwaini Egg Bhurji (Carom Spiced Scrambled Eggs)",
+      "portion_note": "3 Eggs",
+      "linked_recipe_id": "be3c73fc-d6e8-52aa-9c42-d9b57a75948e",
+      "default_ingredients": [
+        {
+          "item": "Ajwaini Egg Bhurji",
+          "portion": "3 Eggs"
+        }
+      ]
+    },
+    {
+      "id": "da4cf052-fae1-5504-86b9-72d1bcbc1816",
+      "row_number": 21,
+      "column_type": "fiber_veg_soup",
+      "name": "Winter Sarson, Palak & Bathua Greens Saag",
+      "portion_note": "250g",
+      "linked_recipe_id": "3a45e395-487d-54ab-8494-5be9c57f970b",
+      "default_ingredients": [
+        {
+          "item": "Winter Sarson, Palak & Bathua Greens Saag",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "417bab11-ad1f-5654-950d-e8ae60d73fa7",
+      "row_number": 21,
+      "column_type": "roti_rice_wrap",
+      "name": "Keto Coconut Flour & Isabgol Phulka",
+      "portion_note": "2 Pc",
+      "linked_recipe_id": "aa1f97c1-853c-530c-ac90-4a5c90afbacc",
+      "default_ingredients": [
+        {
+          "item": "Keto Coconut Flour & Isabgol Phulka",
+          "portion": "2 Pc"
+        }
+      ]
+    },
+    {
+      "id": "2d81329d-6d15-5f44-b892-a0230d241505",
+      "row_number": 21,
+      "column_type": "condiment_chutney",
+      "name": "Fresh Kachi Haldi (Turmeric), Ginger & Lemon Pickle",
+      "portion_note": "1 Tbsp",
+      "linked_recipe_id": "aaa2d6ca-db25-5774-abb5-df341def742e",
+      "default_ingredients": [
+        {
+          "item": "Fresh Kachi Haldi",
+          "portion": "1 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "af100da7-b62b-5a62-88e9-97ed37dd2eb8",
+      "row_number": 22,
+      "column_type": "protein",
+      "name": "Tofu Tikka Masala in Coconut-Yogurt Gravy",
+      "portion_note": "250g",
+      "linked_recipe_id": "760f0b91-2e04-576c-a284-c99aadcdc146",
+      "default_ingredients": [
+        {
+          "item": "Tofu Tikka Masala in Coconut-Yogurt Gravy",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "ae48f590-1605-5d4c-a9b5-862bc5db2dee",
+      "row_number": 22,
+      "column_type": "fiber_veg_soup",
+      "name": "Asparagus & French Beans Coconut Thoran",
+      "portion_note": "200g",
+      "linked_recipe_id": "a41005cf-1bbe-5cfa-befb-b53bcb1ad32a",
+      "default_ingredients": [
+        {
+          "item": "Asparagus & French Beans Coconut Thoran",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "54f824e8-2ad7-512c-9587-e7cfbfbe47a3",
+      "row_number": 22,
+      "column_type": "roti_rice_wrap",
+      "name": "Almond Flour Eggs Toast",
+      "portion_note": "2 Pc",
+      "linked_recipe_id": "aa1f97c1-853c-530c-ac90-4a5c90afbacc",
+      "default_ingredients": [
+        {
+          "item": "Almond Flour Eggs Toast",
+          "portion": "2 Pc"
+        }
+      ]
+    },
+    {
+      "id": "085c695e-08dd-5f85-8d15-49b8e3aaa6e8",
+      "row_number": 22,
+      "column_type": "condiment_chutney",
+      "name": "Palak (Spinach) & Toasted Walnut Raita",
+      "portion_note": "100g",
+      "linked_recipe_id": "3a45e395-487d-54ab-8494-5be9c57f970b",
+      "default_ingredients": [
+        {
+          "item": "Palak",
+          "portion": "100g"
+        }
+      ]
+    },
+    {
+      "id": "e2c4e4c4-32e6-562d-92ee-48cf46025081",
+      "row_number": 23,
+      "column_type": "protein",
+      "name": "Crispy Air-Fried Tofu Bites in Ginger-Garlic Toss",
+      "portion_note": "200g",
+      "linked_recipe_id": "cb0a97f7-3502-5036-ad59-97217cce84a2",
+      "default_ingredients": [
+        {
+          "item": "Crispy Air-Fried Tofu Bites in Ginger-Garlic Toss",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "3dd7df6c-4fe2-5993-8c4d-4c37b532c7d2",
+      "row_number": 23,
+      "column_type": "fiber_veg_soup",
+      "name": "Turmeric & Roasted Cauliflower Velouté Soup",
+      "portion_note": "300g (cruciferous)",
+      "linked_recipe_id": "e19f733f-e6f8-5683-a200-8dfd2fe700d9",
+      "default_ingredients": [
+        {
+          "item": "Turmeric & Roasted Cauliflower Velouté Soup",
+          "portion": "200ml"
+        }
+      ]
+    },
+    {
+      "id": "c9697efb-cd8c-52cb-bc91-8e9e674b655e",
+      "row_number": 23,
+      "column_type": "roti_rice_wrap",
+      "name": "Shredded Purple & Green Cabbage Slaw Base",
+      "portion_note": "200g",
+      "linked_recipe_id": "01976545-23e2-5aec-8730-f6e1bf8a5657",
+      "default_ingredients": [
+        {
+          "item": "Shredded Purple & Green Cabbage Slaw Base",
+          "portion": "200g"
+        }
+      ]
+    },
+    {
+      "id": "0f758ed9-5526-57d9-a80c-dab0ca99d069",
+      "row_number": 23,
+      "column_type": "condiment_chutney",
+      "name": "Cilantro, Pistachio & Pumpkin Seed Pesto",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "6be406b4-c725-52c2-84b6-087d2764a2ac",
+      "default_ingredients": [
+        {
+          "item": "Cilantro, Pistachio & Pumpkin Seed Pesto",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "77f51e22-f056-5405-a96c-6a4c818fd74f",
+      "row_number": 24,
+      "column_type": "protein",
+      "name": "Kala Chana (50g) & Grated Tofu Tikki Patties",
+      "portion_note": "50g max (capped)",
+      "linked_recipe_id": "7429a491-26c5-5969-80a1-8278da43ff24",
+      "default_ingredients": [
+        {
+          "item": "Kala Chana",
+          "portion": "4 Pc"
+        }
+      ]
+    },
+    {
+      "id": "631553f4-051e-5034-bce2-c6b0d93b5d67",
+      "row_number": 24,
+      "column_type": "fiber_veg_soup",
+      "name": "Methi Malai Mushroom & Broccoli Bake",
+      "portion_note": "300g (cruciferous)",
+      "linked_recipe_id": "0bedad9c-0118-5aa1-b4ac-c06f1bed0659",
+      "default_ingredients": [
+        {
+          "item": "Methi Malai Mushroom & Broccoli Bake",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "df66ba46-dbe7-5251-9b35-560d59b9a411",
+      "row_number": 24,
+      "column_type": "roti_rice_wrap",
+      "name": "Keto Gobhi-Stuffed Almond Paratha",
+      "portion_note": "1 Large",
+      "linked_recipe_id": "aa1f97c1-853c-530c-ac90-4a5c90afbacc",
+      "default_ingredients": [
+        {
+          "item": "Keto Gobhi-Stuffed Almond Paratha",
+          "portion": "1 Large"
+        }
+      ]
+    },
+    {
+      "id": "1a8f8d95-d2ee-58f6-864d-a1eeb647038f",
+      "row_number": 24,
+      "column_type": "condiment_chutney",
+      "name": "Tangy Mint, Ginger & Amchoor Chutney",
+      "portion_note": "2 Tbsp",
+      "linked_recipe_id": "aaa2d6ca-db25-5774-abb5-df341def742e",
+      "default_ingredients": [
+        {
+          "item": "Tangy Mint, Ginger & Amchoor Chutney",
+          "portion": "2 Tbsp"
+        }
+      ]
+    },
+    {
+      "id": "968236b2-5308-515f-afbf-7fea7877b4a4",
+      "row_number": 25,
+      "column_type": "protein",
+      "name": "Royal Nawabi Tofu & Vegetable Korma",
+      "portion_note": "250g",
+      "linked_recipe_id": "760f0b91-2e04-576c-a284-c99aadcdc146",
+      "default_ingredients": [
+        {
+          "item": "Royal Nawabi Tofu & Vegetable Korma",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "447e4f3a-57ef-5b66-83f7-09e812267355",
+      "row_number": 25,
+      "column_type": "fiber_veg_soup",
+      "name": "Charred Tandoori Gobi & Malai Broccoli Platter",
+      "portion_note": "300g (cruciferous)",
+      "linked_recipe_id": "0d8e7c7c-e5fd-5028-a78f-c369cc7f3f09",
+      "default_ingredients": [
+        {
+          "item": "Charred Tandoori Gobi & Malai Broccoli Platter",
+          "portion": "250g"
+        }
+      ]
+    },
+    {
+      "id": "85252b98-8a17-5946-bc67-faf2ad20a3ec",
+      "row_number": 25,
+      "column_type": "roti_rice_wrap",
+      "name": "Garlic Almond Naan Brushed with A2 Ghee",
+      "portion_note": "2 Pc",
+      "linked_recipe_id": "aa1f97c1-853c-530c-ac90-4a5c90afbacc",
+      "default_ingredients": [
+        {
+          "item": "Garlic Almond Naan Brushed with A2 Ghee",
+          "portion": "2 Pc"
+        }
+      ]
+    },
+    {
+      "id": "711a58d4-c068-57ba-9296-cf2d54fcd0d3",
+      "row_number": 25,
+      "column_type": "condiment_chutney",
+      "name": "Festive Trio: Mint Chutney, Tahini & Cashew Curd",
+      "portion_note": "3 Tbsp",
+      "linked_recipe_id": "aaa2d6ca-db25-5774-abb5-df341def742e",
+      "default_ingredients": [
+        {
+          "item": "Festive Trio: Mint Chutney, Tahini & Cashew Curd",
+          "portion": "3 Tbsp"
+        }
+      ]
+    }
+  ],
+  "kitchen_staples": [
+    {
+      "id": "99e731cf-5ca6-5ef4-937f-cfa497b9db2f",
+      "item_name": "A2 Desi Cow Ghee",
+      "quantity_label": "500 ml jar",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "648bbe32-5cce-5d90-b198-65f34b60e76c",
+      "item_name": "Kachi Ghani Cold-Pressed Mustard Oil",
+      "quantity_label": "1 L bottle",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "d9663bb6-75b5-534c-b0ad-b1abc6afca96",
+      "item_name": "Cold-Pressed Virgin Coconut Oil",
+      "quantity_label": "500 ml jar",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "ae10307e-78f1-57b6-90ce-95050d8510b4",
+      "item_name": "Extra Virgin Olive Oil",
+      "quantity_label": "500 ml bottle",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "99a202bc-bee1-54eb-a894-6f2150e37880",
+      "item_name": "Blanched Almond Flour (Badam ka Atta)",
+      "quantity_label": "1 kg pack",
+      "category": "keto_flours",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "05177e61-9174-5991-8eb0-d480c7d16120",
+      "item_name": "Psyllium Husk Powder (Isabgol)",
+      "quantity_label": "200 g pack",
+      "category": "keto_flours",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "ec3a4f76-cadc-59dc-a34f-5b8df2c54ef7",
+      "item_name": "Coconut Flour (Nariyal ka Atta)",
+      "quantity_label": "500 g pack",
+      "category": "keto_flours",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "2a3231aa-f64a-58b0-8d1a-5248268ed264",
+      "item_name": "Besan (Chickpea Flour - for Chilla blend)",
+      "quantity_label": "500 g pack",
+      "category": "keto_flours",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "91e983fb-b3b1-59bb-9b87-b245965aa77e",
+      "item_name": "Flaxseed Meal (Alsi Powder)",
+      "quantity_label": "250 g pack",
+      "category": "keto_flours",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "359f29e8-3c85-5b0f-ae8b-b8a059e964be",
+      "item_name": "Organic Chia Seeds",
+      "quantity_label": "250 g pack",
+      "category": "nuts_seeds",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "592cdb20-94f3-52d8-917b-cdb4452634ac",
+      "item_name": "Hulled Hemp Seeds",
+      "quantity_label": "200 g pack",
+      "category": "nuts_seeds",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "892680d6-ab2b-5220-a4b0-a7d401153f6e",
+      "item_name": "Brazil Nuts (1 per day ritual)",
+      "quantity_label": "150 g pack",
+      "category": "nuts_seeds",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "ce5bfb25-cec7-5256-ba9f-c76454011bb1",
+      "item_name": "Macadamia Nuts (2 per day ritual)",
+      "quantity_label": "200 g pack",
+      "category": "nuts_seeds",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "97048fb7-7d02-50a1-9915-cd23baef2742",
+      "item_name": "Walnut Halves (Akhrot)",
+      "quantity_label": "500 g pack",
+      "category": "nuts_seeds",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "66744e99-b218-59c3-a07c-267976cd63f8",
+      "item_name": "Raw Pistachios (Pista)",
+      "quantity_label": "250 g pack",
+      "category": "nuts_seeds",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "8856ca1c-0a1b-53f1-b95a-416b7119294e",
+      "item_name": "Pumpkin Seeds (Magaz)",
+      "quantity_label": "250 g pack",
+      "category": "nuts_seeds",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "7476ef9f-f3d5-568d-877c-1a1d322adcc2",
+      "item_name": "Watermelon Seeds (Tarbooj ke Beej)",
+      "quantity_label": "250 g pack",
+      "category": "nuts_seeds",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "c3352690-7491-571c-9e7a-3037e0e855a1",
+      "item_name": "White Sesame Seeds (Safed Til - for Tahini)",
+      "quantity_label": "250 g pack",
+      "category": "nuts_seeds",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "856f0dd8-da0d-545b-a04b-7650763afe72",
+      "item_name": "Moringa Powder / Moringa Balls",
+      "quantity_label": "30 balls jar",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "3c837f78-44bf-5b8b-a425-5daa9f25620a",
+      "item_name": "Wheatgrass Powder / Wheatgrass Balls",
+      "quantity_label": "30 balls jar",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "fa62ae6f-7e4a-5f4f-88f0-8a2c7bd83878",
+      "item_name": "Clean Plant / Keto Protein Powder",
+      "quantity_label": "1 kg tub",
+      "category": "protein_curd",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "3692305b-1e8c-58bc-9259-a390af5a03b6",
+      "item_name": "Blue Pea Flower Tea (Aparajita)",
+      "quantity_label": "50 g pack",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "61816838-0c9e-53a8-8c13-adfdd5403c61",
+      "item_name": "Dried Hibiscus Petals Tea (Gudhal)",
+      "quantity_label": "100 g pack",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "ab016a9d-e361-52d2-bf86-2964e664dbbf",
+      "item_name": "Sendha Namak (Himalayan Pink Rock Salt)",
+      "quantity_label": "1 kg pack",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "ddd69028-567e-5eae-97aa-34f1a24ba78c",
+      "item_name": "Organic Turmeric Powder (Haldi) & Fresh Kachi Haldi",
+      "quantity_label": "250 g",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "7d8a0d3e-f96f-51ec-a405-65d90d1e8569",
+      "item_name": "Whole Cumin (Jeera) & Roasted Jeera Powder",
+      "quantity_label": "200 g",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "56d8874a-782a-5f41-aef0-3ac8151301fe",
+      "item_name": "Black Mustard Seeds (Rai / Sarson)",
+      "quantity_label": "100 g",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "ad4813f2-600e-559d-b29d-b1882e4d045c",
+      "item_name": "Carom Seeds (Ajwain) & Fennel Seeds (Saunf)",
+      "quantity_label": "200 g",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "2531e96c-0ff8-583d-9b56-f690cb9bfdba",
+      "item_name": "Chaat Masala & Amchoor (Dry Mango Powder)",
+      "quantity_label": "100 g",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    },
+    {
+      "id": "0b60c862-4b0f-57ca-956a-162b36fb8e2b",
+      "item_name": "Kasuri Methi, Garam Masala & Cracked Black Pepper",
+      "quantity_label": "150 g",
+      "category": "masala_staple",
+      "is_kitchen_staple": true,
+      "is_checked": true
+    }
+  ],
+  "daily_quotes": [
+    {
+      "quote_date": "2026-11-03",
+      "quote_text": "Every colorful spice and leafy green on your thali is a message of vitality to your cells. Let today's meal be both joyful and deeply restorative.",
+      "ayurvedic_or_metabolic_tip": "Pair turmeric with freshly cracked black pepper and warm A2 ghee to multiply curcumin absorption by up to 2,000%."
+    },
+    {
+      "quote_date": "2026-11-04",
+      "quote_text": "Nourishing your metabolic terrain isn't about restriction—it is about flooding the body with vibrant phytonutrients, clean fats, and calm energy.",
+      "ayurvedic_or_metabolic_tip": "Morning sunlight for 15 minutes right after your lemon-chia water anchors your circadian rhythm and supports deep cellular repair at night."
+    },
+    {
+      "quote_date": "2026-11-05",
+      "quote_text": "In Indian kitchens, the tadka pan is our greatest pharmacy: cumin for digestion, curry leaves for blood sugar balance, and ginger for warmth.",
+      "ayurvedic_or_metabolic_tip": "Cruciferous vegetables like broccoli and cauliflower release sulforaphane when chopped 10 minutes before cooking."
+    },
+    {
+      "quote_date": "2026-11-06",
+      "quote_text": "When food looks vibrant and tastes delicious, relaxation activates the parasympathetic nervous system—turning every bite into healing nourishment.",
+      "ayurvedic_or_metabolic_tip": "Finishing dinner by 6:30 PM gives your mitochondria a peaceful 16-hour window for metabolic renewal."
+    },
+    {
+      "quote_date": "2026-11-07",
+      "quote_text": "A single Brazil nut for selenium, walnuts for omega-3s, and fresh mint chutney for chlorophyll—small daily rituals build extraordinary resilience.",
+      "ayurvedic_or_metabolic_tip": "Soaking chia seeds for 15 minutes creates a soothing prebiotic gel that feeds beneficial gut flora."
+    }
+  ]
+}

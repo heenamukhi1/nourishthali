@@ -1,0 +1,582 @@
+{
+  "families": [
+    {
+      "id": "fam-sharma-001",
+      "name": "Sharma Family Care Circle",
+      "invite_code": "THALI-2026",
+      "dietary_focus": "Low-Glycemic • Heart-Healthy Low-Sodium • High-Protein Sattvic Vegetarian",
+      "daily_protein_goal_g": 65,
+      "daily_fiber_goal_g": 32
+    }
+  ],
+  "family_members": [
+    {
+      "id": "mem-mataji-001",
+      "family_id": "fam-sharma-001",
+      "full_name": "Sushma Sharma (Mother)",
+      "role": "parent",
+      "preferred_text_scale": "115",
+      "health_conditions": [
+        "Type-2 Diabetes Management",
+        "Knee Joint Care"
+      ],
+      "dietary_restrictions": [
+        "Low Glycemic Index",
+        "No Refined Sugar",
+        "Soft Digestible Greens"
+      ],
+      "avatar_label": "SS"
+    },
+    {
+      "id": "mem-pitaji-002",
+      "family_id": "fam-sharma-001",
+      "full_name": "Rajendra Sharma (Father)",
+      "role": "parent",
+      "preferred_text_scale": "130",
+      "health_conditions": [
+        "Blood Pressure Care",
+        "Mild Presbyopia"
+      ],
+      "dietary_restrictions": [
+        "Low Sodium (Rock Salt)",
+        "High Soluble Fiber"
+      ],
+      "avatar_label": "RS"
+    },
+    {
+      "id": "mem-heena-003",
+      "family_id": "fam-sharma-001",
+      "full_name": "Heena (Daughter & Planner)",
+      "role": "adult_child",
+      "preferred_text_scale": "100",
+      "health_conditions": [
+        "Active Caregiver"
+      ],
+      "dietary_restrictions": [
+        "High Protein Vegetarian"
+      ],
+      "avatar_label": "HM"
+    },
+    {
+      "id": "mem-dr-mehta-004",
+      "family_id": "fam-sharma-001",
+      "full_name": "Dr. Kavita Mehta (Family Nutritionist)",
+      "role": "doctor_viewer",
+      "preferred_text_scale": "100",
+      "health_conditions": [
+        "Clinical Reviewer"
+      ],
+      "dietary_restrictions": [],
+      "avatar_label": "KM"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "ing-001",
+      "name_en": "Fresh Spinach",
+      "aisle_category": "produce",
+      "default_unit": "250 g bunch",
+      "is_diabetic_friendly": true,
+      "is_low_sodium": true
+    },
+    {
+      "id": "ing-002",
+      "name_en": "Organic Firm Tofu",
+      "aisle_category": "dairy_plant_protein",
+      "default_unit": "200 g block",
+      "is_diabetic_friendly": true,
+      "is_low_sodium": true
+    },
+    {
+      "id": "ing-003",
+      "name_en": "Split Green Moong Lentils",
+      "aisle_category": "lentils_grains",
+      "default_unit": "500 g",
+      "is_diabetic_friendly": true,
+      "is_low_sodium": true
+    },
+    {
+      "id": "ing-004",
+      "name_en": "Bottle Gourd",
+      "aisle_category": "produce",
+      "default_unit": "1 medium (500 g)",
+      "is_diabetic_friendly": true,
+      "is_low_sodium": true
+    },
+    {
+      "id": "ing-005",
+      "name_en": "Fresh Fenugreek Leaves",
+      "aisle_category": "produce",
+      "default_unit": "1 bunch",
+      "is_diabetic_friendly": true,
+      "is_low_sodium": true
+    },
+    {
+      "id": "ing-006",
+      "name_en": "Pearl Millet Flour",
+      "aisle_category": "lentils_grains",
+      "default_unit": "1 kg",
+      "is_diabetic_friendly": true,
+      "is_low_sodium": true
+    },
+    {
+      "id": "ing-007",
+      "name_en": "Homemade Low-Fat Yogurt",
+      "aisle_category": "dairy_plant_protein",
+      "default_unit": "400 g pot",
+      "is_diabetic_friendly": true,
+      "is_low_sodium": true
+    },
+    {
+      "id": "ing-008",
+      "name_en": "Roasted Cumin & Asafoetida",
+      "aisle_category": "spices_oils",
+      "default_unit": "50 g jar",
+      "is_diabetic_friendly": true,
+      "is_low_sodium": true
+    },
+    {
+      "id": "ing-009",
+      "name_en": "Fox Nuts & Almonds",
+      "aisle_category": "lentils_grains",
+      "default_unit": "200 g pouch",
+      "is_diabetic_friendly": true,
+      "is_low_sodium": true
+    },
+    {
+      "id": "ing-010",
+      "name_en": "Cold-Pressed Oil & Clarified Butter (A2 Ghee)",
+      "aisle_category": "spices_oils",
+      "default_unit": "250 ml bottle",
+      "is_diabetic_friendly": true,
+      "is_low_sodium": true
+    }
+  ],
+  "dishes": [
+    {
+      "id": "dish-palak-tofu",
+      "slug": "palak-tofu",
+      "title_en": "Spinach & Organic Tofu Curry (Palak Tofu)",
+      "category": "katori_curry",
+      "meal_slot": "lunch",
+      "glycemic_index": "low",
+      "calories_kcal": 210,
+      "protein_g": 16.5,
+      "fiber_g": 5.8,
+      "sodium_mg": 135,
+      "prep_time_mins": 20,
+      "digestibility_note_en": "Blanched spinach puréed smooth with ginger and asafoetida; gentle on the stomach and rich in plant calcium and iron.",
+      "ayurvedic_benefit": "Supports steady post-meal blood glucose & anti-inflammatory balance",
+      "steps_en": [
+        "Blanch fresh spinach leaves in warm water for 2 minutes and blend into a smooth emerald purée with fresh ginger.",
+        "Warm 1 teaspoon A2 ghee with cumin seeds and a pinch of asafoetida for easy senior digestion.",
+        "Simmer soft cubes of organic tofu in the spinach gravy for 6 minutes with minimal rock salt."
+      ],
+      "ingredients_list": [
+        "Fresh Spinach (250 g)",
+        "Organic Firm Tofu (200 g)",
+        "Roasted Cumin & Asafoetida (1 tsp)",
+        "Cold-Pressed Oil & A2 Ghee (1 tsp)"
+      ]
+    },
+    {
+      "id": "dish-moong-cheela",
+      "slug": "moong-dal-cheela",
+      "title_en": "Savory Green Moong Lentil Crepes",
+      "category": "snack_cheela",
+      "meal_slot": "breakfast",
+      "glycemic_index": "low",
+      "calories_kcal": 195,
+      "protein_g": 13.2,
+      "fiber_g": 4.9,
+      "sodium_mg": 120,
+      "prep_time_mins": 15,
+      "digestibility_note_en": "Soaked split green moong ground with carom seeds and grated bottle gourd; soft, warm, and high-protein.",
+      "ayurvedic_benefit": "Sustains morning energy without blood sugar spikes",
+      "steps_en": [
+        "Grind 4-hour soaked split green moong lentils with ginger, cumin, and fresh coriander leaves into a pourable batter.",
+        "Fold in finely grated bottle gourd to keep every crepe extra soft and hydrating for seniors.",
+        "Cook on a cast-iron skillet on medium flame with a few drops of cold-pressed oil until golden."
+      ],
+      "ingredients_list": [
+        "Split Green Moong Lentils (150 g)",
+        "Bottle Gourd (100 g grated)",
+        "Roasted Cumin & Asafoetida (1/2 tsp)"
+      ]
+    },
+    {
+      "id": "dish-methi-bajra-roti",
+      "slug": "methi-bajra-roti",
+      "title_en": "Fenugreek & Pearl Millet Flatbread",
+      "category": "roti_grain",
+      "meal_slot": "lunch",
+      "glycemic_index": "low",
+      "calories_kcal": 175,
+      "protein_g": 6.4,
+      "fiber_g": 6.2,
+      "sodium_mg": 85,
+      "prep_time_mins": 18,
+      "digestibility_note_en": "Kneaded with warm water and finely chopped fenugreek leaves for a pillowy, easy-to-chew millet flatbread.",
+      "ayurvedic_benefit": "Fenugreek naturally supports healthy insulin sensitivity and joint warmth",
+      "steps_en": [
+        "Mix pearl millet flour with finely chopped fresh fenugreek leaves and a pinch of carom seeds.",
+        "Knead with warm water for 4 minutes so the gluten-free dough becomes supple and yields soft flatbreads.",
+        "Roast on a warm skillet and brush lightly with 1/2 teaspoon A2 ghee so it remains soft for hours."
+      ],
+      "ingredients_list": [
+        "Pearl Millet Flour (120 g)",
+        "Fresh Fenugreek Leaves (1 cup)",
+        "Cold-Pressed Oil & A2 Ghee (1/2 tsp)"
+      ]
+    },
+    {
+      "id": "dish-lauki-moong-dal",
+      "slug": "lauki-moong-dal",
+      "title_en": "Bottle Gourd & Split Moong Lentil Soup",
+      "category": "dal_legume",
+      "meal_slot": "dinner",
+      "glycemic_index": "low",
+      "calories_kcal": 185,
+      "protein_g": 12.8,
+      "fiber_g": 5.4,
+      "sodium_mg": 110,
+      "prep_time_mins": 22,
+      "digestibility_note_en": "Comforting yellow and green moong simmered with tender bottle gourd cubes — ideal light evening meal.",
+      "ayurvedic_benefit": "Heart-protective potassium from bottle gourd + gentle plant protein for restful sleep",
+      "steps_en": [
+        "Pressure cook washed split moong lentils with diced bottle gourd, turmeric, and ginger until soft.",
+        "Prepare a mild tempering of cumin seeds, asafoetida, and curry leaves in 1 teaspoon A2 ghee.",
+        "Garnish with fresh coriander and a squeeze of lemon juice instead of excess salt."
+      ],
+      "ingredients_list": [
+        "Split Green Moong Lentils (100 g)",
+        "Bottle Gourd (250 g)",
+        "Roasted Cumin & Asafoetida (1 tsp)"
+      ]
+    },
+    {
+      "id": "dish-pudina-dahi-raita",
+      "slug": "pudina-dahi-raita",
+      "title_en": "Mint & Roasted Cumin Probiotic Yogurt",
+      "category": "raita_probiotic",
+      "meal_slot": "lunch",
+      "glycemic_index": "low",
+      "calories_kcal": 95,
+      "protein_g": 6.2,
+      "fiber_g": 1.4,
+      "sodium_mg": 75,
+      "prep_time_mins": 8,
+      "digestibility_note_en": "Probiotic homemade yogurt whisked with cooling mint and roasted cumin to aid gut health.",
+      "ayurvedic_benefit": "Natural gut probiotics + digestive enzymes from roasted cumin",
+      "steps_en": [
+        "Whisk fresh homemade low-fat yogurt until creamy and smooth.",
+        "Stir in crushed mint leaves and freshly roasted cumin powder.",
+        "Serve at room temperature (never ice-cold) to protect senior throat and digestion."
+      ],
+      "ingredients_list": [
+        "Homemade Low-Fat Yogurt (200 g)",
+        "Roasted Cumin & Asafoetida (1/2 tsp)"
+      ]
+    },
+    {
+      "id": "dish-roasted-makhana-badam",
+      "slug": "roasted-makhana-badam",
+      "title_en": "Turmeric Roasted Fox Nuts & Almonds",
+      "category": "snack_cheela",
+      "meal_slot": "evening_chai",
+      "glycemic_index": "low",
+      "calories_kcal": 140,
+      "protein_g": 5.8,
+      "fiber_g": 3.1,
+      "sodium_mg": 45,
+      "prep_time_mins": 10,
+      "digestibility_note_en": "Crunch-roasted lotus seeds with turmeric and crushed black pepper; zero trans-fat evening snack.",
+      "ayurvedic_benefit": "High calcium and magnesium for senior bone density + low sodium for blood pressure",
+      "steps_en": [
+        "Dry roast fox nuts and halved almonds on low heat for 7 minutes until crisp.",
+        "Toss with 1/2 teaspoon A2 ghee, turmeric, and freshly ground black pepper.",
+        "Store in an airtight glass jar for easy afternoon hunger cravings."
+      ],
+      "ingredients_list": [
+        "Fox Nuts & Almonds (100 g)",
+        "Cold-Pressed Oil & A2 Ghee (1/2 tsp)"
+      ]
+    }
+  ],
+  "dish_ingredients": [
+    {
+      "id": "di-001",
+      "dish_id": "dish-palak-tofu",
+      "ingredient_id": "ing-001",
+      "quantity": 250,
+      "unit_en": "g",
+      "preparation_note_en": "Washed & blanched"
+    },
+    {
+      "id": "di-002",
+      "dish_id": "dish-palak-tofu",
+      "ingredient_id": "ing-002",
+      "quantity": 200,
+      "unit_en": "g",
+      "preparation_note_en": "Cut into soft bite-sized cubes"
+    },
+    {
+      "id": "di-003",
+      "dish_id": "dish-moong-cheela",
+      "ingredient_id": "ing-003",
+      "quantity": 150,
+      "unit_en": "g",
+      "preparation_note_en": "Soaked 4 hours"
+    },
+    {
+      "id": "di-004",
+      "dish_id": "dish-methi-bajra-roti",
+      "ingredient_id": "ing-005",
+      "quantity": 100,
+      "unit_en": "g",
+      "preparation_note_en": "Finely chopped tender leaves"
+    },
+    {
+      "id": "di-005",
+      "dish_id": "dish-methi-bajra-roti",
+      "ingredient_id": "ing-006",
+      "quantity": 120,
+      "unit_en": "g",
+      "preparation_note_en": "Kneaded with warm water"
+    },
+    {
+      "id": "di-006",
+      "dish_id": "dish-lauki-moong-dal",
+      "ingredient_id": "ing-004",
+      "quantity": 250,
+      "unit_en": "g",
+      "preparation_note_en": "Peeled and diced small"
+    }
+  ],
+  "thali_plans": [
+    {
+      "id": "plan-breakfast-today",
+      "family_id": "fam-sharma-001",
+      "plan_date": "2026-11-02",
+      "meal_slot": "breakfast",
+      "slot_label": "Morning Breakfast (8:30 AM)",
+      "title_en": "Warm High-Protein Moong Crepe Thali",
+      "status": "enjoyed",
+      "assigned_cook_id": "mem-mataji-001",
+      "doctor_approved": true,
+      "notes": "Served with mint chutney and warm fenugreek water",
+      "dish_ids": [
+        "dish-moong-cheela"
+      ]
+    },
+    {
+      "id": "plan-lunch-today",
+      "family_id": "fam-sharma-001",
+      "plan_date": "2026-11-02",
+      "meal_slot": "lunch",
+      "slot_label": "Midday Balanced Thali (1:00 PM)",
+      "title_en": "Iron & Calcium Rich Spinach Tofu + Millet Thali",
+      "status": "ready",
+      "assigned_cook_id": "mem-heena-003",
+      "doctor_approved": true,
+      "notes": "Low-sodium rock salt preparation; extra soft flatbreads for Father",
+      "dish_ids": [
+        "dish-palak-tofu",
+        "dish-methi-bajra-roti",
+        "dish-pudina-dahi-raita"
+      ]
+    },
+    {
+      "id": "plan-chai-today",
+      "family_id": "fam-sharma-001",
+      "plan_date": "2026-11-02",
+      "meal_slot": "evening_chai",
+      "slot_label": "Evening Tea & Crunch (4:30 PM)",
+      "title_en": "Turmeric Roasted Fox Nuts & Almond Bowl",
+      "status": "planned",
+      "assigned_cook_id": "mem-pitaji-002",
+      "doctor_approved": true,
+      "notes": "Pair with sugar-free ginger basil herbal tea",
+      "dish_ids": [
+        "dish-roasted-makhana-badam"
+      ]
+    },
+    {
+      "id": "plan-dinner-today",
+      "family_id": "fam-sharma-001",
+      "plan_date": "2026-11-02",
+      "meal_slot": "dinner",
+      "slot_label": "Early Light Dinner (7:30 PM)",
+      "title_en": "Soothing Bottle Gourd & Moong Lentil Bowl",
+      "status": "planned",
+      "assigned_cook_id": "mem-heena-003",
+      "doctor_approved": true,
+      "notes": "Light on digestion before 8:00 PM",
+      "dish_ids": [
+        "dish-lauki-moong-dal"
+      ]
+    }
+  ],
+  "thali_plan_items": [
+    {
+      "id": "tpi-001",
+      "thali_plan_id": "plan-breakfast-today",
+      "dish_id": "dish-moong-cheela",
+      "portion_katoris": 2,
+      "custom_modification_en": "Extra grated bottle gourd for softness"
+    },
+    {
+      "id": "tpi-002",
+      "thali_plan_id": "plan-lunch-today",
+      "dish_id": "dish-palak-tofu",
+      "portion_katoris": 1.5,
+      "custom_modification_en": "Mild ginger-asafoetida tempering, no red chili"
+    },
+    {
+      "id": "tpi-003",
+      "thali_plan_id": "plan-lunch-today",
+      "dish_id": "dish-methi-bajra-roti",
+      "portion_katoris": 2,
+      "custom_modification_en": "Brushed with 1/2 tsp A2 ghee"
+    },
+    {
+      "id": "tpi-004",
+      "thali_plan_id": "plan-lunch-today",
+      "dish_id": "dish-pudina-dahi-raita",
+      "portion_katoris": 1,
+      "custom_modification_en": "Room temperature yogurt"
+    },
+    {
+      "id": "tpi-005",
+      "thali_plan_id": "plan-chai-today",
+      "dish_id": "dish-roasted-makhana-badam",
+      "portion_katoris": 1,
+      "custom_modification_en": "Lightly crushed almonds for easy chewing"
+    },
+    {
+      "id": "tpi-006",
+      "thali_plan_id": "plan-dinner-today",
+      "dish_id": "dish-lauki-moong-dal",
+      "portion_katoris": 1.5,
+      "custom_modification_en": "Well-mashed lentils with fresh lemon"
+    }
+  ],
+  "grocery_items": [
+    {
+      "id": "groc-001",
+      "family_id": "fam-sharma-001",
+      "ingredient_id": "ing-001",
+      "label": "Fresh Spinach",
+      "aisle_category": "produce",
+      "quantity_display": "2 bunches (500 g)",
+      "is_checked": true,
+      "added_by_member_id": "mem-mataji-001",
+      "for_plan_date": "2026-11-02"
+    },
+    {
+      "id": "groc-002",
+      "family_id": "fam-sharma-001",
+      "ingredient_id": "ing-002",
+      "label": "Organic Firm Tofu",
+      "aisle_category": "dairy_plant_protein",
+      "quantity_display": "2 packs (400 g)",
+      "is_checked": true,
+      "added_by_member_id": "mem-heena-003",
+      "for_plan_date": "2026-11-02"
+    },
+    {
+      "id": "groc-003",
+      "family_id": "fam-sharma-001",
+      "ingredient_id": "ing-004",
+      "label": "Bottle Gourd",
+      "aisle_category": "produce",
+      "quantity_display": "1 tender medium gourd",
+      "is_checked": false,
+      "added_by_member_id": "mem-pitaji-002",
+      "for_plan_date": "2026-11-02"
+    },
+    {
+      "id": "groc-004",
+      "family_id": "fam-sharma-001",
+      "ingredient_id": "ing-005",
+      "label": "Fresh Fenugreek Leaves",
+      "aisle_category": "produce",
+      "quantity_display": "1 fresh bunch",
+      "is_checked": false,
+      "added_by_member_id": "mem-mataji-001",
+      "for_plan_date": "2026-11-02"
+    },
+    {
+      "id": "groc-005",
+      "family_id": "fam-sharma-001",
+      "ingredient_id": "ing-003",
+      "label": "Split Green Moong Lentils",
+      "aisle_category": "lentils_grains",
+      "quantity_display": "1 kg pack",
+      "is_checked": false,
+      "added_by_member_id": "mem-heena-003",
+      "for_plan_date": "2026-11-02"
+    },
+    {
+      "id": "groc-006",
+      "family_id": "fam-sharma-001",
+      "ingredient_id": "ing-006",
+      "label": "Pearl Millet Flour",
+      "aisle_category": "lentils_grains",
+      "quantity_display": "1 kg stone-ground",
+      "is_checked": true,
+      "added_by_member_id": "mem-pitaji-002",
+      "for_plan_date": "2026-11-02"
+    },
+    {
+      "id": "groc-007",
+      "family_id": "fam-sharma-001",
+      "ingredient_id": "ing-007",
+      "label": "Homemade Low-Fat Yogurt",
+      "aisle_category": "dairy_plant_protein",
+      "quantity_display": "500 g clay pot",
+      "is_checked": false,
+      "added_by_member_id": "mem-mataji-001",
+      "for_plan_date": "2026-11-02"
+    },
+    {
+      "id": "groc-008",
+      "family_id": "fam-sharma-001",
+      "ingredient_id": "ing-009",
+      "label": "Fox Nuts & Almonds",
+      "aisle_category": "lentils_grains",
+      "quantity_display": "250 g jar",
+      "is_checked": false,
+      "added_by_member_id": "mem-heena-003",
+      "for_plan_date": "2026-11-02"
+    }
+  ],
+  "family_checkins": [
+    {
+      "id": "chk-001",
+      "family_id": "fam-sharma-001",
+      "member_id": "mem-mataji-001",
+      "member_name": "Sushma Sharma (Mother)",
+      "thali_plan_id": "plan-breakfast-today",
+      "checkin_date": "2026-11-02",
+      "energy_rating": 5,
+      "digestion_comfort": "excellent",
+      "post_meal_glucose_mg_dl": 118,
+      "water_glasses": 7,
+      "note_en": "Savory Green Moong Lentil Crepes were very soft and tasty. Post-breakfast glucose stayed steady at 118 mg/dL!"
+    },
+    {
+      "id": "chk-002",
+      "family_id": "fam-sharma-001",
+      "member_id": "mem-pitaji-002",
+      "member_name": "Rajendra Sharma (Father)",
+      "thali_plan_id": "plan-lunch-today",
+      "checkin_date": "2026-11-02",
+      "energy_rating": 5,
+      "digestion_comfort": "excellent",
+      "post_meal_glucose_mg_dl": 124,
+      "water_glasses": 6,
+      "note_en": "Loved the Spinach & Tofu Curry and Fenugreek Millet Flatbread! Rock salt seasoning felt light and soothing."
+    }
+  ]
+}
