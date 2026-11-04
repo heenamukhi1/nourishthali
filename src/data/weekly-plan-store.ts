@@ -112,6 +112,11 @@ export const FULL_COLUMN_POOLS: Record<
   chutney: buildColumnPool("condiment_chutney", ["chutney_dip"]),
 };
 
+export const PROTEIN_OPTIONS = FULL_COLUMN_POOLS.protein;
+export const FIBER_OPTIONS = FULL_COLUMN_POOLS.fiber;
+export const CARB_OPTIONS = FULL_COLUMN_POOLS.carb;
+export const CHUTNEY_OPTIONS = FULL_COLUMN_POOLS.chutney;
+
 /**
  * Resolves the best matching recipe from the Supabase recipes for a given dish label.
  */
