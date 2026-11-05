@@ -17,6 +17,8 @@ import {
   TODAY_DAY_INDEX,
   fetchSharedWeeklyPlanFromSupabase,
   findRecipeForDishLabel,
+  getTodayDayIndex,
+  getCurrentWeekDateLabels,
   loadWeeklyPlanFromStorage,
   saveWeeklyPlanToStorage,
   type DayPlanRecord,
@@ -28,17 +30,31 @@ interface WeeklyPlanClientProps {
   allRecipes: SupabaseRecipeRecord[];
 }
 
-const WEEK_LABELS = [
-  "November 2–8",
-  "November 9–15",
-  "November 16–22",
-  "November 23–29",
-];
+function getDynamicWeekRangeLabel(offset = 0): string {
+  const now = new Date();
+  const currentDay = now.getDay();
+  const distanceToMonday = (currentDay + 6) % 7;
+  const start = new Date(now);
+  start.setDate(now.getDate() - distanceToMonday + offset * 7);
+  const end = new Date(start);
+  end.setDate(start.getDate() + 6);
+
+  const startMonth = start.toLocaleDateString("en-US", { month: "long" });
+  const endMonth = end.toLocaleDateString("en-US", { month: "long" });
+  const startDay = start.getDate();
+  const endDay = end.getDate();
+
+  if (startMonth === endMonth) {
+    return `${startMonth} ${startDay}–${endDay}`;
+  }
+  return `${startMonth} ${startDay} – ${endMonth} ${endDay}`;
+}
 
 export function WeeklyPlanClient({ allRecipes }: WeeklyPlanClientProps) {
   const [weeklyPlan, setWeeklyPlan] =
     useState<DayPlanRecord[]>(DEFAULT_WEEKLY_PLAN);
   const [weekOffset, setWeekOffset] = useState<number>(0);
+  const [liveTodayIndex, setLiveTodayIndex] = useState<number>(TODAY_DAY_INDEX);
 
   // Editing modal state: which day (0..6) and which meal slot ("brunch" | "dinner")
   const [editingTarget, setEditingTarget] = useState<{
@@ -49,6 +65,7 @@ export function WeeklyPlanClient({ allRecipes }: WeeklyPlanClientProps) {
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
   useEffect(() => {
+    setLiveTodayIndex(getTodayDayIndex());
     setWeeklyPlan(loadWeeklyPlanFromStorage());
     fetchSharedWeeklyPlanFromSupabase().then((remotePlan) => {
       if (remotePlan) {
@@ -96,11 +113,7 @@ export function WeeklyPlanClient({ allRecipes }: WeeklyPlanClientProps) {
       ? activeEditingDay[editingTarget.slot]
       : null;
 
-  const currentWeekRange =
-    WEEK_LABELS[
-      ((weekOffset % WEEK_LABELS.length) + WEEK_LABELS.length) %
-        WEEK_LABELS.length
-    ];
+  const currentWeekRange = getDynamicWeekRangeLabel(weekOffset);
 
   return (
     <div className="min-h-screen bg-[#F5F2EB] text-[#1F2721]">
@@ -267,7 +280,7 @@ export function WeeklyPlanClient({ allRecipes }: WeeklyPlanClientProps) {
                 allRecipes
               );
 
-              const isToday = day.dayIndex === TODAY_DAY_INDEX;
+              const isToday = day.dayIndex === liveTodayIndex && weekOffset === 0;
 
               return (
                 <div

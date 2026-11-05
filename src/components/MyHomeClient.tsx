@@ -31,6 +31,7 @@ import {
   TODAY_DAY_INDEX,
   loadWeeklyPlanFromStorage,
   fetchSharedWeeklyPlanFromSupabase,
+  getTodayDayIndex,
   type DayPlanRecord,
 } from "@/data/weekly-plan-store";
 import { createClient, isSupabaseConfigured } from "@/utils/supabase/client";
@@ -181,13 +182,19 @@ export function MyHomeClient() {
       typeof window !== "undefined"
         ? window.location.origin
         : "http://localhost:3000";
+    const liveIndex = getTodayDayIndex();
+    const liveToday = weeklyPlan[liveIndex] ?? weeklyPlan[0];
     const subject = encodeURIComponent(
       `Invitation to join ${homeState?.homeName || "Mukhi Family Home"} on NourishThali`
     );
     const body = encodeURIComponent(
       `Hi ${name || "Family"},\n\nYou have been invited to join our shared ${
         homeState?.homeName || "Mukhi Family Home"
-      } on NourishThali!\n\nWith our shared Family Home, all family members can view and edit:\n• Today's Daily Plan (Tuesday, Nov 3): ${origin}/\n• Our Shared Weekly Plan (Mon Nov 2 – Sun Nov 8): ${origin}/weekly-plan\n• Custom Family Keto Recipes: ${origin}/my-recipes\n\nFamily Invite Code: ${
+      } on NourishThali!\n\nWith our shared Family Home, all family members can view and edit:\n• Today's Daily Plan (${
+        liveToday.dayName
+      }, ${
+        liveToday.dateLabel
+      }): ${origin}/\n• Our Shared Weekly Plan: ${origin}/weekly-plan\n• Custom Family Keto Recipes: ${origin}/my-recipes\n\nFamily Invite Code: ${
         homeState?.inviteCode || "MUKHI-2026"
       }\n\nClick here to sign in with your Gmail (${email}) and join our Home:\n${origin}/my-home?invite=${
         homeState?.inviteCode || "MUKHI-2026"
@@ -413,7 +420,8 @@ export function MyHomeClient() {
     setTimeout(() => setCopiedLink(false), 2000);
   }
 
-  const todayPlan = weeklyPlan[TODAY_DAY_INDEX] ?? weeklyPlan[1];
+  const todayIndex = getTodayDayIndex();
+  const todayPlan = weeklyPlan[todayIndex] ?? weeklyPlan[0];
 
   return (
     <main className="mx-auto max-w-6xl px-6 pb-20 pt-2">
@@ -431,8 +439,10 @@ export function MyHomeClient() {
             <p className="mt-1.5 max-w-2xl text-sm text-[#4A524C]">
               Create or join a Family Home and invite family members via Gmail so
               everyone in the household can collaborate on{" "}
-              <strong>Today&apos;s Daily Plan (Tuesday, Nov 3)</strong>, the{" "}
-              <strong>Monday–Sunday Weekly Plan</strong>, and the{" "}
+              <strong>
+                Today&apos;s Daily Plan ({todayPlan.dayName}, {todayPlan.dateLabel})
+              </strong>
+              , the <strong>Monday–Sunday Weekly Plan</strong>, and the{" "}
               <strong>Bikaner Mandi Shopping List</strong> in real time.
             </p>
 
@@ -975,7 +985,7 @@ export function MyHomeClient() {
               className="inline-flex items-center gap-2 rounded-full border border-[#708C74] bg-[#F3F8F3] px-4 py-2 text-xs font-semibold text-[#2E4833] hover:bg-[#E4EFE5]"
             >
               <Calendar className="h-3.5 w-3.5" />
-              Open Today&apos;s Plan (Tue, Nov 3)
+              Open Today&apos;s Plan ({todayPlan.dayShort}, {todayPlan.dateLabel})
             </Link>
             <Link
               href="/weekly-plan"
@@ -1042,7 +1052,7 @@ export function MyHomeClient() {
         {/* 7-Day Compact Shared Grid */}
         <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-7">
           {weeklyPlan.map((day, idx) => {
-            const isToday = idx === TODAY_DAY_INDEX;
+            const isToday = idx === todayIndex;
             return (
               <div
                 key={day.dayIndex}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="thaliGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FAF6EE" />
+      <stop offset="70%" stop-color="#F3EDE0" />
+      <stop offset="100%" stop-color="#E3D8C3" />
+    </radialGradient>
+    <linearGradient id="goldRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#8C8270" />
+      <stop offset="100%" stop-color="#2D4A3E" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#14241B" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect / circle for Android maskable icon safe zone -->
+  <rect width="512" height="512" rx="112" fill="#FAF7F2" />
+
+  <!-- Outer Thali Rim with soft shadow -->
+  <circle cx="256" cy="256" r="205" fill="url(#thaliGrad)" stroke="url(#goldRim)" stroke-width="16" filter="url(#shadow)" />
+
+  <!-- Inner Thali Compartment Groove -->
+  <circle cx="256" cy="256" r="155" fill="none" stroke="#C8BEAC" stroke-width="6" stroke-dasharray="6 4" opacity="0.7" />
+  <circle cx="256" cy="256" r="142" fill="#FAF7F2" stroke="#8C8270" stroke-width="3" />
+
+  <!-- Botanical Herb Sprig (Integrative Oncology Terrain) -->
+  <g transform="translate(80, 70) scale(7.5)">
+    <path d="M8 38C13 28 18 19 28 8" stroke="#2D4A3E" stroke-width="2.2" stroke-linecap="round" />
+    <ellipse cx="12" cy="28" rx="4.5" ry="2.2" transform="rotate(-40 12 28)" fill="#426B57" />
+    <ellipse cx="18" cy="21" rx="4.5" ry="2.2" transform="rotate(-40 18 21)" fill="#5A846E" />
+    <ellipse cx="24" cy="14" rx="4.2" ry="2.0" transform="rotate(-40 24 14)" fill="#709C84" />
+    
+    <ellipse cx="17" cy="31" rx="4.5" ry="2.2" transform="rotate(-10 17 31)" fill="#426B57" />
+    <ellipse cx="23" cy="24" rx="4.5" ry="2.2" transform="rotate(-10 23 24)" fill="#5A846E" />
+    <ellipse cx="29" cy="17" rx="4.2" ry="2.0" transform="rotate(-10 29 17)" fill="#709C84" />
+    <circle cx="29" cy="7" r="2" fill="#C2744B" />
+  </g>
+</svg>

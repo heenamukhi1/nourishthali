@@ -29,6 +29,7 @@ import {
   TODAY_DAY_INDEX,
   fetchSharedWeeklyPlanFromSupabase,
   findRecipeForDishLabel,
+  getTodayDayIndex,
   loadWeeklyPlanFromStorage,
   saveWeeklyPlanToStorage,
   type DayPlanRecord,
@@ -50,7 +51,7 @@ export function NourishThaliDashboard({
   const [weeklyPlan, setWeeklyPlan] =
     useState<DayPlanRecord[]>(DEFAULT_WEEKLY_PLAN);
   const [activeDayIndex, setActiveDayIndex] =
-    useState<number>(TODAY_DAY_INDEX); // 1 = Tuesday, Nov 3 (Today)
+    useState<number>(TODAY_DAY_INDEX);
 
   // Main page tab mode ("overview" shows Meals + Inspiring Thalis + Tracker + Shopping; "tracker" focuses on Daily Tracker)
   const [mainTab, setMainTab] = useState<"overview" | "tracker">("overview");
@@ -63,6 +64,10 @@ export function NourishThaliDashboard({
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
   useEffect(() => {
+    // Dynamically set today's index in the user's browser timezone
+    const liveTodayIndex = getTodayDayIndex();
+    setActiveDayIndex(liveTodayIndex);
+
     setWeeklyPlan(loadWeeklyPlanFromStorage());
     fetchSharedWeeklyPlanFromSupabase().then((remotePlan) => {
       if (remotePlan) {

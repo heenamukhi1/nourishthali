@@ -33,9 +33,54 @@ export interface FormulaColumnOption {
 }
 
 /**
- * Today is Tuesday, November 3, 2026 (dayIndex = 1).
+ * Returns the 0-indexed day of the week according to the user's current local timezone:
+ * 0 = Monday, 1 = Tuesday, 2 = Wednesday, 3 = Thursday, 4 = Friday, 5 = Saturday, 6 = Sunday.
  */
-export const TODAY_DAY_INDEX = 1;
+export function getTodayDayIndex(now: Date = new Date()): number {
+  const day = now.getDay(); // 0 is Sunday, 1 is Monday ... 6 is Saturday
+  return day === 0 ? 6 : day - 1;
+}
+
+/**
+ * Returns dynamic date labels for Monday through Sunday based on the current calendar week
+ * in the user's local timezone.
+ */
+export function getCurrentWeekDateLabels(baseDate: Date = new Date()): Array<{
+  dayIndex: number;
+  dayShort: string;
+  dayName: string;
+  dateLabel: string;
+  isoDate: string;
+}> {
+  const currentDay = baseDate.getDay();
+  const distanceToMonday = (currentDay + 6) % 7;
+  const monday = new Date(baseDate);
+  monday.setDate(baseDate.getDate() - distanceToMonday);
+
+  const days = [];
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(monday);
+    d.setDate(monday.getDate() + i);
+
+    const year = d.getFullYear();
+    const month = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
+
+    days.push({
+      dayIndex: i,
+      dayShort: d.toLocaleDateString("en-US", { weekday: "short" }),
+      dayName: d.toLocaleDateString("en-US", { weekday: "long" }),
+      dateLabel: d.toLocaleDateString("en-US", { month: "short", day: "numeric" }),
+      isoDate: `${year}-${month}-${day}`,
+    });
+  }
+  return days;
+}
+
+/**
+ * Dynamic getter for today's day index based on the user's current local date and timezone.
+ */
+export const TODAY_DAY_INDEX = getTodayDayIndex();
 
 const rawFormulaItems = (seedJson.formula_items || []) as Array<{
   id: string;
@@ -391,21 +436,39 @@ export const DEFAULT_WEEKLY_PLAN: DayPlanRecord[] = [
 
 const STORAGE_KEY = "nourishthali_weekly_plan_v2";
 
+/**
+ * Synchronizes the dates (dayShort, dayName, dateLabel) of a 7-day plan with the current
+ * real-world calendar week in the user's timezone while preserving all planned meals.
+ */
+export function syncPlanDatesWithCurrentWeek(plan: DayPlanRecord[]): DayPlanRecord[] {
+  const currentWeekDays = getCurrentWeekDateLabels();
+  return plan.map((day, idx) => {
+    const freshMeta = currentWeekDays[idx] || currentWeekDays[0];
+    return {
+      ...day,
+      dayIndex: idx,
+      dayShort: freshMeta.dayShort,
+      dayName: freshMeta.dayName,
+      dateLabel: freshMeta.dateLabel,
+    };
+  });
+}
+
 export function loadWeeklyPlanFromStorage(): DayPlanRecord[] {
   if (typeof window === "undefined") {
-    return DEFAULT_WEEKLY_PLAN;
+    return syncPlanDatesWithCurrentWeek(DEFAULT_WEEKLY_PLAN);
   }
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
-    if (!raw) return DEFAULT_WEEKLY_PLAN;
+    if (!raw) return syncPlanDatesWithCurrentWeek(DEFAULT_WEEKLY_PLAN);
     const parsed = JSON.parse(raw) as DayPlanRecord[];
     if (Array.isArray(parsed) && parsed.length === 7) {
-      return parsed;
+      return syncPlanDatesWithCurrentWeek(parsed);
     }
   } catch {
     // Ignore storage parse errors
   }
-  return DEFAULT_WEEKLY_PLAN;
+  return syncPlanDatesWithCurrentWeek(DEFAULT_WEEKLY_PLAN);
 }
 
 export function saveWeeklyPlanToStorage(plan: DayPlanRecord[]): void {
@@ -439,13 +502,14 @@ export async function fetchSharedWeeklyPlanFromSupabase(): Promise<
       Array.isArray(data.weeklyPlan) &&
       data.weeklyPlan.length === 7
     ) {
+      const synced = syncPlanDatesWithCurrentWeek(data.weeklyPlan);
       if (typeof window !== "undefined") {
         window.localStorage.setItem(
           STORAGE_KEY,
-          JSON.stringify(data.weeklyPlan)
+          JSON.stringify(synced)
         );
       }
-      return data.weeklyPlan as DayPlanRecord[];
+      return synced as DayPlanRecord[];
     }
   } catch {
     // Ignore network errors
