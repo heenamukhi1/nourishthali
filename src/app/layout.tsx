@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { TopBarScaler } from "@/components/TopBarScaler";
 import { PwaRegister } from "@/components/PwaRegister";
+import { InstallPwaBanner } from "@/components/InstallPwaBanner";
 
 export const viewport: Viewport = {
   themeColor: "#2D4A3E",
@@ -40,6 +41,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className="min-h-screen bg-[#FAF7F2] text-[#14241B] text-base antialiased">
         <PwaRegister />
+        <InstallPwaBanner />
         <TopBarScaler />
         {children}
         <footer className="mt-16 border-t border-[#2D4A3E]/15 bg-[#F2ECE1]/70 py-6 text-[#2D4A3E]">
