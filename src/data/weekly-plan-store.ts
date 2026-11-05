@@ -117,10 +117,22 @@ export const FIBER_OPTIONS = FULL_COLUMN_POOLS.fiber;
 export const CARB_OPTIONS = FULL_COLUMN_POOLS.carb;
 export const CHUTNEY_OPTIONS = FULL_COLUMN_POOLS.chutney;
 
+const SUPABASE_STORAGE_RECIPE_BASE =
+  "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/";
+
+export function normalizeRecipeImageUrl(url?: string | null): string {
+  if (!url) return "/images/mockup-meals.jpg";
+  if (url.startsWith("/images/recipes/")) {
+    return SUPABASE_STORAGE_RECIPE_BASE + url.replace("/images/recipes/", "");
+  }
+  return url;
+}
+
 /**
  * Resolves the best matching recipe from the Supabase recipes for a given dish label.
  * Always aligns the returned recipe's display title with `dishLabel` so the selected
- * button and the recipe viewer heading match 100%.
+ * button and the recipe viewer heading match 100%, and ensures the image points to
+ * the reliable Supabase storage bucket so the thumbnail never breaks.
  */
 export function findRecipeForDishLabel(
   dishLabel: string,
@@ -136,7 +148,11 @@ export function findRecipeForDishLabel(
       normalized.includes(r.title.toLowerCase().split("(")[0].trim())
   );
   if (direct) {
-    return { ...direct, title: dishLabel };
+    return {
+      ...direct,
+      title: dishLabel,
+      image_url: normalizeRecipeImageUrl(direct.image_url),
+    };
   }
 
   for (const colKey of Object.keys(
@@ -153,7 +169,11 @@ export function findRecipeForDishLabel(
         (r) => r.slug === matchOption.recipeSlug
       );
       if (bySlug) {
-        return { ...bySlug, title: dishLabel };
+        return {
+          ...bySlug,
+          title: dishLabel,
+          image_url: normalizeRecipeImageUrl(bySlug.image_url),
+        };
       }
     }
   }
@@ -177,7 +197,11 @@ export function findRecipeForDishLabel(
   }
 
   const fallback = bestRecipe || recipesPool[0];
-  return { ...fallback, title: dishLabel };
+  return {
+    ...fallback,
+    title: dishLabel,
+    image_url: normalizeRecipeImageUrl(fallback.image_url),
+  };
 }
 
 export const DEFAULT_WEEKLY_PLAN: DayPlanRecord[] = [

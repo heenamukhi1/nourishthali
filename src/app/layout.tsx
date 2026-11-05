@@ -1,11 +1,24 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { TopBarScaler } from "@/components/TopBarScaler";
 
+export const viewport: Viewport = {
+  themeColor: "#2D4A3E",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export const metadata: Metadata = {
-  title: "NourishThali | Integrative Family Meal & Thali Planner",
+  title: "NourishThali - Integrative Oncology Meal Planner",
   description:
-    "Collaborative Indian Keto & Sattvic Thali planner with 4-part wholesome plate formulas, recipes, and weekly market shopping checklists.",
+    "Vibrant, healing Indian Keto meal planner and collaborative family kitchen workspace.",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "NourishThali",
+  },
 };
 
 export default function RootLayout({

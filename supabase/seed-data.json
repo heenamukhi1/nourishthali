@@ -54,7 +54,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 10,
       "visual_plating_cue": "Bright golden turmeric-infused bowl crowned with emerald cilantro, crunchy roasted peanuts, and a fresh lemon wedge.",
-      "image_url": "/images/recipes/keto-cauliflower-poha.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/keto-cauliflower-poha.jpg",
       "ingredients": [
         {
           "item": "Cauliflower florets (riced)",
@@ -165,7 +165,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 15,
       "visual_plating_cue": "Folded golden-brown lace chilla served alongside steaming spiced crumbled tofu speckled with fresh dark fenugreek leaves.",
-      "image_url": "/images/recipes/almond-besan-chilla-tofu-methi-bhurji.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/almond-besan-chilla-tofu-methi-bhurji.jpg",
       "ingredients": [
         {
           "item": "Blanched Almond Flour",
@@ -264,7 +264,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 15,
       "visual_plating_cue": "Ultra-crisp golden rolled crepe accompanied by a small bowl of tempered white coconut chutney.",
-      "image_url": "/images/recipes/keto-almond-flour-masala-dosa.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/keto-almond-flour-masala-dosa.jpg",
       "ingredients": [
         {
           "item": "Blanched Almond Flour",
@@ -336,7 +336,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 10,
       "visual_plating_cue": "Steaming fluffy bowl garnished with golden roasted peanuts, fresh grated coconut, and curry leaves.",
-      "image_url": "/images/recipes/keto-cauliflower-upma.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/keto-cauliflower-upma.jpg",
       "ingredients": [
         {
           "item": "Cauliflower florets (pulsed into granules)",
@@ -417,7 +417,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 5,
       "visual_plating_cue": "Cooling ivory bowl dotted with black chia and golden mustard tadka, pomegranate arils, and crisp ginger matchsticks.",
-      "image_url": "/images/recipes/chia-seeds-tadka-curd-rice.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/chia-seeds-tadka-curd-rice.jpg",
       "ingredients": [
         {
           "item": "Chia seeds",
@@ -490,7 +490,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 8,
       "visual_plating_cue": "Creamy comfort bowl finished with crackled mustard seeds, fresh curry leaves, and a few ruby pomegranate seeds.",
-      "image_url": "/images/recipes/keto-cauliflower-curd-rice.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/keto-cauliflower-curd-rice.jpg",
       "ingredients": [
         {
           "item": "Cauliflower rice (steamed & cooled)",
@@ -552,7 +552,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 10,
       "visual_plating_cue": "High-piled tangle of basil-coated green ribbons crowned with charred golden tofu cubes and halved cherry tomatoes.",
-      "image_url": "/images/recipes/pesto-zucchini-noodles-tofu-salad.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/pesto-zucchini-noodles-tofu-salad.jpg",
       "ingredients": [
         {
           "item": "Medium Zucchinis (spiralized)",
@@ -623,7 +623,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 15,
       "visual_plating_cue": "Vibrant dark green velvety gravy with pan-browned tofu cubes drizzled with coconut cream.",
-      "image_url": "/images/recipes/palak-tofu-spinach-curry.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/palak-tofu-spinach-curry.jpg",
       "ingredients": [
         {
           "item": "Fresh Palak (Spinach leaves)",
@@ -705,7 +705,7 @@
       "prep_time_mins": 5,
       "cook_time_mins": 5,
       "visual_plating_cue": "Creamy yellow spiced yogurt crowned with whole red chilies, crackled cumin, and fragrant curry leaves.",
-      "image_url": "/images/recipes/dahi-tadka-spiced-yogurt-curry.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/dahi-tadka-spiced-yogurt-curry.jpg",
       "ingredients": [
         {
           "item": "Thick Hung Curd or Cashew Curd (whisked)",
@@ -777,7 +777,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 15,
       "visual_plating_cue": "Tender green squash discs resting in an aromatic golden-brown cumin, ginger, and tomato masala.",
-      "image_url": "/images/recipes/creamy-indian-zucchini-turai-curry.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/creamy-indian-zucchini-turai-curry.jpg",
       "ingredients": [
         {
           "item": "Ridge Gourd (Turai) or Zucchini (diced)",
@@ -848,7 +848,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 12,
       "visual_plating_cue": "Glistening, colorful pan-roast bursting with rich cream, red cherry tomatoes, and bright green broccoli florets.",
-      "image_url": "/images/recipes/lemon-creamy-mushrooms-broccoli-capsicum.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/lemon-creamy-mushrooms-broccoli-capsicum.jpg",
       "ingredients": [
         {
           "item": "Button Mushrooms (sliced)",
@@ -929,7 +929,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 12,
       "visual_plating_cue": "Crisp, deep green whole okra pods packed with roasted almond-fennel masala, free of any stickiness.",
-      "image_url": "/images/recipes/air-fryer-bharwa-bhindi.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/air-fryer-bharwa-bhindi.jpg",
       "ingredients": [
         {
           "item": "Tender Bhindi (Okra, washed & dried)",
@@ -993,7 +993,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 12,
       "visual_plating_cue": "Charred restaurant-style florets and cauliflower steaks dusted with cardamom and chaat masala with lime wedges.",
-      "image_url": "/images/recipes/air-fryer-malai-broccoli-tandoori-gobi.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/air-fryer-malai-broccoli-tandoori-gobi.jpg",
       "ingredients": [
         {
           "item": "Broccoli florets & Cauliflower Steak",
@@ -1065,7 +1065,7 @@
       "prep_time_mins": 20,
       "cook_time_mins": 20,
       "visual_plating_cue": "Plump steamed green cabbage rolls stuffed with spiced tofu, nestled in a rich tomato-coconut cream gravy.",
-      "image_url": "/images/recipes/keto-stuffed-cabbage-rolls.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/keto-stuffed-cabbage-rolls.jpg",
       "ingredients": [
         {
           "item": "Large whole Cabbage leaves (blanched)",
@@ -1127,7 +1127,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 20,
       "visual_plating_cue": "Lush golden yellow turmeric-coconut curry with seared tofu and bell peppers garnished with black sesame seeds.",
-      "image_url": "/images/recipes/golden-coconut-curry-tofu.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/golden-coconut-curry-tofu.jpg",
       "ingredients": [
         {
           "item": "Firm Organic Tofu (cubed)",
@@ -1198,7 +1198,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 20,
       "visual_plating_cue": "Rich amber velvety soup in a warm ceramic bowl garnished with toasted pumpkin seeds and a coconut cream swirl.",
-      "image_url": "/images/recipes/pumpkin-coconut-milk-soup.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/pumpkin-coconut-milk-soup.jpg",
       "ingredients": [
         {
           "item": "Yellow Pumpkin / Kaddu (peeled & cubed)",
@@ -1269,7 +1269,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 20,
       "visual_plating_cue": "Translucent, aromatic pale-green shorba with a fragrant cumin tempering and chopped coriander.",
-      "image_url": "/images/recipes/drumstick-lauki-healing-shorba.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/drumstick-lauki-healing-shorba.jpg",
       "ingredients": [
         {
           "item": "Fresh Drumsticks (Sahjan pods, cut into 3-inch pieces)",
@@ -1332,7 +1332,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 15,
       "visual_plating_cue": "Crisp golden patties arranged around a bright red charred tomato mint chutney.",
-      "image_url": "/images/recipes/broccoli-walnut-egg-tikki.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/broccoli-walnut-egg-tikki.jpg",
       "ingredients": [
         {
           "item": "Broccoli florets (steamed & finely minced)",
@@ -1404,7 +1404,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 15,
       "visual_plating_cue": "Four golden-crusted green spheres served on a slate platter with emerald mint coriander chutney.",
-      "image_url": "/images/recipes/spinach-vegan-cheese-balls.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/spinach-vegan-cheese-balls.jpg",
       "ingredients": [
         {
           "item": "Fresh Palak (steamed, squeezed dry & chopped)",
@@ -1466,7 +1466,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 15,
       "visual_plating_cue": "Pliable, blistered soft flatbread brushed generously with fragrant garlic-infused A2 ghee.",
-      "image_url": "/images/recipes/garlic-almond-bread-keto-roti.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/garlic-almond-bread-keto-roti.jpg",
       "ingredients": [
         {
           "item": "Blanched Almond Flour",
@@ -1519,7 +1519,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 12,
       "visual_plating_cue": "Tightly rolled wrap sliced on a diagonal revealing vivid layers of colorful bell peppers, spinach, and spiced tofu.",
-      "image_url": "/images/recipes/zucchini-cheese-wrap-egg-veg-wrap.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/zucchini-cheese-wrap-egg-veg-wrap.jpg",
       "ingredients": [
         {
           "item": "Zucchini (grated & squeezed dry)",
@@ -1580,7 +1580,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 20,
       "visual_plating_cue": "Glass dessert cup with walnut-almond crust and ruby strawberry topping alongside warm saffron-cardamom Badam Halwa.",
-      "image_url": "/images/recipes/keto-strawberry-almond-cheesecake-badam-halwa.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/keto-strawberry-almond-cheesecake-badam-halwa.jpg",
       "ingredients": [
         {
           "item": "Blanched Almond Flour & Crushed Walnuts",
@@ -1641,7 +1641,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 0,
       "visual_plating_cue": "Vibrant emerald-green herb chutney in a small brass katori.",
-      "image_url": "/images/recipes/mint-coriander-chilli-chutney.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/mint-coriander-chilli-chutney.jpg",
       "ingredients": [
         {
           "item": "Fresh Coriander & Mint leaves",
@@ -1692,7 +1692,7 @@
       "prep_time_mins": 5,
       "cook_time_mins": 10,
       "visual_plating_cue": "Smoky crimson tomato and mint chutney tempered with black mustard seeds.",
-      "image_url": "/images/recipes/tomato-pudina-tadka-chutney.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/tomato-pudina-tadka-chutney.jpg",
       "ingredients": [
         {
           "item": "Ripe Roma Tomatoes",
@@ -1743,7 +1743,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 0,
       "visual_plating_cue": "Velvety pastel-green avocado whip garnished with roasted jeera and cilantro.",
-      "image_url": "/images/recipes/avocado-hung-curd-guacamole-dip.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/avocado-hung-curd-guacamole-dip.jpg",
       "ingredients": [
         {
           "item": "Ripe Hass Avocado",
@@ -1794,7 +1794,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 2,
       "visual_plating_cue": "Silky ivory sesame tahini drizzled with extra virgin olive oil and smoked paprika.",
-      "image_url": "/images/recipes/sesame-tahini-lemon-dip.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/sesame-tahini-lemon-dip.jpg",
       "ingredients": [
         {
           "item": "Toasted White Sesame Seeds (Til)",
@@ -1845,7 +1845,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 14,
       "visual_plating_cue": "Shatteringly crisp golden tofu wafers paired with tahini dip and a royal-blue cup of Blue Pea Flower tea.",
-      "image_url": "/images/recipes/crispy-baked-tofu-chips.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/crispy-baked-tofu-chips.jpg",
       "ingredients": [
         {
           "item": "Firm Organic Tofu (sliced wafer-thin)",
@@ -1896,7 +1896,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 5,
       "visual_plating_cue": "Colorful street-style chaat bowl with cucumber, tomato, beetroot, fresh coriander, and lemon wedges.",
-      "image_url": "/images/recipes/boiled-kala-chana-rainbow-chaat.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/boiled-kala-chana-rainbow-chaat.jpg",
       "ingredients": [
         {
           "item": "Boiled Kala Chana (strictly 50g cooked) OR 2 Boiled Eggs",
@@ -1947,7 +1947,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 15,
       "visual_plating_cue": "Fire-roasted mashed eggplant glistening with golden mustard oil, whole roasted garlic cloves, and emerald coriander leaves.",
-      "image_url": "/images/recipes/smoky-roasted-baingan-bharta.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/smoky-roasted-baingan-bharta.jpg",
       "ingredients": [
         {
           "item": "Large Bharta Baingan (Eggplant)",
@@ -2019,7 +2019,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 15,
       "visual_plating_cue": "Velvety terracotta-orange makhani gravy studded with golden seared tofu cubes, crushed kasuri methi, and a swirl of coconut cream.",
-      "image_url": "/images/recipes/tofu-makhani-roasted-red-pepper-gravy.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/tofu-makhani-roasted-red-pepper-gravy.jpg",
       "ingredients": [
         {
           "item": "Firm Organic Tofu (cubed)",
@@ -2091,7 +2091,7 @@
       "prep_time_mins": 8,
       "cook_time_mins": 2,
       "visual_plating_cue": "Snowy-white grated coconut chutney crowned with crackled black mustard seeds, golden ginger bits, and crisp green curry leaves.",
-      "image_url": "/images/recipes/south-indian-tempered-coconut-chutney.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/south-indian-tempered-coconut-chutney.jpg",
       "ingredients": [
         {
           "item": "Fresh grated coconut",
@@ -2162,7 +2162,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 3,
       "visual_plating_cue": "Fiery brick-red coarse Rajasthani dry chutney speckled with toasted white sesame seeds and desiccated coconut.",
-      "image_url": "/images/recipes/rajasthani-garlic-coconut-dry-chutney.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/rajasthani-garlic-coconut-dry-chutney.jpg",
       "ingredients": [
         {
           "item": "Garlic cloves (slow-roasted)",
@@ -2224,7 +2224,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 0,
       "visual_plating_cue": "Bright lime-green antioxidant chutney served in a brass katori with a fresh gooseberry wedge.",
-      "image_url": "/images/recipes/tangy-amla-coriander-chutney.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/tangy-amla-coriander-chutney.jpg",
       "ingredients": [
         {
           "item": "Fresh Amla (Indian Gooseberries, deseeded)",
@@ -2286,7 +2286,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 12,
       "visual_plating_cue": "Creamy taupe roasted eggplant dip swirled with extra-virgin olive oil, toasted sesame seeds, and chopped parsley-coriander.",
-      "image_url": "/images/recipes/smoked-brinjal-tahini-baba-ganoush.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/smoked-brinjal-tahini-baba-ganoush.jpg",
       "ingredients": [
         {
           "item": "Medium Brinjal / Eggplant (flame-roasted)",
@@ -2348,7 +2348,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 3,
       "visual_plating_cue": "Deep forest-green herbal chutney with a glossy coconut oil tempering and toasted walnut crumbs.",
-      "image_url": "/images/recipes/spicy-curry-leaf-coconut-chutney.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/spicy-curry-leaf-coconut-chutney.jpg",
       "ingredients": [
         {
           "item": "Fresh Curry Leaves (Kadi Patta)",
@@ -2410,7 +2410,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 2,
       "visual_plating_cue": "Golden juliennes of fresh raw turmeric root and pink ginger steeped in lemon juice and crackled mustard seeds.",
-      "image_url": "/images/recipes/fresh-kachi-haldi-ginger-lemon-pickle.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/fresh-kachi-haldi-ginger-lemon-pickle.jpg",
       "ingredients": [
         {
           "item": "Fresh Kachi Haldi (Raw Turmeric root, julienned)",
@@ -2472,7 +2472,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 3,
       "visual_plating_cue": "Pastel jade probiotic raita topped with crunchy toasted walnut pieces and a dusting of roasted cumin.",
-      "image_url": "/images/recipes/palak-toasted-walnut-raita.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/palak-toasted-walnut-raita.jpg",
       "ingredients": [
         {
           "item": "Fresh Spinach leaves (blanched & chopped)",
@@ -2534,7 +2534,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 0,
       "visual_plating_cue": "Jewel-toned emerald pesto glistening with extra-virgin olive oil and crushed green pistachios.",
-      "image_url": "/images/recipes/cilantro-pistachio-pumpkin-seed-pesto.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/cilantro-pistachio-pumpkin-seed-pesto.jpg",
       "ingredients": [
         {
           "item": "Fresh Coriander & Sweet Basil leaves",
@@ -2596,7 +2596,7 @@
       "prep_time_mins": 5,
       "cook_time_mins": 5,
       "visual_plating_cue": "Vibrant green steamed edamame pods and shelled beans dusted with nutty white hemp hearts, lemon zest, and chili flakes.",
-      "image_url": "/images/recipes/roasted-edamame-hemp-seed-toss.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/roasted-edamame-hemp-seed-toss.jpg",
       "ingredients": [
         {
           "item": "Shelled Green Edamame Soybeans",
@@ -2658,7 +2658,7 @@
       "prep_time_mins": 5,
       "cook_time_mins": 8,
       "visual_plating_cue": "Crisp golden turmeric-and-mint dusted foxnuts mixed with toasted walnut halves and curry leaves in a clay bowl.",
-      "image_url": "/images/recipes/masala-roasted-makhana-walnut-trail.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/masala-roasted-makhana-walnut-trail.jpg",
       "ingredients": [
         {
           "item": "Phool Makhana (Foxnuts - portion capped)",
@@ -2720,7 +2720,7 @@
       "prep_time_mins": 5,
       "cook_time_mins": 5,
       "visual_plating_cue": "Puffed emerald pumpkin seeds and ivory watermelon seeds glistening with lime-chili masala.",
-      "image_url": "/images/recipes/spiced-pumpkin-watermelon-seed-crunch.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/spiced-pumpkin-watermelon-seed-crunch.jpg",
       "ingredients": [
         {
           "item": "Pumpkin Seeds (Magaz)",
@@ -2782,7 +2782,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 10,
       "visual_plating_cue": "Smoky char-marked saffron-red tofu cubes threaded with green capsicum and onion petals, served with mint chutney.",
-      "image_url": "/images/recipes/tandoori-tofu-tikka-skewers.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/tandoori-tofu-tikka-skewers.jpg",
       "ingredients": [
         {
           "item": "Extra-Firm Organic Tofu (cubed)",
@@ -2844,7 +2844,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 12,
       "visual_plating_cue": "Vibrant halved red and yellow peppers overflowing with golden baked herb-crusted tofu and cheese filling.",
-      "image_url": "/images/recipes/stuffed-mini-peppers-cultured-cheese.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/stuffed-mini-peppers-cultured-cheese.jpg",
       "ingredients": [
         {
           "item": "Small Bell Peppers (halved & deseeded)",
@@ -2906,7 +2906,7 @@
       "prep_time_mins": 15,
       "cook_time_mins": 10,
       "visual_plating_cue": "Four crisp-crusted brown medallions topped with pickled ginger slivers and a dollop of green mint chutney.",
-      "image_url": "/images/recipes/kala-chana-grated-tofu-tikki.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/kala-chana-grated-tofu-tikki.jpg",
       "ingredients": [
         {
           "item": "Boiled Desi Kala Chana (strictly capped at 50g)",
@@ -2968,7 +2968,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 2,
       "visual_plating_cue": "Refreshing diced green cucumber salad tossed with crushed roasted peanuts, fresh coconut, and crackled mustard-curry leaf tadka.",
-      "image_url": "/images/recipes/cucumber-peanut-kakdi-koshimbir-cups.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/cucumber-peanut-kakdi-koshimbir-cups.jpg",
       "ingredients": [
         {
           "item": "Crisp Desi Cucumbers (finely diced)",
@@ -3030,7 +3030,7 @@
       "prep_time_mins": 10,
       "cook_time_mins": 12,
       "visual_plating_cue": "Snap-crisp triangular seed-studded keto lavash crackers arranged around a bowl of creamy green avocado guacamole.",
-      "image_url": "/images/recipes/crispy-almond-pumpkin-seed-crackers.jpg",
+      "image_url": "https://jqzhlhmuggakixrztwas.supabase.co/storage/v1/object/public/ai-plate-images/recipes/crispy-almond-pumpkin-seed-crackers.jpg",
       "ingredients": [
         {
           "item": "Blanched Almond Flour",
@@ -3259,7 +3259,7 @@
       "column_type": "protein",
       "name": "Tandoori Tofu Tikka Skewers",
       "portion_note": "200g",
-      "linked_recipe_id": "760f0b91-2e04-576c-a284-c99aadcdc146",
+      "linked_recipe_id": "7bad6e28-3ca1-51de-95de-8d131cf7e6c4",
       "default_ingredients": [
         {
           "item": "Tandoori Tofu Tikka Skewers",
@@ -3413,7 +3413,7 @@
       "column_type": "condiment_chutney",
       "name": "South Indian Tempered Coconut Chutney",
       "portion_note": "2 Tbsp",
-      "linked_recipe_id": "e3ef7703-0f68-56bd-9427-516362806396",
+      "linked_recipe_id": "fafff108-9f7e-50ae-93d0-827d46118ed6",
       "default_ingredients": [
         {
           "item": "South Indian Tempered Coconut Chutney",
@@ -3553,7 +3553,7 @@
       "column_type": "fiber_veg_soup",
       "name": "Smoky Roasted Baingan Bharta",
       "portion_note": "200g",
-      "linked_recipe_id": "3cc643a5-53b5-5351-b2eb-0e1d888c6b9d",
+      "linked_recipe_id": "7fb42aee-6634-5565-920d-5ab9db337217",
       "default_ingredients": [
         {
           "item": "Smoky Roasted Baingan Bharta",

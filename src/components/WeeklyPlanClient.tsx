@@ -324,7 +324,15 @@ export function WeeklyPlanClient({ allRecipes }: WeeklyPlanClientProps) {
                             "/images/mockup-meals.jpg"
                           }
                           alt={day.brunch.title}
-                          className="h-full w-full object-cover"
+                          onError={(e) => {
+                            const target = e.currentTarget;
+                            if (brunchMainRecipe?.image_url && target.src !== brunchMainRecipe.image_url) {
+                              target.src = brunchMainRecipe.image_url;
+                            } else {
+                              target.src = "/images/mockup-meals.jpg";
+                            }
+                          }}
+                          className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
                         />
                       </div>
 
@@ -402,7 +410,15 @@ export function WeeklyPlanClient({ allRecipes }: WeeklyPlanClientProps) {
                             "/images/mockup-meals.jpg"
                           }
                           alt={day.dinner.title}
-                          className="h-full w-full object-cover"
+                          onError={(e) => {
+                            const target = e.currentTarget;
+                            if (dinnerMainRecipe?.image_url && target.src !== dinnerMainRecipe.image_url) {
+                              target.src = dinnerMainRecipe.image_url;
+                            } else {
+                              target.src = "/images/mockup-meals.jpg";
+                            }
+                          }}
+                          className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
                         />
                       </div>
 
